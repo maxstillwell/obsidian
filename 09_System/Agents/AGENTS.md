@@ -45,9 +45,11 @@ Supported domains:
 - `推进中`
 - `不买`
 
-Templates remain in:
+Templates are stored centrally in:
 
-- `02_Research/模板`
+- `09_System/Templates/Research`
+- `09_System/Templates/Projects`
+- `09_System/Templates/Reports`
 
 When creating a new research note, choose the closest matching domain first.
 
@@ -59,7 +61,7 @@ For `项目研究`, default to `在研究` unless the user explicitly asks for a
 
 Approved opportunities should move into `03_Projects`.
 
-Use `03_Projects/项目模板` as the source for reusable project structure.
+Use `09_System/Templates/Projects` as the source for reusable project structure.
 
 Each active project should have its own folder under `03_Projects`, for example `03_Projects/灰石项目`.
 
@@ -69,9 +71,9 @@ Reports must be stored in one of these folders:
 
 - `04_Reports/投资评估报告`
 - `04_Reports/项目报告`
-- `04_Reports/模板`
+- `09_System/Templates/Reports`
 
-Use the matching template before creating a new report when a template exists.
+Use the matching template in `09_System/Templates/Reports` before creating a new report when a template exists.
 
 ## Naming Rules
 
