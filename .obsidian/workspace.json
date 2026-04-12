@@ -4,39 +4,94 @@
     "type": "split",
     "children": [
       {
-        "id": "ec2d31e941c5c108",
-        "type": "tabs",
+        "id": "2bd025051a59daaf",
+        "type": "split",
         "children": [
           {
-            "id": "c6dd61cc3d923417",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "09_System/Shared_Resources/Claude Code 安装指南.md",
-                "mode": "source",
-                "source": false
+            "id": "ec2d31e941c5c108",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c6dd61cc3d923417",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "09_System/Shared_Resources/Claude Code 安装指南.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Claude Code 安装指南"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Claude Code 安装指南"
-            }
+              {
+                "id": "206e1170635137be",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "09_System/Shared_Resources/Obsidian 必装 Skills.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Obsidian 必装 Skills"
+                }
+              }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "206e1170635137be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_Projects/灰石项目/项目总览.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "项目总览"
-            }
+            "id": "a3b275b9dbdcab17",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bc8b1c2c1f4a4c6b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/mq/Documents/GitHub/obsidian",
+                      "focus": false,
+                      "profile": {
+                        "args": [
+                          "--login"
+                        ],
+                        "executable": "/bin/zsh",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "终端：zsh"
+                }
+              }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -211,17 +266,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "206e1170635137be",
+  "active": "bc8b1c2c1f4a4c6b",
   "lastOpenFiles": [
+    "02_Research/项目研究/不买",
+    "02_Research/项目研究/在研究",
+    "02_Research/政策研究/不买",
+    "02_Research/政策研究/推进中",
+    "02_Research/政策研究/在研究",
+    "02_Research/AI研究/不买",
+    "02_Research/AI研究/推进中",
+    "02_Research/AI研究/在研究",
+    "02_Research/项目研究/推进中/灰石项目 - 研究笔记.md",
+    "02_Research/项目研究/推进中",
+    "02_Research/项目研究/README.md",
+    "02_Research/项目研究",
+    "02_Research/政策研究/README.md",
+    "02_Research/政策研究",
+    "02_Research/AI研究/README.md",
+    "09_System/Shared_Resources/Obsidian 必装 Skills.md",
+    "09_System/Agents/AGENTS.md",
+    "03_Projects/灰石项目/会议记录.md",
+    "00_Dashboard/投资系统总览.md",
+    "01_Wiki/README.md",
+    "03_Projects/灰石项目/项目总览.md",
     "02_Research/推进中/灰石项目 - 研究笔记.md",
     "03_Projects/灰石项目/资料清单.md",
-    "03_Projects/灰石项目/会议记录.md",
     "03_Projects/灰石项目/决策记录.md",
     "03_Projects/项目模板/项目总览模板.md",
     "04_Reports/项目报告/灰石项目 - 项目报告.md",
     "04_Reports/投资评估报告/灰石项目 - 投资评估报告.md",
-    "03_Projects/灰石项目/项目总览.md",
-    "00_Dashboard/投资系统总览.md",
     "03_Projects/项目模板/决策记录模板.md",
     "03_Projects/项目模板/会议记录模板.md",
     "02_Research/README.md",
@@ -231,24 +304,6 @@
     "09_System/README.md",
     "09_System/Shared_Resources/Claude Code 安装指南.md",
     "AGENTS.md.md",
-    "09_System/Agents/AGENTS.md",
-    "04_Reports/README.md",
-    "03_Projects/README.md",
-    "01_Wiki/README.md",
-    "00_Dashboard/README.md",
-    "09_System/Workflows",
-    "09_System/Templates",
-    "09_System/Skills",
-    "09_System/Shared_Resources",
-    "09_System/Rules",
-    "09_System/Agents",
-    "09_System",
-    "04_Reports/项目报告",
-    "04_Reports/模板",
-    "04_Reports/投资评估报告",
-    "未命名 1.md",
-    "09_System/Shared_Resources/Claude Skill.md",
-    "09_System/Shared_Resources/Obsidian 必装 Skills.md",
     "Daily/assets/11-04-2026/file-20260411203926184.png"
   ]
 }

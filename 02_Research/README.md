@@ -1,3 +1,3 @@
 # 02_Research
 
-This folder is for investment research in progress, tracking, templates, and decisions not to proceed.
+This folder is for domain-based research, including AI research, policy research, project research, templates, and rejected opportunities.

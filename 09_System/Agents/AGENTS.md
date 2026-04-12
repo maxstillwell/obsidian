@@ -25,14 +25,25 @@ Agents working in this vault must preserve structure, avoid duplication, and kee
 
 ## Research Folder Rules
 
-Research notes must live in one of these folders:
+Research notes must be organized by domain first, then by status.
 
-- `02_Research/在研究`
-- `02_Research/推进中`
-- `02_Research/不买`
+Supported domains:
+
+- `02_Research/AI研究`
+- `02_Research/政策研究`
+- `02_Research/项目研究`
+
+Each domain should contain these status folders:
+
+- `在研究`
+- `推进中`
+- `不买`
+
+Templates remain in:
+
 - `02_Research/模板`
 
-When creating a new research note, use `02_Research/在研究` unless the user explicitly asks for a different status.
+When creating a new research note, choose the closest matching domain first, then default to that domain's `在研究` folder unless the user explicitly asks for a different status.
 
 ## Project Folder Rules
 
@@ -102,10 +113,10 @@ Recommended metadata fields:
 
 When a new investment idea appears:
 
-1. Create or update a note under `02_Research/在研究`.
+1. Create or update a note under `02_Research/<领域>/在研究`.
 2. Use the required research structure.
-3. If diligence deepens, move the note to `02_Research/推进中`.
-4. If rejected, move the note to `02_Research/不买` and record the rejection reason.
+3. If diligence deepens, move the note to `02_Research/<领域>/推进中`.
+4. If rejected, move the note to `02_Research/<领域>/不买` and record the rejection reason.
 5. If approved, create or move the working set into `03_Projects/<项目名>`.
 
 ## Linking Rules
