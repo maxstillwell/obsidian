@@ -33,7 +33,13 @@ Supported domains:
 - `02_Research/政策研究`
 - `02_Research/项目研究`
 
-Each domain should contain these status folders:
+`AI研究` and `政策研究` should contain:
+
+- `研究中`
+- `结论`
+- `参考资料`
+
+`项目研究` should contain:
 
 - `在研究`
 - `推进中`
@@ -43,7 +49,11 @@ Templates remain in:
 
 - `02_Research/模板`
 
-When creating a new research note, choose the closest matching domain first, then default to that domain's `在研究` folder unless the user explicitly asks for a different status.
+When creating a new research note, choose the closest matching domain first.
+
+For `AI研究` and `政策研究`, default to `研究中`.
+
+For `项目研究`, default to `在研究` unless the user explicitly asks for a different status.
 
 ## Project Folder Rules
 
@@ -113,11 +123,13 @@ Recommended metadata fields:
 
 When a new investment idea appears:
 
-1. Create or update a note under `02_Research/<领域>/在研究`.
-2. Use the required research structure.
-3. If diligence deepens, move the note to `02_Research/<领域>/推进中`.
-4. If rejected, move the note to `02_Research/<领域>/不买` and record the rejection reason.
-5. If approved, create or move the working set into `03_Projects/<项目名>`.
+1. For `AI研究` and `政策研究`, create or update a note under `02_Research/<领域>/研究中`.
+2. When the analysis is mature, move or summarize it into `02_Research/<领域>/结论`.
+3. Store supporting source material under `02_Research/<领域>/参考资料` when needed.
+4. For `项目研究`, create or update a note under `02_Research/项目研究/在研究`.
+5. If project diligence deepens, move the note to `02_Research/项目研究/推进中`.
+6. If rejected, move the note to `02_Research/项目研究/不买` and record the rejection reason.
+7. If approved, create or move the working set into `03_Projects/<项目名>`.
 
 ## Linking Rules
 
