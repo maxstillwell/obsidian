@@ -140,3 +140,148 @@ In addition to the above, Clause 35.07-2 of the Farming Zone sets out the follow
 We are happy to discuss further if you have any queries.
 
 ---
+
+## 中文翻译
+
+Hi Tim，
+
+正如我们之前讨论的，我们在维州拥有几处农业物业。其中一个重点地块位于 **Chintin**，我们目前正在考虑对 **7 个地块** 进行潜在的住宅开发。
+
+我已附上这些地块的 **规划报告和产权图（Title Map）** 供你参考。如果你需要，我也可以进一步分享无人机照片和视频，以便更直观地了解这些土地情况。
+
+在我们正式推进任何城镇规划申请或建筑设计之前，我们非常希望先获得你就以下事项提供的 **初步规划建议**。
+
+---
+
+### 1. 每个地块的住宅建设权利
+
+我们了解到，这 7 个地块目前均位于 **Farming Zone（农业分区）** 内。
+
+请问你是否可以确认，**每一个产权地块是否都有资格建设其各自的住宅**？
+
+换句话说，是否可以在 **每一个独立产权地块上建造一栋住宅**？
+
+如果允许，一般会需要：
+
+- 向 **Council 申请 Planning Permit（规划许可）**，或
+    
+- 只要符合规划方案，即仅需 **Building Permit（建筑许可）**？
+    
+
+---
+
+### 2. 住宅开发的规划要求
+
+如果这些地块允许建设住宅，请问我们需要遵循哪些 **本地规划要求**？
+
+例如：
+
+- 最小退界距离
+    
+- 建筑包络（building envelope）要求
+    
+- 是否有任何市政厅的专项开发指引
+    
+- 以及其他与乡村住宅开发相关的规划控制要求
+    
+
+---
+
+### 3. 规划方案及开发控制
+
+如果可以的话，也请你帮助说明相关的 **规划方案控制要求**，例如：
+
+- 建筑覆盖率限制
+    
+- 景观绿化要求
+    
+- 任何设计导则或乡村建筑控制要求
+    
+- 以及其他适用于该土地的重要规划考量
+    
+
+如果有 **具体的规划条款或设计导则** 是我们应该重点查看的，也希望你能为我们指出方向，这将非常有帮助。
+
+---
+
+### 4. 溪流 / 洪水相关规划考虑
+
+看起来这片土地的部分区域中 **有一条溪流穿过**。
+
+请问你是否可以帮助确认：
+
+- 该地块是否受到任何 **洪水或水道相关的规划控制**
+    
+- **Melbourne Water** 是否会参与相关规划审批
+    
+- 以及溪流附近是否会适用任何 **退界要求或开发限制**
+    
+
+  
+
+---
+
+在我们进一步推进规划或设计工作之前，非常感谢你能提供任何 **初步建议或指导**。
+
+非常感谢你的时间与支持。
+
+---
+Hi Max，
+
+抱歉现在才把这部分内容发给你。我们已经对这些地块做了初步审阅，并在下方整理了相关规划控制及住宅建设权利的概览。
+
+所有这些地块均位于 Farming Zone（FZ，农业分区）内。FZ 的目的包括：
+
+- 落实市政规划战略（Municipal Planning Strategy）和规划政策框架（Planning Policy Framework）。
+- 为土地用于农业提供支持，并鼓励保留具有生产能力的农业用地。
+- 确保包括住宅在内的非农业用途，不会对土地的农业使用产生不利影响。
+- 鼓励保留就业与人口，以支持农村社区。
+- 鼓励基于综合、可持续的土地管理实践和基础设施配置来使用和开发土地。
+- 为该分区附表中明确列出的特定用途提供土地使用和开发空间。
+
+任何关于土地使用和/或开发的申请，都需要回应以上所述目的。
+
+在 FZ 下，适用以下要求：
+
+- 最低分割面积：每个新设地块必须至少为 40 公顷
+- 可无需许可将土地用作住宅的最低面积：40 公顷
+- 道路退界最小距离
+
+- 距离 Transport 2 Zone 道路 100 米
+- 距离任何其他道路 20 米
+
+- 边界退界最小距离：5 米
+- 与非同一产权住宅之间的最小退界距离：100 米
+
+根据对航拍影像的审阅，我们注意到这些地块上似乎没有现有住宅，但其中大部分区域存在较多植被。后续需要考虑这些植被的价值，以及其中是否有任何植被属于原生植被（native vegetation），因为这可能会影响你在土地上清理植被的能力。
+
+此外，我们注意到这些地块不受任何洪水控制叠加层影响，例如 Special Building Overlay、Flood Overlay 或 Land Subject to Inundation Overlay。
+
+其中若干地块受 Bushfire Management Overlay（BMO，丛林火灾管理叠加层）影响。依据该叠加层，任何未来开发申请都需要准备 bushfire hazard assessment（火灾危险评估）、bushfire landscape assessment（火灾景观评估）以及 bushfire management statement（火灾管理说明）。同时，还需要考虑建筑标准、出入条件、防御空间（defendable space）以及供水安排。
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+|**Map reference**|**Volume/folio**|**Description**|**Area (Ha)**|**Planning Controls**|**Permitted dwellings**|
+|1|7163/559|Crown Allotment 15C Section A Parish of Chintin|19.50|Farming zone (FZ)<br><br>Bushfire Management Overlay (BMO)|根据 BMO，如要建设住宅，需要申请许可。任何申请都需要附带 bushfire hazard assessment、bushfire landscape assessment 和 bushfire management statement。考虑到该地块植被范围较大，未来住宅的设计和选址都需要特别谨慎。<br><br>由于该地块小于 40 公顷，在该地块建设住宅也需要额外申请许可。另有可能允许建设一栋小型第二住宅，但需满足多项条件，并须获得 Council 批准。|
+|2|11216 / 466|Lot 1 Plan of Subdivision 529130N|40.58|FZ<br><br>BMO|根据 BMO，如要建设住宅，需要申请许可。任何申请都需要附带 bushfire hazard assessment、bushfire landscape assessment 和 bushfire management statement。考虑到该地块植被范围较大，未来住宅的设计和选址都需要特别谨慎。<br><br>根据 FZ，如满足 Clause 35.07-2 的要求，则将土地用作住宅用途无需许可。此外，如满足 Clause 35.07 的要求，则一栋小型第二住宅可依法直接允许（as of right）。|
+|3|11216 / 467|Lot 2 Plan of Subdivision 529130N|40.35|FZ<br><br>BMO|根据 BMO，如要建设住宅，需要申请许可。任何申请都需要附带 bushfire hazard assessment、bushfire landscape assessment 和 bushfire management statement。考虑到该地块植被范围较大，未来住宅的设计和选址都需要特别谨慎。<br><br>根据 FZ，如满足 Clause 35.07-2 的要求，则将土地用作住宅用途无需许可。此外，如满足 Clause 35.07 的要求，则一栋小型第二住宅可依法直接允许（as of right）。|
+|4|10649 / 534|Crown Allotment 26F Section C Parish of Monegeetta|0.74|FZ<br><br>Vegetation Protection Overlay (VPO)|在该地块建设住宅需要申请许可，也可能允许建设一栋小型第二住宅，但需获得 Council 批准。<br><br>鉴于该地块面积较小且形状不规则，未来住宅的设计和选址需要特别谨慎。<br><br>此外，根据 VPO，如需移除地块上的任何植被，也需申请许可。|
+|5|9939 / 701|Crown Allotment 26C Section C Parish of Monegeetta|0.60|FZ|在该地块建设住宅需要申请许可。也可能允许建设一栋小型第二住宅，但需获得 Council 批准。<br><br>鉴于该地块面积较小且形状不规则，未来住宅的设计和选址需要特别谨慎。|
+|6|9939 / 700|Crown Allotment 26B Section C Parish of Monegeetta|0.36|FZ|在该地块建设住宅需要申请许可。也可能允许建设一栋小型第二住宅，但需获得 Council 批准。<br><br>鉴于该地块面积较小且形状不规则，未来住宅的设计和选址需要特别谨慎。|
+|7|9939 / 702|Crown Allotment 26D Section C Parish of Monegeetta|3.91|FZ|在该地块建设住宅需要申请许可。也可能允许建设一栋小型第二住宅，但需获得 Council 批准。|
+|8|11216 / 866|Lot 6 Plan of Subdivision 529130N|43.83|FZ<br><br>BMO|根据 BMO，如要建设住宅，需要申请许可。任何申请都需要附带 bushfire hazard assessment、bushfire landscape assessment 和 bushfire management statement。考虑到该地块植被范围较大，未来住宅的设计和选址都需要特别谨慎。<br><br>根据 FZ，如满足 Clause 35.07-2 的要求，则将土地用作住宅用途无需许可。此外，如满足 Clause 35.07 的要求，则一栋小型第二住宅可依法直接允许（as of right）。|
+|9|11216 /865|Lot 5 Plan of Subdivision 529130N|40.05|FZ<br><br>BMO|根据 BMO，如要建设住宅，需要申请许可。任何申请都需要附带 bushfire hazard assessment、bushfire landscape assessment 和 bushfire management statement。考虑到该地块植被范围较大，未来住宅的设计和选址都需要特别谨慎。<br><br>根据 FZ，如满足 Clause 35.07-2 的要求，则将土地用作住宅用途无需许可。此外，如满足 Clause 35.07 的要求，则一栋小型第二住宅可依法直接允许（as of right）。|
+|10|11216 / 864|Lot 4 Plan of Subdivision 529130N|40.03|FZ<br><br>BMO|根据 BMO，如要建设住宅，需要申请许可。任何申请都需要附带 bushfire hazard assessment、bushfire landscape assessment 和 bushfire management statement。考虑到该地块植被范围较大，未来住宅的设计和选址都需要特别谨慎。<br><br>根据 FZ，如满足 Clause 35.07-2 的要求，则将土地用作住宅用途无需许可。此外，如满足 Clause 35.07 的要求，则一栋小型第二住宅可依法直接允许（as of right）。|
+
+除上述内容外，Farming Zone 的 Clause 35.07-2 还对住宅设定了以下强制性要求。
+
+- 用于住宅、小型第二住宅或农村工人住宿（rural worker accommodation）的地块，必须满足以下要求：
+
+- 住宅、小型第二住宅或农村工人住宿必须通过全天候道路（all-weather road）提供通行条件，且道路尺寸应足以容纳应急车辆通行。
+- 每一处住宅、小型第二住宅或农村工人住宿必须接入市政污水系统（reticulated sewerage），如该系统可用。若市政污水系统不可用，则所有废水必须依照《2017 年环境保护法》项下《环境保护条例》中关于现场污水管理系统（on-site wastewater management system）的要求，在地块范围内完成处理并留置。
+- 住宅、小型第二住宅或农村工人住宿必须接入市政饮用水供应（reticulated potable water supply），或具备替代饮用水供应，并应有足够储水量满足日常使用及消防需求。
+- 住宅、小型第二住宅或农村工人住宿必须接入市政电力供应，或具备替代能源来源。
+
+如果你有任何问题，我们也很乐意进一步讨论。
+
+---
