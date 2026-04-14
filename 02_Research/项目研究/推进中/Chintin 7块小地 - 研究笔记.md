@@ -140,6 +140,85 @@ In addition to the above, Clause 35.07-2 of the Farming Zone sets out the follow
 We are happy to discuss further if you have any queries.
 
 ---
+Hi Tim,
+
+Thank you again for your initial review — it has been very helpful in understanding the broader planning controls affecting the land.
+
+After going through your comments, we would like to follow up on a few key points, with a particular focus on overall development feasibility.
+
+---
+
+### 1. Dwelling potential on smaller lots
+
+As noted, several of the parcels are below 40ha.
+
+From our perspective, the ability to establish dwellings on these smaller lots is a critical factor for the overall feasibility of the project.
+
+Could you please provide your view on the following:
+
+- In your experience, **are dwellings on these smaller lots realistically achievable through a planning permit**, or are they generally discouraged under the Farming Zone?
+    
+- How would Council typically assess such proposals — would they require strong agricultural justification, or are there circumstances where approval is reasonably achievable?
+    
+- Based on your initial review, do you consider these smaller lots to have:
+    
+    - a **reasonable likelihood of approval**, or
+        
+    - a **low probability / high-risk outcome**?
+        
+
+We are particularly keen to understand this from a **practical and strategic perspective**, rather than purely from a statutory standpoint.
+
+---
+
+### 2. Approval pathway
+
+Just to confirm our understanding:
+
+- Is it correct that **most (if not all) dwellings across these parcels would require a planning permit**, particularly due to lot size and Bushfire Management Overlay requirements?
+    
+- Are there any scenarios where a dwelling could proceed **without a planning permit**, or should we assume that Council approval will be required in all cases?
+    
+
+---
+
+### 3. Native vegetation considerations
+
+You mentioned the presence of significant vegetation across parts of the site.
+
+Could you please advise:
+
+- Whether this is likely to be classified as **native vegetation under the planning scheme**
+    
+- Whether vegetation removal is likely to be a **major constraint to development**, particularly in relation to siting dwellings
+    
+- In your experience, are these constraints typically manageable (e.g. via offsets), or could they significantly limit development potential on certain lots?
+    
+
+---
+
+### 4. Creek / waterway considerations
+
+While we understand that no flooding overlays apply, we would appreciate some further clarification on the creek:
+
+- Whether the presence of the creek may still trigger any **Melbourne Water referral requirements**
+    
+- Whether there are any **typical setbacks or constraints** that should be considered at this stage
+    
+
+---
+
+At this stage, our primary objective is to understand whether these parcels — particularly the smaller lots — are **worth pursuing from a development perspective** before progressing further.
+
+If there is a viable pathway, we would be very interested in working with you more closely as we move into the next stage.
+
+We would really appreciate your candid advice on the above.
+
+Kind regards,  
+Max
+
+---
+
 
 ## 中文翻译
 
