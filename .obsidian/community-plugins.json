@@ -6,5 +6,6 @@
   "templater-obsidian",
   "calendar",
   "dataview",
-  "notebook-navigator"
+  "notebook-navigator",
+  "obsidian-excel-to-markdown-table"
 ]
