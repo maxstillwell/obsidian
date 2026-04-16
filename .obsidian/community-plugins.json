@@ -5,5 +5,6 @@
   "terminal",
   "templater-obsidian",
   "calendar",
-  "dataview"
+  "dataview",
+  "notebook-navigator"
 ]
