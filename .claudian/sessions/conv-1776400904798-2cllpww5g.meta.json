@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776400904798-2cllpww5g",
+  "providerId": "claude",
+  "title": "我现在有哪些skills",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776400904798,
+  "updatedAt": 1776401198760,
+  "lastResponseAt": 1776401198760,
+  "sessionId": "ffd7d1a9-bf1b-440b-bfb7-0e2ebe9e912c",
+  "providerState": {
+    "providerSessionId": "ffd7d1a9-bf1b-440b-bfb7-0e2ebe9e912c"
+  },
+  "currentNote": "09_System/Skills/Skills 安装建议.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}
