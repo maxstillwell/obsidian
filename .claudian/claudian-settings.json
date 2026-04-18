@@ -38,7 +38,9 @@
       "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "DESKTOP-6LCGNJF": "Codex CLI path: /home/maxqi/.npm-global/bin/codex"
+      },
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
