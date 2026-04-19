@@ -47,7 +47,9 @@
       "installationMethodsByHost": {
         "DESKTOP-6LCGNJF": "wsl"
       },
-      "wslDistroOverridesByHost": {}
+      "wslDistroOverridesByHost": {
+        "DESKTOP-6LCGNJF": "Ubuntu"
+      }
     }
   },
   "settingsProvider": "claude",

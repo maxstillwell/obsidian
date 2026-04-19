@@ -4,8 +4,22 @@
   "title": "hi",
   "titleGenerationStatus": "failed",
   "createdAt": 1776401552244,
-  "updatedAt": 1776477410758,
-  "lastResponseAt": 1776477410758,
-  "sessionId": null,
-  "currentNote": "09_System/Skills/Skills 安装建议.md"
+  "updatedAt": 1776639285676,
+  "lastResponseAt": 1776478483396,
+  "sessionId": "019d9e5e-5771-7b42-ab44-dae39072c67f",
+  "providerState": {
+    "threadId": "019d9e5e-5771-7b42-ab44-dae39072c67f",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\18\\rollout-2026-04-18T12-14-36-019d9e5e-5771-7b42-ab44-dae39072c67f.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 28995,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 2432,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 28995,
+    "percentage": 11,
+    "model": "gpt-5.4-mini"
+  }
 }
