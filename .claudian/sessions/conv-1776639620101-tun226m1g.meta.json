@@ -4,6 +4,23 @@
   "title": "Analyze 8 PDFs for farmland valuation",
   "titleGenerationStatus": "success",
   "createdAt": 1776639620101,
-  "updatedAt": 1776639633370,
-  "sessionId": null
+  "updatedAt": 1776640436278,
+  "lastResponseAt": 1776640436278,
+  "sessionId": "019da7f9-41bb-7ac2-bc82-cf1e02c56ba6",
+  "providerState": {
+    "threadId": "019da7f9-41bb-7ac2-bc82-cf1e02c56ba6",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\20\\rollout-2026-04-20T09-00-23-019da7f9-41bb-7ac2-bc82-cf1e02c56ba6.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "02_Research/项目研究/推进中/夏威夷果农场/夏威夷果农场 - 三表汇总终稿.md",
+  "usage": {
+    "inputTokens": 197165,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 192384,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 197165,
+    "percentage": 76,
+    "model": "gpt-5.4-mini"
+  }
 }
