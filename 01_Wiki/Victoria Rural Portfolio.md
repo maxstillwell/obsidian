@@ -8,7 +8,7 @@ tags:
 status: true
 ---
 
-# Victoria Rural Portfolio
+
 
 ## Overview
 
