@@ -4,8 +4,8 @@
   "title": "Create rural property portfolio wiki",
   "titleGenerationStatus": "success",
   "createdAt": 1776649797001,
-  "updatedAt": 1776649905641,
-  "lastResponseAt": 1776649905641,
+  "updatedAt": 1776665571663,
+  "lastResponseAt": 1776665571663,
   "sessionId": "019da894-afba-7e40-8afb-6aaed4b7bf8f",
   "providerState": {
     "threadId": "019da894-afba-7e40-8afb-6aaed4b7bf8f",
@@ -13,12 +13,12 @@
     "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
   },
   "usage": {
-    "inputTokens": 36132,
+    "inputTokens": 36978,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 35200,
+    "cacheReadInputTokens": 36736,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 36132,
+    "contextTokens": 36978,
     "percentage": 14,
     "model": "gpt-5.4-mini"
   }

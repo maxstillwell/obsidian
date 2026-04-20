@@ -21,10 +21,9 @@ On a preliminary view, the portfolio appears to offer meaningful potential due t
 | Property         | Location  | Approx. area | Current use / notes                                                                                                                                                    |
 | ---------------- | --------- | -----------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Yarlok Estate    | Fiskville |     5,000 ha | Highly productive mixed-farming enterprise comprising dryland cropping and grazing. Benefits from a sub-soil manuring program that has materially improved production. |
-| Greystone Estate | Rowsley   |     4,000 ha | Cropping and sheep enterprise.                                                                                                                                         |
-| 165 Buftons Road | Balliang  |       220 ha | Cropping farm.                                                                                                                                                         |
+| Greystone Estate | Rowsley   |     4,000 ha | Cropping and sheep enterprise; settlement in March 2029.                                                                                                               |
+| 165 Buftons Road | Balliang  |       220 ha | Cropping farm, also managed by a local farmer.                                                                                                                         |
 | Chintin Grange   | Chintin   |       742 ha | Outstanding agricultural enterprise comprising dryland cropping and grazing. Managed by a local experienced farmer who has helped increase production.                 |
-
 
 
 
