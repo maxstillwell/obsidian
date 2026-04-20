@@ -1,0 +1,26 @@
+{
+  "id": "conv-1776648617243-blgh5q768",
+  "providerId": "codex",
+  "title": "撰写4月19日拜访灰石农场开头",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776648617244,
+  "updatedAt": 1776648645389,
+  "lastResponseAt": 1776648645343,
+  "sessionId": "019da882-867b-7672-890e-ab11f4761a2d",
+  "providerState": {
+    "threadId": "019da882-867b-7672-890e-ab11f4761a2d",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\20\\rollout-2026-04-20T11-30-19-019da882-867b-7672-890e-ab11f4761a2d.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "03_Projects/灰石项目/Paul 家族农业经营与 Greystone 发展规划.md",
+  "usage": {
+    "inputTokens": 31439,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 2432,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 31439,
+    "percentage": 12,
+    "model": "gpt-5.4-mini"
+  }
+}
