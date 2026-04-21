@@ -12,7 +12,7 @@ Agents working in this vault must preserve structure, avoid duplication, and kee
 - `00_Inbox` -> raw source intake and temporary holding area
 - `10_Projects` -> active project workspaces
 - `20_Knowledge` -> flat evergreen knowledge and tagged research notes
-- `30_Reports` -> drafts, finals, and report examples
+- `30_Reports` -> completed reports stored flat in one folder
 - `90_Archive` -> completed or abandoned work
 - `99_System` -> agents, skills, rules, templates, workflows, and shared resources
 
@@ -50,11 +50,7 @@ Use `99_System/Templates/Projects` as the source for reusable project structure.
 
 ## Report Rules
 
-Reports must be stored in one of these folders:
-
-- `30_Reports/drafts`
-- `30_Reports/finals`
-- `30_Reports/examples`
+All completed reports live directly in `30_Reports`.
 
 Use the matching template in `99_System/Templates/Reports` before creating a new report when a template exists.
 
