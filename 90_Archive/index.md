@@ -5,7 +5,7 @@ tags:
 ---
 # Archive
 
-- [[90_Archive/projects]]
-- [[90_Archive/research]]
-- [[90_Archive/reports]]
-- [[90_Archive/old-notes]]
+- [[90_Archive/projects/index|Projects]]
+- [[90_Archive/research/index|Research]]
+- [[90_Archive/reports/index|Reports]]
+- [[90_Archive/old-notes/index|Old Notes]]

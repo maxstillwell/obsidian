@@ -9,11 +9,12 @@ Agents working in this vault must preserve structure, avoid duplication, and kee
 ## Core Structure
 
 - `00_Dashboard` -> dashboards, indexes, and entry points
-- `01_Wiki` -> evergreen knowledge, frameworks, models, and reference notes
-- `02_Research` -> new opportunities under evaluation
-- `03_Projects` -> active approved projects
-- `04_Reports` -> formal outputs and reporting
-- `09_System` -> agents, skills, rules, templates, workflows, and shared resources
+- `00_Inbox` -> raw source intake and temporary holding area
+- `10_Projects` -> active project workspaces
+- `20_Knowledge` -> flat evergreen knowledge and tagged research notes
+- `30_Reports` -> drafts, finals, and report examples
+- `90_Archive` -> completed or abandoned work
+- `99_System` -> agents, skills, rules, templates, workflows, and shared resources
 
 ## Folder Rules
 
@@ -21,57 +22,51 @@ Agents working in this vault must preserve structure, avoid duplication, and kee
 - Follow the folder structure strictly.
 - Do not create new top-level folders unless explicitly instructed.
 - Keep project names in Chinese unless a project already has an established English name.
-- Prefer using existing folders before creating new parallel structures.
+- Prefer using existing folders and index notes before creating new parallel structures.
+- Use tags to classify notes; use folders to separate workflow stages.
 
-## Research Folder Rules
+## Knowledge Rules
 
-Research notes must be organized by domain first, then by status.
+`20_Knowledge` is intentionally flat.
 
-Supported domains:
+Use tags and links instead of nested topic folders.
 
-- `02_Research/AI研究`
-- `02_Research/政策研究`
-- `02_Research/项目研究`
+For recurring research families, use paired hub notes and stage notes, for example:
 
-`AI研究` and `政策研究` should contain:
+- `AI研究`
+  - `AI研究-参考资料`
+  - `AI研究-研究中`
+  - `AI研究-结论`
+- `政策研究`
+  - `政策研究-参考资料`
+  - `政策研究-研究中`
+  - `政策研究-结论`
+- `项目研究`
+  - `项目研究-在研究`
+  - `项目研究-完成`
 
-- `研究中`
-- `结论`
-- `参考资料`
+## Project Rules
 
-`项目研究` should contain:
+Approved opportunities should move into `10_Projects/<项目名>`.
 
-- `在研究`
-- `推进中`
-- `不买`
+Each active project should have an index note plus working notes such as:
 
-Templates are stored centrally in:
-
-- `99_System/Templates/Research`
-- `99_System/Templates/Projects`
-- `99_System/Templates/Reports`
-
-When creating a new research note, choose the closest matching domain first.
-
-For `AI研究` and `政策研究`, default to `研究中`.
-
-For `项目研究`, default to `在研究` unless the user explicitly asks for a different status.
-
-## Project Folder Rules
-
-Approved opportunities should move into `03_Projects`.
+- `index.md`
+- `项目总览.md` or equivalent overview note
+- `资料清单.md` or source log
+- `analysis.md` or analysis note
+- `decision-log.md` or decision note
+- `report-draft.md` or draft output
 
 Use `99_System/Templates/Projects` as the source for reusable project structure.
 
-Each active project should have its own folder under `03_Projects`, for example `10_Projects/灰石项目`.
-
-## Report Folder Rules
+## Report Rules
 
 Reports must be stored in one of these folders:
 
-- `30_Reports/投资评估报告`
-- `30_Reports/项目报告`
-- `99_System/Templates/Reports`
+- `30_Reports/drafts`
+- `30_Reports/finals`
+- `30_Reports/examples`
 
 Use the matching template in `99_System/Templates/Reports` before creating a new report when a template exists.
 
@@ -83,55 +78,36 @@ Use the matching template in `99_System/Templates/Reports` before creating a new
 - Use Chinese naming for project folders and project-facing documents by default.
 - Use `DD-MM-YYYY` for dates when dates appear in titles, metadata, or body text.
 
-## Required Research Note Structure
+## Required Note Structure
 
-Each research note should contain at least:
-
-- Basic Info
-- Thesis
-- Risks
-- Next Steps
-
-Recommended metadata fields:
-
-- `status`
-- `created`
-- `updated`
-- `owner`
-- `tags`
-
-## Required Project Structure
-
-Each project should include notes or sections covering:
+Prefer notes to include at least one of the following sections when relevant:
 
 - Overview
 - Thesis
-- Updates
-- Actions
-- Materials
-- Meetings
-- Decisions
+- Risks
+- Next Steps
+- Related Links
 
 Recommended metadata fields:
 
 - `status`
-- `project`
 - `created`
 - `updated`
 - `owner`
 - `tags`
+- `project`
+- `report_type`
 
 ## Workflow
 
 When a new investment idea appears:
 
-1. For `AI研究` and `政策研究`, create or update a note under `02_Research/<领域>/研究中`.
-2. When the analysis is mature, move or summarize it into `02_Research/<领域>/结论`.
-3. Store supporting source material under `02_Research/<领域>/参考资料` when needed.
-4. For `项目研究`, create or update a note under `20_Knowledge/在研究`.
-5. If project diligence deepens, move the note to `20_Knowledge/推进中`.
-6. If rejected, move the note to `20_Knowledge/不买` and record the rejection reason.
-7. If approved, create or move the working set into `10_Projects/<项目名>`.
+1. Store raw material in `00_Inbox`.
+2. For AI and policy research, create or update the hub note and the matching stage note under `20_Knowledge`.
+3. For project research, create or update the relevant project workspace under `10_Projects/<项目名>`.
+4. If a project analysis matures into a stable conclusion, summarize the result into `20_Knowledge`.
+5. If approved, keep working material in the project workspace and emit reports into `30_Reports`.
+6. If rejected or finished, move the working set into `90_Archive`.
 
 ## Linking Rules
 
@@ -139,6 +115,7 @@ When a new investment idea appears:
 - Maintain links between related research, project, and report notes.
 - Link reports back to the source research or project when relevant.
 - Preserve existing backlinks when moving or renaming notes.
+- Build hub/index notes for each major project or knowledge family.
 
 ## Agent Behavior Rules
 
