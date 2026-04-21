@@ -4,8 +4,8 @@
   "title": "优化文件夹层级结构",
   "titleGenerationStatus": "success",
   "createdAt": 1776734523678,
-  "updatedAt": 1776736296195,
-  "lastResponseAt": 1776736296195,
+  "updatedAt": 1776737010201,
+  "lastResponseAt": 1776737010201,
   "sessionId": "019dada1-558b-77f3-b6dc-3df2420f9b0c",
   "providerState": {
     "threadId": "019dada1-558b-77f3-b6dc-3df2420f9b0c",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "/Users/mq/.codex/sessions"
   },
   "usage": {
-    "inputTokens": 52889,
+    "inputTokens": 118228,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 45440,
+    "cacheReadInputTokens": 117632,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 52889,
-    "percentage": 20,
+    "contextTokens": 118228,
+    "percentage": 46,
     "model": "gpt-5.4-mini"
   }
 }
