@@ -116,4 +116,4 @@ Western Irrigation Network（WIN）项目是目前唯一具备规模化解决 Gr
 
 ## Related Links
 - [[10_Projects/灰石项目/index|项目入口]]
-- [[20_Knowledge/项目研究|项目研究]]
+- [[20_Knowledge/1.1｜前言与投资愿景|投资愿景]]｜[[20_Knowledge/维多利亚州发展红线研究报告|维州红线]]

@@ -31,19 +31,7 @@ Agents working in this vault must preserve structure, avoid duplication, and kee
 
 Use tags and links instead of nested topic folders.
 
-For recurring research families, use paired hub notes and stage notes, for example:
-
-- `AI研究`
-  - `AI研究-参考资料`
-  - `AI研究-研究中`
-  - `AI研究-结论`
-- `政策研究`
-  - `政策研究-参考资料`
-  - `政策研究-研究中`
-  - `政策研究-结论`
-- `项目研究`
-  - `项目研究-在研究`
-  - `项目研究-完成`
+Keep only concrete knowledge notes here; do not create extra MOC pages unless they are truly needed for navigation.
 
 ## Project Rules
 
@@ -103,11 +91,10 @@ Recommended metadata fields:
 When a new investment idea appears:
 
 1. Store raw material in `00_Inbox`.
-2. For AI and policy research, create or update the hub note and the matching stage note under `20_Knowledge`.
-3. For project research, create or update the relevant project workspace under `10_Projects/<项目名>`.
-4. If a project analysis matures into a stable conclusion, summarize the result into `20_Knowledge`.
-5. If approved, keep working material in the project workspace and emit reports into `30_Reports`.
-6. If rejected or finished, move the working set into `90_Archive`.
+2. For project research, create or update the relevant project workspace under `10_Projects/<项目名>`.
+3. If a project analysis matures into a stable conclusion, summarize the result into `20_Knowledge`.
+4. If approved, keep working material in the project workspace and emit reports into `30_Reports`.
+5. If rejected or finished, move the working set into `90_Archive`.
 
 ## Linking Rules
 
@@ -115,7 +102,7 @@ When a new investment idea appears:
 - Maintain links between related research, project, and report notes.
 - Link reports back to the source research or project when relevant.
 - Preserve existing backlinks when moving or renaming notes.
-- Build hub/index notes for each major project or knowledge family.
+- Build hub/index notes for each major project or knowledge family only when they add clear value.
 
 ## Agent Behavior Rules
 
