@@ -4,8 +4,8 @@
   "title": "分析 Yaloak rates并生成股东资产报告图表",
   "titleGenerationStatus": "success",
   "createdAt": 1776738274264,
-  "updatedAt": 1776738724719,
-  "lastResponseAt": 1776738724719,
+  "updatedAt": 1776739444101,
+  "lastResponseAt": 1776739444101,
   "sessionId": "019dadda-8d09-7a70-a7c3-fddabbaaac36",
   "providerState": {
     "threadId": "019dadda-8d09-7a70-a7c3-fddabbaaac36",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "/Users/mq/.codex/sessions"
   },
   "usage": {
-    "inputTokens": 59830,
+    "inputTokens": 64604,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 59264,
+    "cacheReadInputTokens": 63872,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 59830,
-    "percentage": 23,
+    "contextTokens": 64604,
+    "percentage": 25,
     "model": "gpt-5.4-mini"
   }
 }

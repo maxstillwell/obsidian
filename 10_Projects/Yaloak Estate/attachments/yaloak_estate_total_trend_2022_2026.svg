@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="90" y="36" font-size="28" font-weight="700" fill="#111827">Yaloak Estate 完整价值趋势（两家公司合并）</text>
+<text x="90" y="60" font-size="15" fill="#6b7280">说明：2022/2023 来自工作簿历史区块；24/25 和 25/26 为两家公司合计，代表 Yaloak Estate 的完整价值口径。</text>
+<line x1="90" y1="510.00" x2="1060" y2="510.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="515.00" font-size="12" fill="#6b7280" text-anchor="end">0</text>
+<line x1="90" y1="456.25" x2="1060" y2="456.25" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="461.25" font-size="12" fill="#6b7280" text-anchor="end">10</text>
+<line x1="90" y1="402.50" x2="1060" y2="402.50" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="407.50" font-size="12" fill="#6b7280" text-anchor="end">20</text>
+<line x1="90" y1="348.75" x2="1060" y2="348.75" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="353.75" font-size="12" fill="#6b7280" text-anchor="end">30</text>
+<line x1="90" y1="295.00" x2="1060" y2="295.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="300.00" font-size="12" fill="#6b7280" text-anchor="end">40</text>
+<line x1="90" y1="241.25" x2="1060" y2="241.25" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="246.25" font-size="12" fill="#6b7280" text-anchor="end">50</text>
+<line x1="90" y1="187.50" x2="1060" y2="187.50" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="192.50" font-size="12" fill="#6b7280" text-anchor="end">60</text>
+<line x1="90" y1="133.75" x2="1060" y2="133.75" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="138.75" font-size="12" fill="#6b7280" text-anchor="end">70</text>
+<line x1="90" y1="80.00" x2="1060" y2="80.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="78" y="85.00" font-size="12" fill="#6b7280" text-anchor="end">80</text>
+<line x1="90" y1="80" x2="90" y2="510" stroke="#9ca3af" stroke-width="1.5"/>
+<line x1="90" y1="510" x2="1060" y2="510" stroke="#9ca3af" stroke-width="1.5"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="4" points="90.00,207.39 413.33,135.90 736.67,105.26 1060.00,147.46" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="90.00" cy="207.39" r="6" fill="#2563eb" stroke="white" stroke-width="2"/>
+<text x="90.00" y="193.39" font-size="12" fill="#374151" text-anchor="middle">56.3</text>
+<circle cx="413.33" cy="135.90" r="6" fill="#2563eb" stroke="white" stroke-width="2"/>
+<text x="413.33" y="121.90" font-size="12" fill="#374151" text-anchor="middle">69.6</text>
+<circle cx="736.67" cy="105.26" r="6" fill="#2563eb" stroke="white" stroke-width="2"/>
+<text x="736.67" y="91.26" font-size="12" fill="#374151" text-anchor="middle">75.3</text>
+<circle cx="1060.00" cy="147.46" r="6" fill="#2563eb" stroke="white" stroke-width="2"/>
+<text x="1060.00" y="133.46" font-size="12" fill="#374151" text-anchor="middle">67.5</text>
+<polyline fill="none" stroke="#f97316" stroke-width="4" points="90.00,195.56 413.33,121.93 736.67,90.75 1060.00,132.94" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="90.00" cy="195.56" r="6" fill="#f97316" stroke="white" stroke-width="2"/>
+<text x="90.00" y="181.56" font-size="12" fill="#374151" text-anchor="middle">58.5</text>
+<circle cx="413.33" cy="121.93" r="6" fill="#f97316" stroke="white" stroke-width="2"/>
+<text x="413.33" y="107.93" font-size="12" fill="#374151" text-anchor="middle">72.2</text>
+<circle cx="736.67" cy="90.75" r="6" fill="#f97316" stroke="white" stroke-width="2"/>
+<text x="736.67" y="76.75" font-size="12" fill="#374151" text-anchor="middle">78.0</text>
+<circle cx="1060.00" cy="132.94" r="6" fill="#f97316" stroke="white" stroke-width="2"/>
+<text x="1060.00" y="118.94" font-size="12" fill="#374151" text-anchor="middle">70.2</text>
+<text x="90.00" y="538" font-size="13" fill="#374151" text-anchor="middle">2022</text>
+<text x="413.33" y="538" font-size="13" fill="#374151" text-anchor="middle">2023</text>
+<text x="736.67" y="538" font-size="13" fill="#374151" text-anchor="middle">24/25</text>
+<text x="1060.00" y="538" font-size="13" fill="#374151" text-anchor="middle">25/26</text>
+<rect x="90" y="564" width="16" height="16" rx="3" fill="#2563eb"/>
+<text x="114" y="577" font-size="13" fill="#374151">Site Value</text>
+<rect x="380" y="564" width="16" height="16" rx="3" fill="#f97316"/>
+<text x="404" y="577" font-size="13" fill="#374151">Capital Improved Value</text>
+<text x="90" y="602" font-size="12" fill="#6b7280">单位：A$ million（百万澳元）</text>
+</svg>
