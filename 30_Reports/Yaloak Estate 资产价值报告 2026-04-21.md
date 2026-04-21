@@ -5,12 +5,12 @@ tags:
   - shareholder
   - property
 created: 2026-04-21
-source: "[[10_Projects/Yaloak Estate/attachments/Yaloak Rates.xlsx]]"
+source: "[[../10_Projects/Yaloak Estate/attachments/Yaloak Rates.xlsx]]"
 ---
 
 
 > 报告日期：2026-04-21  
-> 数据来源：[[10_Projects/Yaloak Estate/attachments/Yaloak Rates.xlsx]]
+> 数据来源：[[../10_Projects/Yaloak Estate/attachments/Yaloak Rates.xlsx]]
 
 ## 1. 结论摘要
 
@@ -40,7 +40,7 @@ source: "[[10_Projects/Yaloak Estate/attachments/Yaloak Rates.xlsx]]"
 
 ### 2.3 趋势图
 
-![[10_Projects/Yaloak Estate/attachments/yaloak_estate_total_trend_2022_2026.svg]]
+![[../10_Projects/Yaloak Estate/attachments/yaloak_estate_total_trend_2022_2026.svg]]
 
 ## 3. 24/25 vs 25/26 公司资产比较
 
@@ -56,11 +56,11 @@ source: "[[10_Projects/Yaloak Estate/attachments/Yaloak Rates.xlsx]]"
 
 #### Site Value 对比
 
-![[10_Projects/Yaloak Estate/attachments/yaloak_company_site_value_24_25_vs_25_26.svg]]
+![[../10_Projects/Yaloak Estate/attachments/yaloak_company_site_value_24_25_vs_25_26.svg]]
 
 #### Capital Improved Value 对比
 
-![[10_Projects/Yaloak Estate/attachments/yaloak_company_civ_24_25_vs_25_26.svg]]
+![[../10_Projects/Yaloak Estate/attachments/yaloak_company_civ_24_25_vs_25_26.svg]]
 
 ### 3.3 逐资产变化
 
