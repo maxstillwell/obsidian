@@ -10,9 +10,11 @@ status: true
 
 
 
-## Overview
+## Background
 
-We have recently consolidated a portfolio of rural properties across Victoria and are actively working toward the development of a large-scale, future-focused agricultural enterprise.
+EverGrace has recently consolidated a portfolio of rural properties across Victoria and is actively working toward the development of a large-scale, future-focused agricultural enterprise.
+
+The company is supported by a strong and diverse investor base, bringing together both local and international capital. Our broader team includes accomplished professionals with experience across multiple industries, giving us a well-rounded commercial perspective and the capability to identify and execute long-term opportunities.
 
 ## Company Vision
 
@@ -34,14 +36,6 @@ Our primary objective is to further develop rural agricultural resources by:
 
 A critical first step in this process is water security. Before any significant expansion or intensification can be achieved, reliable access to water and fit-for-purpose water infrastructure must be resolved.
 
-## Background
-
-Our platform is supported by a strong and diverse investor base, combining both local and international capital. In addition, our wider team brings together accomplished professionals with experience across multiple industries, providing a broad commercial perspective and the capability to identify, structure, and execute long-term opportunities.
-
-## Strategic Approach
-
-Our strategy is centered on a disciplined, staged approach. In the near term, the focus is on strengthening the core asset base, improving essential infrastructure, and addressing water constraints. In parallel, we will assess opportunities to integrate advanced agricultural technology, data-driven management systems, and other modern farming solutions that can support long-term productivity and enterprise growth.
-
 On a preliminary view, the portfolio appears to offer meaningful potential due to its scale, geographic spread, and mix of productive farming uses.
 
 ## Portfolio summary
@@ -52,4 +46,3 @@ On a preliminary view, the portfolio appears to offer meaningful potential due t
 | Greystone Estate | Rowsley   |     4,000 ha | Cropping and sheep enterprise; settlement in March 2029.                                                                                                                                                                          |
 | 165 Buftons Road | Balliang  |       220 ha | Cropping farm, also managed by a local farmer. 175 ha cropping.                                                                                                                                                                   |
 | Chintin Grange   | Chintin   |       742 ha | Outstanding agricultural enterprise comprising dryland cropping and grazing. Managed by a local experienced farmer who has helped increase production.                                                                            |
-
