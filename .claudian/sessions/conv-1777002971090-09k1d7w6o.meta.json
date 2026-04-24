@@ -4,8 +4,8 @@
   "title": "重写澳洲夏威夷果行业分析并补充最新图表",
   "titleGenerationStatus": "success",
   "createdAt": 1777002971090,
-  "updatedAt": 1777003301822,
-  "lastResponseAt": 1777003301822,
+  "updatedAt": 1777003921711,
+  "lastResponseAt": 1777003921711,
   "sessionId": "019dbda1-8441-7f63-852f-94e3ca8a6653",
   "providerState": {
     "threadId": "019dbda1-8441-7f63-852f-94e3ca8a6653",
@@ -14,13 +14,13 @@
   },
   "currentNote": "20_Knowledge/澳洲坚果/夏威夷果行业.md",
   "usage": {
-    "inputTokens": 89023,
+    "inputTokens": 85154,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 88448,
+    "cacheReadInputTokens": 1920,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 89023,
-    "percentage": 34,
+    "contextTokens": 85154,
+    "percentage": 33,
     "model": "gpt-5.4-mini"
   }
 }
