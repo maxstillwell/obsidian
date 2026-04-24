@@ -4,8 +4,8 @@
   "title": "修改材料以便直接发给股东",
   "titleGenerationStatus": "success",
   "createdAt": 1777000970357,
-  "updatedAt": 1777001176179,
-  "lastResponseAt": 1777001176179,
+  "updatedAt": 1777001881392,
+  "lastResponseAt": 1777001881392,
   "sessionId": "019dbd82-fded-7b80-b0c1-979514ff8d64",
   "providerState": {
     "threadId": "019dbd82-fded-7b80-b0c1-979514ff8d64",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
   },
   "usage": {
-    "inputTokens": 40251,
+    "inputTokens": 45581,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 38272,
+    "cacheReadInputTokens": 45440,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 40251,
-    "percentage": 16,
+    "contextTokens": 45581,
+    "percentage": 18,
     "model": "gpt-5.4-mini"
   }
 }
