@@ -1,0 +1,25 @@
+{
+  "id": "conv-1777000970357-sjqxhc3iq",
+  "providerId": "codex",
+  "title": "修改材料以便直接发给股东",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777000970357,
+  "updatedAt": 1777001176179,
+  "lastResponseAt": 1777001176179,
+  "sessionId": "019dbd82-fded-7b80-b0c1-979514ff8d64",
+  "providerState": {
+    "threadId": "019dbd82-fded-7b80-b0c1-979514ff8d64",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\24\\rollout-2026-04-24T13-22-51-019dbd82-fded-7b80-b0c1-979514ff8d64.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 40251,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 38272,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 40251,
+    "percentage": 16,
+    "model": "gpt-5.4-mini"
+  }
+}
