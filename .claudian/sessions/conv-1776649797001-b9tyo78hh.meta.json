@@ -1,16 +1,16 @@
 {
   "id": "conv-1776649797001-b9tyo78hh",
   "providerId": "codex",
-  "title": "Create rural property portfolio wiki",
+  "title": "Analyze valuation and draft Qld farm report",
   "titleGenerationStatus": "success",
   "createdAt": 1776649797001,
-  "updatedAt": 1776665571663,
-  "lastResponseAt": 1776665571663,
+  "updatedAt": 1776727372327,
+  "lastResponseAt": 1776727259527,
   "sessionId": "019da894-afba-7e40-8afb-6aaed4b7bf8f",
   "providerState": {
     "threadId": "019da894-afba-7e40-8afb-6aaed4b7bf8f",
     "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\20\\rollout-2026-04-20T11-50-09-019da894-afba-7e40-8afb-6aaed4b7bf8f.jsonl",
-    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+    "transcriptRootPath": "/Users/mq/.codex/sessions"
   },
   "usage": {
     "inputTokens": 36978,

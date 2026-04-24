@@ -1,0 +1,25 @@
+{
+  "id": "conv-1776734523678-sdgv2zi5y",
+  "providerId": "codex",
+  "title": "优化文件夹层级结构",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776734523678,
+  "updatedAt": 1776738106750,
+  "lastResponseAt": 1776738106750,
+  "sessionId": "019dada1-558b-77f3-b6dc-3df2420f9b0c",
+  "providerState": {
+    "threadId": "019dada1-558b-77f3-b6dc-3df2420f9b0c",
+    "sessionFilePath": "/Users/mq/.codex/sessions/2026/04/21/rollout-2026-04-21T11-22-04-019dada1-558b-77f3-b6dc-3df2420f9b0c.jsonl",
+    "transcriptRootPath": "/Users/mq/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 92806,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 92544,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 92806,
+    "percentage": 36,
+    "model": "gpt-5.4-mini"
+  }
+}
