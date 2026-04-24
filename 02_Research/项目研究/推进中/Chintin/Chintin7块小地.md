@@ -218,7 +218,114 @@ Kind regards,
 Max
 
 ---
+Hi Max,
 
+Please see below response to your queries.
+
+As a general comment, we consider there is a pathway for approval of a dwelling on each of the lots however we note there are a number of constraints that will need to be worked through and addressed as part of the planning process. We note the approach to dwellings within the farm zone is different to that of a dwelling in an urban area.
+
+ 1. **Dwelling potential on smaller lots**
+
+Given the lots are already created we consider there is reasonable likelihood of obtaining planning consent for one dwelling on each lot. We note however that each dwelling will need to be designed to be responsive to the specific lot, having regard to opportunities and constraints for each site.
+
+As outlined below, under the Farming Zone, a lot used for a dwelling, small second dwelling or rural worker accommodation **must** meet the following requirements:
+
+- _Access to the dwelling, small second dwelling or rural worker accommodation must be provided via an all-weather road with dimensions adequate to accommodate emergency vehicles._
+- _Each dwelling, small second dwelling or rural worker accommodation must be connected to reticulated sewerage, if available. If reticulated sewerage is not available all wastewater from each dwelling must be treated and retained within the lot in accordance with the requirements of the Environment Protection Regulations under the Environment Protection Act 2017 for an on-site wastewater management system._
+- _The dwelling, small second dwelling or rural worker accommodation must be connected to a reticulated potable water supply or have an alternative potable water supply with adequate storage for domestic use as well as for fire fighting purposes._
+- _The dwelling, small second dwelling or rural worker accommodation must be connected to a reticulated electricity supply or have an alternative energy source._ 
+
+In addition, we note the Farming Zone includes a series of decision guidelines which Council would assess any proposal for a dwelling against. The decision guidelines include the following, noting we have underlined a couple which will be of particular relevance and will need to be addressed as part of any future application. We note the already fragmented nature of the lots, topography and extent of existing vegetation will support any future application in terms of the reduced capacity of the land to sustain agricultural land use however consideration will still need to be given to the siting and design as well as the impacts of the development.
+
+**General issues**
+
+- _The Municipal Planning Strategy and the Planning Policy Framework._
+- _Any Regional Catchment Strategy and associated plan applying to the land._
+- _The capability of the land to accommodate the proposed use or development, including the disposal of effluent._
+- _How the use or development relates to sustainable land management._
+- _Whether the site is suitable for the use or development and whether the proposal is compatible with adjoining and nearby land uses._
+- _How the use and development makes use of existing infrastructure and services._
+
+**Agricultural issues and the impacts from non-agricultural uses**
+
+- _Whether the use or development will support and enhance agricultural production._
+- _Whether the use or development will adversely affect soil quality or permanently remove land from agricultural production._
+- _The potential for the use or development to limit the operation and expansion of adjoining and nearby agricultural uses._
+- _The capacity of the site to sustain the agricultural use._
+- _The agricultural qualities of the land, such as soil quality, access to water and access to rural infrastructure._
+- _Any integrated land management plan prepared for the site._
+- _Whether Rural worker accommodation is necessary having regard to:_
+
+- _The nature and scale of the agricultural use._
+- _The accessibility to residential areas and existing accommodation, and the remoteness of the location._
+- _The duration of the use of the land for Rural worker accommodation._
+
+**Accommodation issues**
+
+- _Whether the dwelling will result in the loss or fragmentation of productive agricultural land._
+- _Whether the dwelling will be adversely affected by agricultural activities on adjacent and nearby land due to dust, noise, odour, use of chemicals and farm machinery, traffic and hours of operation._
+- _Whether the dwelling will adversely affect the operation and expansion of adjoining and nearby agricultural uses._
+- _The potential for the proposal to lead to a concentration or proliferation of dwellings in the area and the impact of this on the use of the land for agriculture._
+- _The potential for accommodation to be adversely affected by noise and shadow flicker impacts if it is located within one kilometre from the nearest title boundary of land subject to:_
+
+- _A permit for a wind energy facility; or_
+- _An application for a permit for a wind energy facility; or_
+- _An incorporated document approving a wind energy facility; or_
+- _A proposed wind energy facility for which an action has been taken under section 8(1), 8(2), 8(3) or 8(4) of the Environment Effects Act 1978 ._
+
+- _The potential for accommodation to be adversely affected by vehicular traffic, noise, blasting, dust and vibration from an existing or proposed extractive industry operation if it is located within 500 metres from the nearest title boundary of land on which a work authority has been applied for or granted under the Mineral Resources (Sustainable Development) Act 1990._
+
+**Environmental Issues**
+
+- _The impact of the proposal on the natural physical features and resources of the area, in particular on soil and water quality._
+- _The impact of the use or development on the flora and fauna on the site and its surrounds._
+- _The need to protect and enhance the biodiversity of the area, including the retention of vegetation and faunal habitat and the need to revegetate land including riparian buffers along waterways, gullies, ridgelines, property boundaries and saline discharge and recharge area._
+- _The location of on-site effluent disposal areas to minimise the impact of nutrient loads on waterways and native vegetation._
+
+**Design and Siting Issues**
+
+- _The need to locate buildings in one area to avoid any adverse impacts on surrounding agricultural uses and to minimise the loss of productive agricultural land._
+- _The impact of the siting, design, height, bulk, colours and materials to be used, on the natural environment, major roads, vistas and water features and the measures to be undertaken to minimise any adverse impacts._
+- _The impact on the character and appearance of the area or features of architectural, historic or scientific significance or of natural scenic beauty or importance._
+- _The location and design of existing and proposed infrastructure including roads, gas, water, drainage, telecommunications and sewerage facilities._
+- _Whether the use and development will require traffic management measures._
+- _The need to locate and design buildings used for accommodation to avoid or reduce noise and shadow flicker impacts from the operation of a wind energy facility if it is located within one kilometre from the nearest title boundary of land subject to:_
+
+- _A permit for a wind energy facility; or_
+- _An application for a permit for a wind energy facility; or_
+- _An incorporated document approving a wind energy facility; or – A proposed wind energy facility for which an action has been taken under section 8(1), 8(2), 8(3) or 8(4) of the Environment Effects Act 1978 ._
+
+- _The need to locate and design buildings used for accommodation to avoid or reduce the impact from vehicular traffic, noise, blasting, dust and vibration from an existing or proposed extractive industry operation if it is located within 500 metres from the nearest title boundary of land on which a work authority has been applied for or granted under the Mineral Resources (Sustainable Development) Act 1990 ._
+
+2. Approval pathway
+
+We confirm that a planning permit would be required to construct a dwelling on all of the lots pursuant to one or both of the FZ and BMO. There are no instances where a permit would not be required for a dwelling on these lots.
+
+3. Native vegetation
+
+We have undertaken an initial review of the NRV Map which indicates majority of the site is within location 1 however a portion of the site is within Location 2. The NRV native vegetation extent map indicates that the areas within location 2 are typically characterised as supporting native vegetation. Additionally, it is modelled as encompassing an endangered Ecological Vegetation Class, sensitive wetland or sensitive coastal area.
+
+![](https://mail.google.com/mail/u/0?ui=2&ik=7cbb4da329&attid=0.3&permmsgid=msg-f:1863052768823879825&th=19dae49f538e2891&view=fimg&fur=ip&permmsgid=msg-f:1863052768823879825&sz=s0-l75-ft&attbid=ANGjdJ-Ncbc_KU3BTUV5NShkKGtKcVavNSXlfmf_l6Z6pYszlbHemQ-irPhOM28ADHz92skdQesRMCeZqvJPvG9tQfPe4mJSakpeA49d9yIHc_iknfT1hMI-zvA4OV4&disp=emb&zw)
+
+We note there are some exemptions from requiring a permit under the Clause 52.17 – Native Vegetation for the construction of new dwellings in the farm zone.
+
+![](https://mail.google.com/mail/u/0?ui=2&ik=7cbb4da329&attid=0.4&permmsgid=msg-f:1863052768823879825&th=19dae49f538e2891&view=fimg&fur=ip&permmsgid=msg-f:1863052768823879825&sz=s0-l75-ft&attbid=ANGjdJ8GL15UkgzeqcJNr0iCquRv3DxeS-HcqYM-7A3Qa8njutNqvrJ9C7JaOMkstEc__6YELDhlPmwiTmJ_dVVL1Fgb-1LcKxjoEt2Uwgfsdd_0RGP32_M1gpHFQxk&disp=emb&zw)
+
+We would strongly recommend engaging an ecologist to provide further guidance on the likelihood of native vegetation being present and the likely implications.
+
+4. Creek/water way considerations
+
+Pursuant to the Farm Zone, a permit is required to construct a building within 100m of a waterway. We would suggest adopting this as a minimum setback.  We note it is not uncommon for no flooding controls to be applied in rural areas however note that there may still be a risk of flooding.
+
+In addition, we note that areas within 200m of a waterway are identified as areas of cultural heritage sensitivity. Pursuant to the Aboriginal Heritage Regulations 2018, the development of one dwelling on a lot is exempt from requiring a CHMP. Notwithstanding this, we would suggest seeking advice from a heritage advisor to determine if there are any additional considerations from a cultural heritage perspective.
+
+Please let us know if you have any further queries.
+
+Kind regards,
+
+Georgina
+
+---
 
 ## 中文翻译
 
