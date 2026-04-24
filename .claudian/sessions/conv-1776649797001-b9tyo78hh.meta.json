@@ -4,8 +4,8 @@
   "title": "Analyze valuation and draft Qld farm report",
   "titleGenerationStatus": "success",
   "createdAt": 1776649797001,
-  "updatedAt": 1777027606762,
-  "lastResponseAt": 1777027606762,
+  "updatedAt": 1777027807959,
+  "lastResponseAt": 1777027807959,
   "sessionId": "019da894-afba-7e40-8afb-6aaed4b7bf8f",
   "providerState": {
     "threadId": "019da894-afba-7e40-8afb-6aaed4b7bf8f",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
   },
   "usage": {
-    "inputTokens": 184860,
+    "inputTokens": 197326,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 184704,
+    "cacheReadInputTokens": 196992,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 184860,
-    "percentage": 72,
+    "contextTokens": 197326,
+    "percentage": 76,
     "model": "gpt-5.4-mini"
   }
 }
