@@ -1,0 +1,26 @@
+{
+  "id": "conv-1777002971090-09k1d7w6o",
+  "providerId": "codex",
+  "title": "重写澳洲夏威夷果行业分析并补充最新图表",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777002971090,
+  "updatedAt": 1777003301822,
+  "lastResponseAt": 1777003301822,
+  "sessionId": "019dbda1-8441-7f63-852f-94e3ca8a6653",
+  "providerState": {
+    "threadId": "019dbda1-8441-7f63-852f-94e3ca8a6653",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\24\\rollout-2026-04-24T13-56-12-019dbda1-8441-7f63-852f-94e3ca8a6653.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "20_Knowledge/澳洲坚果/夏威夷果行业.md",
+  "usage": {
+    "inputTokens": 89023,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 88448,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 89023,
+    "percentage": 34,
+    "model": "gpt-5.4-mini"
+  }
+}
