@@ -1,17 +1,17 @@
 {
 	"nodes":[
 		{"id":"root","type":"text","text":"NSW 老农场项目","x":0,"y":0,"width":320,"height":120},
-		{"id":"note","type":"file","file":"10_Projects/夏威夷果农场/NSW老农场.md","x":-420,"y":-40,"width":320,"height":120},
-		{"id":"exec","type":"text","text":"执行摘要\n- 2015 签约，2016 交割\n- 总购入价约 1,750 万\n- 2016–2019 累计分红约 300 万\n- 当前为高负债、低产出状态","x":420,"y":-260,"width":360,"height":180},
+		{"id":"exec","type":"text","text":"执行摘要\n- 2015 签约，2016 交割\n- 总购入价约 1,750 万\n- 2016–2019 累计分红约 300 万\n- 当前为高负债、低产出状态","x":420,"y":-260,"width":360,"height":220},
 		{"id":"finance","type":"text","text":"当前经营与财务\n- 银行贷款约 1,500 万\n- 股东借款约 500 万\n- 总外债约 2,000 万\n- 不含利息接近盈亏平衡\n- 含利息仍亏损","x":420,"y":-40,"width":360,"height":200},
-		{"id":"problem","type":"text","text":"主要问题\n- 火灾与干旱影响\n- 产量下降\n- 利息压力上升\n- 资产组合分散","x":420,"y":200,"width":320,"height":180},
-		{"id":"plan","type":"text","text":"优化方案\n- 出售 3 块非核心资产\n- 保留 LDR1 核心资产\n- 集中资源降低负债\n- 从规模型转向精品型","x":-40,"y":260,"width":360,"height":180},
-		{"id":"result","type":"text","text":"预期结果\n- 降低财务杠杆\n- 减少利息压力\n- 提高经营效率\n- 恢复稳定盈利","x":-460,"y":260,"width":320,"height":160},
+		{"id":"problem","type":"text","text":"主要问题\n- 火灾与干旱影响\n- 产量下降\n- 利息压力上升\n- 资产组合分散","x":420,"y":200,"width":320,"height":230},
+		{"id":"plan","type":"text","text":"优化方案\n- 出售 3 块非核心资产\n- 保留 LDR1 核心资产\n- 集中资源降低负债\n- 从规模型转向精品型","x":-40,"y":260,"width":360,"height":220},
 		{"id":"decision","type":"text","text":"需要股东确认\n- 是否出售非核心资产\n- 是否保留 LDR1\n- 是否推进重组","x":-40,"y":-260,"width":340,"height":160},
 		{"id":"appendix","type":"text","text":"附录\n- LDR2 / LRC / LMR / LDR1\n- 2019 估值摘要\n- 地块与权属细节\n- 内部核查用","x":-460,"y":-260,"width":320,"height":180},
-		{"id":"assets","type":"text","text":"资产概况\n- 4 个主要地块\n- 均为农业用途资产\n- 估值受水权 / 地形 / 树龄 / 基础设施影响","x":-460,"y":20,"width":340,"height":180},
-		{"id":"ldr1","type":"text","text":"核心资产：LDR1\n- 有加工厂\n- 土地条件较好\n- 建议作为保留核心","x":-40,"y":480,"width":320,"height":160},
-		{"id":"sell","type":"text","text":"出售对象\n- 3 块非核心资产\n- 目标：回收资金\n- 目标：降低管理复杂度","x":320,"y":480,"width":320,"height":160}
+		{"id":"sell","type":"text","text":"出售对象\n- 3 块非核心资产\n- 目标：回收资金\n- 目标：降低管理复杂度","x":320,"y":480,"width":320,"height":160},
+		{"id":"note","type":"file","file":"10_Projects/夏威夷果农场/NSW老农场.md","x":-460,"y":-100,"width":320,"height":120},
+		{"id":"assets","type":"text","text":"资产概况\n- 4 个主要地块\n- 均为农业用途资产\n- 估值受水权 / 地形 / 树龄 / 基础设施影响","x":-460,"y":60,"width":340,"height":180},
+		{"id":"result","type":"text","text":"预期结果\n- 降低财务杠杆\n- 减少利息压力\n- 提高经营效率\n- 恢复稳定盈利","x":-460,"y":350,"width":320,"height":160},
+		{"id":"ldr1","type":"text","text":"核心资产：LDR1\n- 有加工厂\n- 土地条件较好\n- 建议作为保留核心","x":-180,"y":600,"width":320,"height":160}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"root","fromSide":"right","toNode":"exec","toSide":"left"},
