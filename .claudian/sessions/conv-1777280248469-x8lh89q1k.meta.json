@@ -4,8 +4,8 @@
   "title": "Revise orchard investment model",
   "titleGenerationStatus": "success",
   "createdAt": 1777280248469,
-  "updatedAt": 1777280443484,
-  "lastResponseAt": 1777280443484,
+  "updatedAt": 1777280520697,
+  "lastResponseAt": 1777280520697,
   "sessionId": "019dce28-714e-7311-aab3-248bfe43d7c7",
   "providerState": {
     "threadId": "019dce28-714e-7311-aab3-248bfe43d7c7",
@@ -14,13 +14,13 @@
   },
   "currentNote": "20_Knowledge/澳洲坚果/夏威夷果农场投资模型_100ha示例.md",
   "usage": {
-    "inputTokens": 46019,
+    "inputTokens": 50441,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 45440,
+    "cacheReadInputTokens": 50048,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 46019,
-    "percentage": 18,
+    "contextTokens": 50441,
+    "percentage": 20,
     "model": "gpt-5.4"
   }
 }

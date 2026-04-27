@@ -1,0 +1,26 @@
+{
+  "id": "conv-1777273971115-6910eyf06",
+  "providerId": "codex",
+  "title": "制作 NSW老农场格式的 Canvas",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777273971116,
+  "updatedAt": 1777274026327,
+  "lastResponseAt": 1777274026327,
+  "sessionId": "019dcdc8-a1fe-7041-90ce-4fbf54331ee6",
+  "providerState": {
+    "threadId": "019dcdc8-a1fe-7041-90ce-4fbf54331ee6",
+    "sessionFilePath": "/Users/mq/.codex/sessions/2026/04/27/rollout-2026-04-27T17-12-51-019dcdc8-a1fe-7041-90ce-4fbf54331ee6.jsonl",
+    "transcriptRootPath": "/Users/mq/.codex/sessions"
+  },
+  "currentNote": "10_Projects/夏威夷果农场/Qld新农场.md",
+  "usage": {
+    "inputTokens": 46450,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 44928,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 46450,
+    "percentage": 18,
+    "model": "gpt-5.4-mini"
+  }
+}
