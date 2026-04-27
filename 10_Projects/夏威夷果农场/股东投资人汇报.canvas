@@ -1,35 +1,31 @@
 {
-  "nodes": [
-    {"id":"root","type":"text","text":"夏威夷果农场\n股东投资人汇报","x":0,"y":0,"width":360,"height":120},
-    {"id":"report","type":"file","file":"10_Projects/夏威夷果农场/股东投资人汇报.md","x":-520,"y":-40,"width":340,"height":120},
-
-    {"id":"summary","type":"text","text":"一句话结论\n- NSW老农场：重组/减压\n- QLD新农场：成长/放量\n- 加工厂：稳定现金流\n- 项目按三块资产一起看","x":430,"y":-220,"width":360,"height":200},
-
-    {"id":"assets","type":"text","text":"三块资产\n1. NSW老农场\n2. QLD新农场\n3. 加工厂","x":430,"y":20,"width":260,"height":180},
-    {"id":"nsw","type":"text","text":"NSW老农场\n- 估价：A$20m\n- 定位：问题/重组资产\n- 任务：减债、处置、优化\n- 2028利润：A$0.42m","x":760,"y":-40,"width":320,"height":220},
-    {"id":"qld","type":"text","text":"QLD新农场\n- 估价：A$20m\n- 定位：成长型优质资产\n- 任务：等产量放量\n- 2028利润：A$2.105m","x":760,"y":200,"width":320,"height":220},
-    {"id":"mill","type":"text","text":"加工厂\n- 估价：A$5m\n- 定位：现金流资产\n- 单体净利润：A$1.904m/年\n- 作用：稳定利润来源","x":760,"y":450,"width":320,"height":220},
-
-    {"id":"industry","type":"text","text":"行业背景\n- 2025产量：43,800 吨\n- 出口占比：72%\n- 成熟园均产量：3.0 t/ha\n- 5 t/ha+ 才能明显拉开利润","x":0,"y":240,"width":360,"height":220},
-    {"id":"valuation","type":"text","text":"估值与回报\n- 总投资：A$45m\n- 自有资金：A$18m\n- 贷款：A$27m\n- 利息：7% / 年\n- 稳态股东回报：约14%–15%","x":430,"y":260,"width":360,"height":220},
-    {"id":"chart1","type":"text","text":"资产估价图\nNSW 20m\nQLD 20m\n加工厂 5m","x":-520,"y":220,"width":280,"height":180},
-    {"id":"chart2","type":"text","text":"利润图\n2027：2.0m\n2028：4.425m\n2029：4.755m\n2030：4.455m","x":-520,"y":440,"width":280,"height":200},
-
-    {"id":"cashflow","type":"text","text":"融资测算\n- 项目利润 - 利息 = 股东收益\n- 2028：A$2.535m\n- 2029：A$2.865m\n- 2030：A$2.565m","x":430,"y":520,"width":360,"height":220},
-    {"id":"decision","type":"text","text":"给股东的判断\n- NSW先处理风险\n- QLD继续持有等待兑现\n- 加工厂继续强化\n- 组合逻辑清晰","x":0,"y":520,"width":360,"height":220}
-  ],
-  "edges": [
-    {"id":"e1","fromNode":"report","fromSide":"right","toNode":"root","toSide":"left"},
-    {"id":"e2","fromNode":"root","fromSide":"right","toNode":"summary","toSide":"left"},
-    {"id":"e3","fromNode":"root","fromSide":"bottom","toNode":"assets","toSide":"top"},
-    {"id":"e4","fromNode":"assets","fromSide":"right","toNode":"nsw","toSide":"left"},
-    {"id":"e5","fromNode":"assets","fromSide":"bottom","toNode":"qld","toSide":"left"},
-    {"id":"e6","fromNode":"assets","fromSide":"bottom","toNode":"mill","toSide":"left"},
-    {"id":"e7","fromNode":"root","fromSide":"left","toNode":"industry","toSide":"right"},
-    {"id":"e8","fromNode":"root","fromSide":"right","toNode":"valuation","toSide":"left"},
-    {"id":"e9","fromNode":"industry","fromSide":"right","toNode":"decision","toSide":"left"},
-    {"id":"e10","fromNode":"valuation","fromSide":"bottom","toNode":"cashflow","toSide":"top"},
-    {"id":"e11","fromNode":"industry","fromSide":"left","toNode":"chart1","toSide":"right"},
-    {"id":"e12","fromNode":"chart1","fromSide":"bottom","toNode":"chart2","toSide":"top"}
-  ]
+	"nodes":[
+		{"id":"report","type":"file","file":"10_Projects/夏威夷果农场/股东投资人汇报.md","x":-520,"y":-40,"width":340,"height":120},
+		{"id":"chart1","type":"text","text":"资产估价图\nNSW 20m\nQLD 20m\n加工厂 5m","x":-520,"y":220,"width":280,"height":180},
+		{"id":"chart2","type":"text","text":"利润图\n2027：2.0m\n2028：4.425m\n2029：4.755m\n2030：4.455m","x":-520,"y":440,"width":280,"height":200},
+		{"id":"root","type":"text","text":"夏威夷果农场\n股东投资人汇报","x":-80,"y":-280,"width":360,"height":120},
+		{"id":"industry","type":"text","text":"行业背景\n- 2025产量：43,800 吨\n- 出口占比：72%\n- 成熟园均产量：3.0 t/ha\n- 5 t/ha+ 才能明显拉开利润","x":-140,"y":200,"width":360,"height":220},
+		{"id":"decision","type":"text","text":"给股东的判断\n- NSW先处理风险\n- QLD继续持有等待兑现\n- 加工厂继续强化\n- 组合逻辑清晰","x":-140,"y":560,"width":360,"height":220},
+		{"id":"valuation","type":"text","text":"估值与回报\n- 总投资：A$45m\n- 自有资金：A$18m\n- 贷款：A$27m\n- 利息：7% / 年\n- 稳态股东回报：约14%–15%","x":350,"y":230,"width":360,"height":220},
+		{"id":"cashflow","type":"text","text":"融资测算\n- 项目利润 - 利息 = 股东收益\n- 2028：A$2.535m\n- 2029：A$2.865m\n- 2030：A$2.565m","x":350,"y":560,"width":360,"height":220},
+		{"id":"mill","type":"text","text":"加工厂\n- 估价：A$5m\n- 定位：现金流资产\n- 单体净利润：A$1.904m/年\n- 作用：稳定利润来源","x":790,"y":-440,"width":320,"height":220},
+		{"id":"nsw","type":"text","text":"NSW老农场\n- 估价：A$20m\n- 定位：问题/重组资产\n- 任务：减债、处置、优化\n- 2028利润：A$0.42m","x":790,"y":-180,"width":320,"height":220},
+		{"id":"assets","type":"text","text":"三块资产\n1. NSW老农场\n2. QLD新农场\n3. 加工厂","x":430,"y":-180,"width":260,"height":180},
+		{"id":"qld","type":"text","text":"QLD新农场\n- 估价：A$20m\n- 定位：成长型优质资产\n- 任务：等产量放量\n- 2028利润：A$2.105m","x":790,"y":110,"width":320,"height":220},
+		{"id":"summary","type":"text","text":"一句话结论\n- NSW老农场：重组/减压\n- QLD新农场：成长/放量\n- 加工厂：稳定现金流\n- 项目按三块资产一起看","x":380,"y":-540,"width":360,"height":200}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"report","fromSide":"right","toNode":"root","toSide":"left"},
+		{"id":"e2","fromNode":"root","fromSide":"right","toNode":"summary","toSide":"left"},
+		{"id":"e3","fromNode":"root","fromSide":"bottom","toNode":"assets","toSide":"top"},
+		{"id":"e4","fromNode":"assets","fromSide":"right","toNode":"nsw","toSide":"left"},
+		{"id":"e5","fromNode":"assets","fromSide":"bottom","toNode":"qld","toSide":"left"},
+		{"id":"e6","fromNode":"assets","fromSide":"bottom","toNode":"mill","toSide":"left"},
+		{"id":"e7","fromNode":"root","fromSide":"left","toNode":"industry","toSide":"right"},
+		{"id":"e8","fromNode":"root","fromSide":"right","toNode":"valuation","toSide":"left"},
+		{"id":"e9","fromNode":"industry","fromSide":"right","toNode":"decision","toSide":"left"},
+		{"id":"e10","fromNode":"valuation","fromSide":"bottom","toNode":"cashflow","toSide":"top"},
+		{"id":"e11","fromNode":"industry","fromSide":"left","toNode":"chart1","toSide":"right"},
+		{"id":"e12","fromNode":"chart1","fromSide":"bottom","toNode":"chart2","toSide":"top"}
+	]
 }
