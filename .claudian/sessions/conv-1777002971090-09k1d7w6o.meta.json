@@ -4,8 +4,8 @@
   "title": "重写澳洲夏威夷果行业分析并补充最新图表",
   "titleGenerationStatus": "success",
   "createdAt": 1777002971090,
-  "updatedAt": 1777028202490,
-  "lastResponseAt": 1777028202490,
+  "updatedAt": 1777254437976,
+  "lastResponseAt": 1777254437976,
   "sessionId": "019dbda1-8441-7f63-852f-94e3ca8a6653",
   "providerState": {
     "threadId": "019dbda1-8441-7f63-852f-94e3ca8a6653",
@@ -13,12 +13,12 @@
     "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
   },
   "usage": {
-    "inputTokens": 72146,
+    "inputTokens": 73109,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 71552,
+    "cacheReadInputTokens": 72576,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 72146,
+    "contextTokens": 73109,
     "percentage": 28,
     "model": "gpt-5.4-mini"
   }
