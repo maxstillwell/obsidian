@@ -1,0 +1,26 @@
+{
+  "id": "conv-1777261534591-j4yu80z28",
+  "providerId": "codex",
+  "title": "分析行业特有成本构成",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777261534591,
+  "updatedAt": 1777261557280,
+  "lastResponseAt": 1777261557280,
+  "sessionId": "019dcd0a-db61-7b23-b06d-9de1c734dae7",
+  "providerState": {
+    "threadId": "019dcd0a-db61-7b23-b06d-9de1c734dae7",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\27\\rollout-2026-04-27T13-45-34-019dcd0a-db61-7b23-b06d-9de1c734dae7.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "20_Knowledge/澳洲坚果/澳洲夏威夷果行业分析（2026）.md",
+  "usage": {
+    "inputTokens": 30470,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 1920,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 30470,
+    "percentage": 12,
+    "model": "gpt-5.4-mini"
+  }
+}
