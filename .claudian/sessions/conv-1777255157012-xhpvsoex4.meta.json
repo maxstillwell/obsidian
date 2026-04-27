@@ -1,0 +1,26 @@
+{
+  "id": "conv-1777255157012-xhpvsoex4",
+  "providerId": "codex",
+  "title": "润色报告为专业易读个人风格",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777255157012,
+  "updatedAt": 1777255223603,
+  "lastResponseAt": 1777255223603,
+  "sessionId": "019dcca9-978b-7162-8995-8bb4d0590102",
+  "providerState": {
+    "threadId": "019dcca9-978b-7162-8995-8bb4d0590102",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\27\\rollout-2026-04-27T11-59-19-019dcca9-978b-7162-8995-8bb4d0590102.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "10_Projects/夏威夷果农场/夏威夷果农场 - 三表汇总终稿.md",
+  "usage": {
+    "inputTokens": 44855,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43904,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 44855,
+    "percentage": 17,
+    "model": "gpt-5.4-mini"
+  }
+}
