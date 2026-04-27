@@ -24,6 +24,33 @@ sector: 农业地产
 - 当前状态: 在研究
 - 截止时间: 2026-04-30 11:00am（EOI）
 
+## 地契明细
+
+### 汇总
+
+- 总地契数：13 宗
+- Freehold / CT：7 宗，合计约 526.01 ha
+- Crown lease：6 宗，合计约 222.57 ha / 549.98 acres
+- 总面积：约 748.59 ha / 1,849.76 acres
+
+### 明细表
+
+| 类型 | 地契编号 | 地块 | 面积（ha） | 面积（acres） | 备注 |
+|---|---|---:|---:|---:|---|
+| CT / Freehold | CT 6093/397 | Allotment 268 | 62.85 | 155.30 | freehold |
+| CT / Freehold | CT 6093/398 | Section 156 | 62.74 | 155.03 | freehold |
+| CT / Freehold | CT 6093/399 | Allotment 5 | 106.40 | 262.91 | freehold |
+| CT / Freehold | CT 6093/400 | Allotment 9 | 7.092 | 17.52 | freehold |
+| CT / Freehold | CT 6093/401 | Allotment 10 | 7.029 | 17.36 | freehold |
+| CT / Freehold | CT 6093/402 | Allotment 11 | 8.003 | 19.77 | freehold |
+| CT / Freehold | CT 6093/403 | Allotment 102 | 271.90 | 671.86 | freehold |
+| Crown lease | 6181/981 | Section 36 | 53.82 | 132.98 | lease |
+| Crown lease | 6181/982 | Section 37 | 91.26 | 225.50 | lease |
+| Crown lease | 6181/983 | Section 432 | 0.51 | 1.26 | lease |
+| Crown lease | 6181/984 | Section 532 | 23.27 | 57.50 | lease |
+| Crown lease | 6181/985 | Section 533 | 1.72 | 4.25 | lease |
+| Crown lease | 6181/986 | Section 547 | 52.00 | 128.49 | lease |
+
 ## Thesis
 
 ### 核心判断
