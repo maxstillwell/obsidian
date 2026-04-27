@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f2a"/>
+      <stop offset="100%" stop-color="#123b52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7bd389"/>
+      <stop offset="100%" stop-color="#f2c14e"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+    <style>
+      .title { font: 700 54px 'Arial', 'Microsoft YaHei', sans-serif; fill: #ffffff; }
+      .h1 { font: 700 32px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .h2 { font: 700 22px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .body { font: 400 18px 'Arial', 'Microsoft YaHei', sans-serif; fill: #1f2937; }
+      .small { font: 400 14px 'Arial', 'Microsoft YaHei', sans-serif; fill: #4b5563; }
+      .tiny { font: 400 12px 'Arial', 'Microsoft YaHei', sans-serif; fill: #6b7280; }
+      .badgeN { font: 700 30px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .badgeL { font: 600 15px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+<circle cx="1370" cy="140" r="180" fill="#ffffff" opacity="0.05"/>
+<circle cx="1450" cy="720" r="240" fill="#7bd389" opacity="0.08"/>
+<path d="M1110 240 C1190 140, 1360 150, 1465 260 C1540 340, 1520 470, 1430 530 C1350 585, 1210 590, 1135 500 C1070 420, 1045 315, 1110 240 Z" fill="#ffffff" opacity="0.06"/>
+<text x="90" y="120" class="title" text-anchor="start">澳洲夏威夷果行业科普报告</text>
+<text x="90" y="170" class="body" text-anchor="start" fill="#d8e7ef">Investor Primer • 2026</text>
+<text x="90" y="235" class="h2" text-anchor="start" fill="#ffffff">这不是一篇纯行业分析，而是一份给投资人的“读懂产业”说明书。</text>
+<text x="90" y="272" class="body" text-anchor="start" fill="#d8e7ef">聚焦：产区地图、产业链、关键数据、价格逻辑、经营 benchmark 与投资要点。</text>
+<rect x="90" y="360" width="280" height="150" rx="24" fill="#ffffff" opacity="0.92" filter="url(#shadow)"/>
+<rect x="90" y="360" width="280" height="12" rx="6" fill="#7bd389"/>
+<text x="114" y="420" class="badgeL" text-anchor="start">2025 crop</text>
+<text x="114" y="470" class="badgeN" text-anchor="start">43,800 t</text>
+<rect x="430" y="360" width="280" height="150" rx="24" fill="#ffffff" opacity="0.92" filter="url(#shadow)"/>
+<rect x="430" y="360" width="280" height="12" rx="6" fill="#f2c14e"/>
+<text x="454" y="420" class="badgeL" text-anchor="start">Planted area</text>
+<text x="454" y="470" class="badgeN" text-anchor="start">46,487 ha</text>
+<rect x="770" y="360" width="280" height="150" rx="24" fill="#ffffff" opacity="0.92" filter="url(#shadow)"/>
+<rect x="770" y="360" width="280" height="12" rx="6" fill="#8ecae6"/>
+<text x="794" y="420" class="badgeL" text-anchor="start">Exported</text>
+<text x="794" y="470" class="badgeN" text-anchor="start">72%</text>
+<rect x="1110" y="360" width="280" height="150" rx="24" fill="#ffffff" opacity="0.92" filter="url(#shadow)"/>
+<rect x="1110" y="360" width="280" height="12" rx="6" fill="#ffb4a2"/>
+<text x="1134" y="420" class="badgeL" text-anchor="start">Export value</text>
+<text x="1134" y="470" class="badgeN" text-anchor="start">A$275m</text>
+<rect x="90" y="580" width="1420" height="200" rx="28" fill="#ffffff" opacity="0.10"/>
+<text x="120" y="640" class="h2" text-anchor="start" fill="#ffffff">核心判断</text>
+<text x="120" y="680" class="body" text-anchor="start" fill="#e5eef5">澳洲坚果是一种“长周期、重管理、出口导向”的树果资产。真正决定回报的，不只是土地，而是园龄、单产、核仁回收率、灌溉与加工效率。</text>
+<text x="120" y="725" class="tiny" text-anchor="start" fill="#bdd1de">Sources: Australian Macadamias Yearbook 2025 · Benchmark Report 2024 · your internal farm valuation notes</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f2a"/>
+      <stop offset="100%" stop-color="#123b52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7bd389"/>
+      <stop offset="100%" stop-color="#f2c14e"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+    <style>
+      .title { font: 700 54px 'Arial', 'Microsoft YaHei', sans-serif; fill: #ffffff; }
+      .h1 { font: 700 32px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .h2 { font: 700 22px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .body { font: 400 18px 'Arial', 'Microsoft YaHei', sans-serif; fill: #1f2937; }
+      .small { font: 400 14px 'Arial', 'Microsoft YaHei', sans-serif; fill: #4b5563; }
+      .tiny { font: 400 12px 'Arial', 'Microsoft YaHei', sans-serif; fill: #6b7280; }
+      .badgeN { font: 700 30px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .badgeL { font: 600 15px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+<rect x="70" y="70" width="1460" height="760" rx="30" fill="#ffffff" filter="url(#shadow)"/>
+<text x="110" y="125" class="h1" text-anchor="start">成熟园经营基准：产量越高，单位经济越好</text>
+<text x="110" y="160" class="small" text-anchor="start">来自 Australian Macadamias Benchmark Report 2024 的内部整理（加权平均）</text>
+<line x1="180" y1="710.0" x2="1360" y2="710.0" stroke="#e2e8f0"/>
+<text x="162" y="715.0" class="tiny" text-anchor="end">0k</text>
+<line x1="180" y1="605.0" x2="1360" y2="605.0" stroke="#e2e8f0"/>
+<text x="162" y="610.0" class="tiny" text-anchor="end">8k</text>
+<line x1="180" y1="500.0" x2="1360" y2="500.0" stroke="#e2e8f0"/>
+<text x="162" y="505.0" class="tiny" text-anchor="end">16k</text>
+<line x1="180" y1="395.0" x2="1360" y2="395.0" stroke="#e2e8f0"/>
+<text x="162" y="400.0" class="tiny" text-anchor="end">24k</text>
+<line x1="180" y1="290.0" x2="1360" y2="290.0" stroke="#e2e8f0"/>
+<text x="162" y="295.0" class="tiny" text-anchor="end">32k</text>
+<rect x="260" y="611.864375" width="70" height="98.135625" rx="12" fill="#94a3b8" opacity="0.95"/>
+<rect x="350" y="638.770625" width="70" height="71.22937499999999" rx="12" fill="#0ea5a3" opacity="0.95"/>
+<text x="295" y="740" class="body" text-anchor="middle" fill="#0f172a">成本</text>
+<text x="385" y="740" class="body" text-anchor="middle" fill="#0f172a">收入</text>
+<text x="330" y="768" class="small" text-anchor="middle" fill="#0f172a">0-2 t/ha</text>
+<text x="295" y="601.864375" class="tiny" text-anchor="middle" fill="#475569">7,477</text>
+<text x="385" y="628.770625" class="tiny" text-anchor="middle" fill="#0f172a">5,427</text>
+<rect x="470" y="599.526875" width="70" height="110.473125" rx="12" fill="#94a3b8" opacity="0.95"/>
+<rect x="560" y="570.84875" width="70" height="139.15125" rx="12" fill="#0ea5a3" opacity="0.95"/>
+<text x="505" y="740" class="body" text-anchor="middle" fill="#0f172a">成本</text>
+<text x="595" y="740" class="body" text-anchor="middle" fill="#0f172a">收入</text>
+<text x="540" y="768" class="small" text-anchor="middle" fill="#0f172a">2-3 t/ha</text>
+<text x="505" y="589.526875" class="tiny" text-anchor="middle" fill="#475569">8,417</text>
+<text x="595" y="560.84875" class="tiny" text-anchor="middle" fill="#0f172a">10,602</text>
+<rect x="680" y="579.839375" width="70" height="130.160625" rx="12" fill="#94a3b8" opacity="0.95"/>
+<rect x="770" y="524.12375" width="70" height="185.87625" rx="12" fill="#0ea5a3" opacity="0.95"/>
+<text x="715" y="740" class="body" text-anchor="middle" fill="#0f172a">成本</text>
+<text x="805" y="740" class="body" text-anchor="middle" fill="#0f172a">收入</text>
+<text x="750" y="768" class="small" text-anchor="middle" fill="#0f172a">3-4 t/ha</text>
+<text x="715" y="569.839375" class="tiny" text-anchor="middle" fill="#475569">9,917</text>
+<text x="805" y="514.12375" class="tiny" text-anchor="middle" fill="#0f172a">14,162</text>
+<rect x="890" y="548.2737500000001" width="70" height="161.72625" rx="12" fill="#94a3b8" opacity="0.95"/>
+<rect x="980" y="471.46625" width="70" height="238.53375" rx="12" fill="#0ea5a3" opacity="0.95"/>
+<text x="925" y="740" class="body" text-anchor="middle" fill="#0f172a">成本</text>
+<text x="1015" y="740" class="body" text-anchor="middle" fill="#0f172a">收入</text>
+<text x="960" y="768" class="small" text-anchor="middle" fill="#0f172a">4-5 t/ha</text>
+<text x="925" y="538.2737500000001" class="tiny" text-anchor="middle" fill="#475569">12,322</text>
+<text x="1015" y="461.46625" class="tiny" text-anchor="middle" fill="#0f172a">18,174</text>
+<rect x="1100" y="523.611875" width="70" height="186.388125" rx="12" fill="#94a3b8" opacity="0.95"/>
+<rect x="1190" y="313.690625" width="70" height="396.309375" rx="12" fill="#0ea5a3" opacity="0.95"/>
+<text x="1135" y="740" class="body" text-anchor="middle" fill="#0f172a">成本</text>
+<text x="1225" y="740" class="body" text-anchor="middle" fill="#0f172a">收入</text>
+<text x="1170" y="768" class="small" text-anchor="middle" fill="#0f172a">5+ t/ha</text>
+<text x="1135" y="513.611875" class="tiny" text-anchor="middle" fill="#475569">14,201</text>
+<text x="1225" y="303.690625" class="tiny" text-anchor="middle" fill="#0f172a">30,195</text>
+<rect x="1210" y="210" width="250" height="250" rx="22" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="1235" y="255" class="h2" text-anchor="start">5 t/ha+ 最优区</text>
+<text x="1235" y="300" class="body" text-anchor="start">收入：A$30,195/ha</text>
+<text x="1235" y="340" class="body" text-anchor="start">成本：A$14,201/ha</text>
+<text x="1235" y="380" class="body" text-anchor="start">毛利：A$15,994/ha</text>
+<text x="1235" y="425" class="tiny" text-anchor="start">说明：经营改善对利润的放大非常明显。</text>
+<text x="110" y="790" class="tiny" text-anchor="start">来源：Benchmark Report 2024 + internal summary note</text>
+</svg>

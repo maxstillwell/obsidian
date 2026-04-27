@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f2a"/>
+      <stop offset="100%" stop-color="#123b52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7bd389"/>
+      <stop offset="100%" stop-color="#f2c14e"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+    <style>
+      .title { font: 700 54px 'Arial', 'Microsoft YaHei', sans-serif; fill: #ffffff; }
+      .h1 { font: 700 32px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .h2 { font: 700 22px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .body { font: 400 18px 'Arial', 'Microsoft YaHei', sans-serif; fill: #1f2937; }
+      .small { font: 400 14px 'Arial', 'Microsoft YaHei', sans-serif; fill: #4b5563; }
+      .tiny { font: 400 12px 'Arial', 'Microsoft YaHei', sans-serif; fill: #6b7280; }
+      .badgeN { font: 700 30px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .badgeL { font: 600 15px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+<rect x="70" y="70" width="1460" height="760" rx="30" fill="#f8fafc" filter="url(#shadow)"/>
+<text x="105" y="125" class="h1" text-anchor="start">澳洲夏威夷果主要产区示意图</text>
+<text x="105" y="160" class="small" text-anchor="start">基于 Australian Macadamias Yearbook 2025 的区域分布整理（示意图，不是测绘地图）</text>
+<polygon points="180,220 290,170 410,160 520,190 630,260 720,350 760,460 720,570 630,650 500,700 370,690 280,650 210,590 160,500 150,400 160,300" fill="#e5eef5" stroke="#94a3b8" stroke-width="3"/>
+<path d="M630 260 C700 330, 730 420, 720 510 C710 585, 660 640, 580 675 C520 703, 455 710, 390 696" fill="none" stroke="#0ea5a3" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+<circle cx="640" cy="275" r="12" fill="#0ea5a3" stroke="#ffffff" stroke-width="4"/>
+<text x="660" y="281" class="small" fill="#0f172a">Atherton / Tropical QLD</text>
+<circle cx="660" cy="360" r="12" fill="#22c55e" stroke="#ffffff" stroke-width="4"/>
+<text x="680" y="366" class="small" fill="#0f172a">Mackay</text>
+<circle cx="670" cy="455" r="12" fill="#f59e0b" stroke="#ffffff" stroke-width="4"/>
+<text x="690" y="461" class="small" fill="#0f172a">Bundaberg</text>
+<circle cx="620" cy="510" r="12" fill="#3b82f6" stroke="#ffffff" stroke-width="4"/>
+<text x="640" y="516" class="small" fill="#0f172a">Gympie / Maryborough</text>
+<circle cx="560" cy="585" r="12" fill="#8b5cf6" stroke="#ffffff" stroke-width="4"/>
+<text x="580" y="591" class="small" fill="#0f172a">Glass House Mountains</text>
+<circle cx="430" cy="640" r="12" fill="#ef4444" stroke="#ffffff" stroke-width="4"/>
+<text x="450" y="646" class="small" fill="#0f172a">Northern Rivers</text>
+<circle cx="320" cy="690" r="12" fill="#14b8a6" stroke="#ffffff" stroke-width="4"/>
+<text x="340" y="696" class="small" fill="#0f172a">NSW Mid North Coast</text>
+<circle cx="260" cy="635" r="12" fill="#64748b" stroke="#ffffff" stroke-width="4"/>
+<text x="280" y="641" class="small" fill="#0f172a">Clarence Valley</text>
+<rect x="950" y="210" width="470" height="560" rx="24" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+<text x="985" y="255" class="h2" text-anchor="start">2025 产量结构</text>
+<text x="985" y="300" class="body" fill="#0f172a">Bundaberg, QLD</text>
+<text x="1285" y="300" class="body" text-anchor="end" fill="#0f172a">27,924.7 t</text>
+<text x="1410" y="300" class="body" text-anchor="end" fill="#64748b">63.8%</text>
+<line x1="985" y1="312" x2="1410" y2="312" stroke="#eef2f7"/>
+<text x="985" y="352" class="body" fill="#0f172a">Northern Rivers, NSW</text>
+<text x="1285" y="352" class="body" text-anchor="end" fill="#0f172a">7,741.3 t</text>
+<text x="1410" y="352" class="body" text-anchor="end" fill="#64748b">17.7%</text>
+<line x1="985" y1="364" x2="1410" y2="364" stroke="#eef2f7"/>
+<text x="985" y="404" class="body" fill="#0f172a">SE QLD cluster</text>
+<text x="1285" y="404" class="body" text-anchor="end" fill="#0f172a">2,630.7 t</text>
+<text x="1410" y="404" class="body" text-anchor="end" fill="#64748b">6.0%</text>
+<line x1="985" y1="416" x2="1410" y2="416" stroke="#eef2f7"/>
+<text x="985" y="456" class="body" fill="#0f172a">Tropical QLD</text>
+<text x="1285" y="456" class="body" text-anchor="end" fill="#0f172a">1,836.2 t</text>
+<text x="1410" y="456" class="body" text-anchor="end" fill="#64748b">4.2%</text>
+<line x1="985" y1="468" x2="1410" y2="468" stroke="#eef2f7"/>
+<text x="985" y="508" class="body" fill="#0f172a">Mackay</text>
+<text x="1285" y="508" class="body" text-anchor="end" fill="#0f172a">1,227.3 t</text>
+<text x="1410" y="508" class="body" text-anchor="end" fill="#64748b">2.8%</text>
+<line x1="985" y1="520" x2="1410" y2="520" stroke="#eef2f7"/>
+<text x="985" y="560" class="body" fill="#0f172a">NSW Mid North Coast</text>
+<text x="1285" y="560" class="body" text-anchor="end" fill="#0f172a">1,122.4 t</text>
+<text x="1410" y="560" class="body" text-anchor="end" fill="#64748b">2.6%</text>
+<line x1="985" y1="572" x2="1410" y2="572" stroke="#eef2f7"/>
+<text x="985" y="612" class="body" fill="#0f172a">Clarence Valley</text>
+<text x="1285" y="612" class="body" text-anchor="end" fill="#0f172a">248.4 t</text>
+<text x="1410" y="612" class="body" text-anchor="end" fill="#64748b">0.6%</text>
+<line x1="985" y1="624" x2="1410" y2="624" stroke="#eef2f7"/>
+<text x="985" y="664" class="body" fill="#0f172a">WA</text>
+<text x="1285" y="664" class="body" text-anchor="end" fill="#0f172a">9.3 t</text>
+<text x="1410" y="664" class="body" text-anchor="end" fill="#64748b">0.02%</text>
+<line x1="985" y1="676" x2="1410" y2="676" stroke="#eef2f7"/>
+<text x="985" y="735" class="tiny" text-anchor="start">注：此图为投资人阅读版示意图，实际地理边界以官方资料和地块地图为准。</text>
+</svg>

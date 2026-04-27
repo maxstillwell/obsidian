@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f2a"/>
+      <stop offset="100%" stop-color="#123b52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7bd389"/>
+      <stop offset="100%" stop-color="#f2c14e"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+    <style>
+      .title { font: 700 54px 'Arial', 'Microsoft YaHei', sans-serif; fill: #ffffff; }
+      .h1 { font: 700 32px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .h2 { font: 700 22px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .body { font: 400 18px 'Arial', 'Microsoft YaHei', sans-serif; fill: #1f2937; }
+      .small { font: 400 14px 'Arial', 'Microsoft YaHei', sans-serif; fill: #4b5563; }
+      .tiny { font: 400 12px 'Arial', 'Microsoft YaHei', sans-serif; fill: #6b7280; }
+      .badgeN { font: 700 30px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+      .badgeL { font: 600 15px 'Arial', 'Microsoft YaHei', sans-serif; fill: #0b1f2a; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+<rect x="70" y="70" width="1460" height="760" rx="30" fill="#f8fafc" filter="url(#shadow)"/>
+<text x="110" y="125" class="h1" text-anchor="start">产量增长：2024 实际、2025 实际与 2030 预测</text>
+<text x="110" y="160" class="small" text-anchor="start">单位：千吨（in-shell, 3.5% moisture）</text>
+<line x1="180" y1="720" x2="1360" y2="720" stroke="#94a3b8" stroke-width="2"/>
+<line x1="180" y1="720" x2="180" y2="290" stroke="#94a3b8" stroke-width="2"/>
+<line x1="180" y1="720.0" x2="1360" y2="720.0" stroke="#e2e8f0"/>
+<text x="162" y="725.0" class="tiny" text-anchor="end">0</text>
+<line x1="180" y1="634.0" x2="1360" y2="634.0" stroke="#e2e8f0"/>
+<text x="162" y="639.0" class="tiny" text-anchor="end">20</text>
+<line x1="180" y1="548.0" x2="1360" y2="548.0" stroke="#e2e8f0"/>
+<text x="162" y="553.0" class="tiny" text-anchor="end">40</text>
+<line x1="180" y1="462.0" x2="1360" y2="462.0" stroke="#e2e8f0"/>
+<text x="162" y="467.0" class="tiny" text-anchor="end">60</text>
+<line x1="180" y1="376.0" x2="1360" y2="376.0" stroke="#e2e8f0"/>
+<text x="162" y="381.0" class="tiny" text-anchor="end">80</text>
+<line x1="180" y1="290.0" x2="1360" y2="290.0" stroke="#e2e8f0"/>
+<text x="162" y="295.0" class="tiny" text-anchor="end">100</text>
+<rect x="320" y="488.015" width="200" height="231.98499999999999" rx="18" fill="#3b82f6"/>
+<text x="420.0" y="476.015" class="h2" text-anchor="middle" fill="#0b1f2a">53.95</text>
+<text x="420.0" y="754" class="body" text-anchor="middle" fill="#0f172a">2024 actual</text>
+<rect x="500" y="531.6600000000001" width="200" height="188.33999999999997" rx="18" fill="#0ea5a3"/>
+<text x="600.0" y="519.6600000000001" class="h2" text-anchor="middle" fill="#0b1f2a">43.80</text>
+<text x="600.0" y="754" class="body" text-anchor="middle" fill="#0f172a">2025 actual</text>
+<rect x="680" y="352.608" width="200" height="367.392" rx="18" fill="#22c55e"/>
+<text x="780.0" y="340.608" class="h2" text-anchor="middle" fill="#0b1f2a">85.44</text>
+<text x="780.0" y="754" class="body" text-anchor="middle" fill="#0f172a">2030 forecast</text>
+<path d="M1180 230 C1240 190, 1300 175, 1370 170" fill="none" stroke="#64748b" stroke-width="3" stroke-dasharray="8 7"/>
+<polygon points="1366,162 1398,170 1366,178" fill="#64748b"/>
+<text x="980" y="220" class="h2" text-anchor="start" fill="#0f172a">2030 目标：85.44 kt</text>
+<text x="980" y="255" class="body" text-anchor="start" fill="#0f172a">行业公开预测显示，澳洲仍将保持全球前三大产区之一。</text>
+<text x="980" y="290" class="body" text-anchor="start" fill="#0f172a">这意味着：扩产仍在继续，但天气、园龄和管理差异会持续放大。</text>
+<text x="110" y="790" class="tiny" text-anchor="start">来源：Australian Macadamias Yearbook 2025 + AMS 2024 crop announcement (2024 crop 53,950 t)</text>
+</svg>
