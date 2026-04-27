@@ -1,0 +1,26 @@
+{
+  "id": "conv-1777280248469-x8lh89q1k",
+  "providerId": "codex",
+  "title": "Revise orchard investment model",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777280248469,
+  "updatedAt": 1777280443484,
+  "lastResponseAt": 1777280443484,
+  "sessionId": "019dce28-714e-7311-aab3-248bfe43d7c7",
+  "providerState": {
+    "threadId": "019dce28-714e-7311-aab3-248bfe43d7c7",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\27\\rollout-2026-04-27T18-57-30-019dce28-714e-7311-aab3-248bfe43d7c7.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "20_Knowledge/澳洲坚果/夏威夷果农场投资模型_100ha示例.md",
+  "usage": {
+    "inputTokens": 46019,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 45440,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 46019,
+    "percentage": 18,
+    "model": "gpt-5.4"
+  }
+}

@@ -55,7 +55,7 @@
   "settingsProvider": "claude",
   "savedProviderModel": {
     "claude": "haiku",
-    "codex": "gpt-5.4-mini"
+    "codex": "gpt-5.4"
   },
   "savedProviderEffort": {
     "claude": "high",
