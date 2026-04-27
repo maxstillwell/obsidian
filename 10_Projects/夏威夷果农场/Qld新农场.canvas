@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"root","type":"text","text":"QLD 新农场项目","x":0,"y":0,"width":320,"height":120},
+		{"id":"exec","type":"text","text":"执行摘要\n- 2022 估值报告\n- 估值：A$12.1m（不含 GST）\n- 这是新建果园，不是成熟老园\n- 未来 3–5 年是放量关键期","x":420,"y":-260,"width":360,"height":220},
+		{"id":"valuation","type":"text","text":"资产与估值\n- 总土地：333.98 ha\n- 已建果园：194.20 ha\n- 其余平衡土地：139.78 ha\n- 树木数：61,542 株","x":420,"y":-40,"width":360,"height":220},
+		{"id":"water","type":"text","text":"水资源与约束\n- 现有供水约 550 ML\n- 折算约 3.1 ML/ha\n- 当前树龄基本够用\n- 成熟后水缺口仍是关键风险","x":420,"y":210,"width":360,"height":220},
+		{"id":"problem","type":"text","text":"主要风险\n- 果园仍处成长期\n- Phytophthora 与排水风险\n- 成熟期水量可能不足\n- 大额农场流动性有限","x":-40,"y":260,"width":360,"height":240},
+		{"id":"plan","type":"text","text":"经营方向\n- 继续养树，等产量释放\n- 核查水权、dam 扩容与输水条件\n- 强化排水和病害管理\n- 作为未来增长型核心资产持有","x":-40,"y":-260,"width":380,"height":240},
+		{"id":"decision","type":"text","text":"需要确认\n- 这宗资产是否属于集团核心盘\n- 水资源补足方案是否可落地\n- 未来 3–5 年的资金与运营节奏","x":-460,"y":-260,"width":340,"height":180},
+		{"id":"appendix","type":"text","text":"附录\n- 2022 valuation 报告\n- 估值拆分与可比销售\n- 需核对 lot / 水权 / 改良项\n- 内部核查用","x":-460,"y":-20,"width":320,"height":200},
+		{"id":"assets","type":"text","text":"资产特征\n- 新园型资产\n- 现代化 orchard plan\n- 前期 CAPEX 已投入\n- 更像成长型中期资产","x":-460,"y":250,"width":330,"height":200},
+		{"id":"result","type":"text","text":"预期结果\n- 未来几年逐步放量\n- 若水到位，产量与估值都有上修空间\n- 适合长期经营，不适合短期退出","x":-460,"y":520,"width":340,"height":200},
+		{"id":"note","type":"file","file":"10_Projects/夏威夷果农场/Qld新农场.md","x":-460,"y":-100,"width":320,"height":120}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"note","fromSide":"right","toNode":"root","toSide":"left"},
+		{"id":"e2","fromNode":"root","fromSide":"right","toNode":"exec","toSide":"left"},
+		{"id":"e3","fromNode":"root","fromSide":"right","toNode":"valuation","toSide":"left"},
+		{"id":"e4","fromNode":"root","fromSide":"right","toNode":"water","toSide":"left"},
+		{"id":"e5","fromNode":"root","fromSide":"top","toNode":"decision","toSide":"bottom"},
+		{"id":"e6","fromNode":"root","fromSide":"bottom","toNode":"plan","toSide":"top"},
+		{"id":"e7","fromNode":"root","fromSide":"left","toNode":"appendix","toSide":"right"},
+		{"id":"e8","fromNode":"appendix","fromSide":"bottom","toNode":"assets","toSide":"top"},
+		{"id":"e9","fromNode":"assets","fromSide":"bottom","toNode":"result","toSide":"top"},
+		{"id":"e10","fromNode":"plan","fromSide":"bottom","toNode":"problem","toSide":"top"},
+		{"id":"e11","fromNode":"water","fromSide":"bottom","toNode":"problem","toSide":"top"}
+	]
+}

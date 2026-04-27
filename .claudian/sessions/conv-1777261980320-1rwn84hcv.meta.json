@@ -1,18 +1,18 @@
 {
   "id": "conv-1777261980320-1rwn84hcv",
   "providerId": "codex",
-  "title": "撰写澳洲坚果行业投资人科普介绍",
+  "title": "Create NSW old farm style canvas",
   "titleGenerationStatus": "success",
   "createdAt": 1777261980321,
-  "updatedAt": 1777262393194,
-  "lastResponseAt": 1777262393194,
+  "updatedAt": 1777273956633,
+  "lastResponseAt": 1777273943902,
   "sessionId": "019dcd11-a7c0-7951-9f45-cd3a36f5cb55",
   "providerState": {
     "threadId": "019dcd11-a7c0-7951-9f45-cd3a36f5cb55",
     "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\27\\rollout-2026-04-27T13-52-59-019dcd11-a7c0-7951-9f45-cd3a36f5cb55.jsonl",
-    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+    "transcriptRootPath": "/Users/mq/.codex/sessions"
   },
-  "currentNote": "20_Knowledge/澳洲坚果/澳洲坚果报告.pdf",
+  "currentNote": "10_Projects/夏威夷果农场/Qld新农场.md",
   "usage": {
     "inputTokens": 95145,
     "cacheCreationInputTokens": 0,
