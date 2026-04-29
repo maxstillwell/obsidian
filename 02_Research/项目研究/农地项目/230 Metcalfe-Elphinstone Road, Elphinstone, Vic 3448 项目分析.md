@@ -37,7 +37,7 @@ source_files:
 - 办公室（Inglewood）：**(03) 5438 3041**
 
 ## 附件
-- [[Clippings/230 Metcalfe-Elphinstone Road, Elphinstone, Vic 3448]]
+
 - Brochure 下载页：<https://www.fpnevins.com.au/properties/1765083/queue_draw?brochure_template_id=1>
 
 ## 当前属性
