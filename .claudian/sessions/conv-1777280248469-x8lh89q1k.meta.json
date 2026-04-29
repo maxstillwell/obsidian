@@ -4,8 +4,8 @@
   "title": "Revise orchard investment model",
   "titleGenerationStatus": "success",
   "createdAt": 1777280248469,
-  "updatedAt": 1777449098563,
-  "lastResponseAt": 1777449098563,
+  "updatedAt": 1777449681801,
+  "lastResponseAt": 1777449681801,
   "sessionId": "019dce28-714e-7311-aab3-248bfe43d7c7",
   "providerState": {
     "threadId": "019dce28-714e-7311-aab3-248bfe43d7c7",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
   },
   "usage": {
-    "inputTokens": 146624,
+    "inputTokens": 161825,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 146304,
+    "cacheReadInputTokens": 160128,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 146624,
-    "percentage": 57,
+    "contextTokens": 161825,
+    "percentage": 63,
     "model": "gpt-5.4"
   }
 }
