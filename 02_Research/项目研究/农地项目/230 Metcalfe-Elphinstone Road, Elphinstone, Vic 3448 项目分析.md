@@ -11,7 +11,7 @@ source_files:
   - "[[20_Knowledge/LGA/Mount Alexander Shire]]"
 ---
 
-# 230 Metcalfe-Elphinstone Road, Elphinstone, Vic 3448
+# 
 
 ## 基本信息
 - 位置：230 Metcalfe-Elphinstone Road, Elphinstone, VIC 3448
@@ -48,9 +48,10 @@ source_files:
 - 老房子/建筑：1-bedroom Southern Cross prefab unit；30m x 12m shearing shed；30m x 12m skillion；36m x 15m machinery shed
 
 ## 备注
-- 需确认：付款周期、交割周期
-- 需确认：水权 / 取水许可 / flood overlay
-- 需确认：历史 carrying capacity、stocking rate、收入、利润
-- 需确认：improved pastures 的实际面积与持续投入要求
-- 需确认：基础设施重置成本
-- 区位信息用途：当前仅作为项目筛选与区位判断使用；如进入尽调，应补充正式地图测距和实际车程
+从目前掌握的信息来看，该地块整体地形较为平整，具备一定的基础农业使用条件。现状以养殖为主，地块临近河流，具备潜在水资源优势，但尚未确认其是否具备稳定的水权或可持续的取水条件，这一点仍需进一步核实。
+
+从区位角度看，该地块位于纯农业区域，距离最近城镇约14公里，整体区位相对偏远。结合周边环境及地理位置判断，其未来转化为住宅或其他房地产用途的可能性较低，房地产属性较弱。
+
+在价格方面，目前报价约为1.7元/平方米。从已知信息来看，这一价格基本对应于常规农业用途（包括种植或养殖）的市场区间，整体处于相对合理水平。
+
+需要说明的是，由于目前对土地权属细节、用地限制、水资源条件等关键因素了解仍不充分，上述判断主要基于现有表层信息，后续仍需结合更详细资料进一步验证。
