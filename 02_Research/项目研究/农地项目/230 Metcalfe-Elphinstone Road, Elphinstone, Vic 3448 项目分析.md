@@ -5,8 +5,10 @@ tags:
   - agriculture
   - project-analysis
 created: 2026-04-29
+updated: 2026-04-29
 source_files:
   - "[[Clippings/230 Metcalfe-Elphinstone Road, Elphinstone, Vic 3448]]"
+  - "[[20_Knowledge/LGA/Mount Alexander Shire]]"
 ---
 
 # 230 Metcalfe-Elphinstone Road, Elphinstone, Vic 3448
@@ -18,6 +20,22 @@ source_files:
 - 每公顷价格：约 A$17,220/ha
 - 付款周期：未披露
 - 交割周期：未披露
+- 销售网址：
+  - [realestate.com.au](https://www.realestate.com.au/property-mixed+farming-vic-elphinstone-700404988)
+  - [F.P. Nevins 官方页面](https://www.fpnevins.com.au/property?property_id=1765083%2F230-metcalfe-elphinstone-road-elphinstone)
+  - [Commercial Real Estate](https://www.commercialrealestate.com.au/property/230-metcalfe-elphinstone-road-elphinstone-vic-3448-2020784283)
+- 中介联系方式：
+  - 中介：**Luke Nevins**
+  - 机构：**FP Nevins & Co Real Estate Pty Ltd**
+  - 手机：**0418 510 166**
+  - 邮箱：**[email protected]**
+  - 办公室（Inglewood）：**(03) 5438 3041**
+- 附件：
+  - [[Clippings/230 Metcalfe-Elphinstone Road, Elphinstone, Vic 3448]]
+  - Brochure 下载页：<https://www.fpnevins.com.au/properties/1765083/queue_draw?brochure_template_id=1>
+- 离开墨尔本多远：约 **109 km**（按 Elphinstone 镇公开资料口径）
+- 离开最近的镇是哪个，多远：**Castlemaine，约 13 km**
+- 属于哪个 LGA：[[20_Knowledge/LGA/Mount Alexander Shire|Mount Alexander Shire]]
 
 ## 当前属性（如果有就填写）
 - 农业属性：Mixed farming；更偏可直接运营的牛羊/综合农场
@@ -43,6 +61,7 @@ source_files:
 - 来源：[[Clippings/230 Metcalfe-Elphinstone Road, Elphinstone, Vic 3448]]
 - 广告核心卖点不是住宅，而是可运营农业基础设施比较完整。
 - 当前价格不能只按裸地 A$/ha 判断，因为明显包含水、围栏、分区、牛羊设施、机械棚等资产价值。
+- 当前最接近的主要服务镇可先按 **Castlemaine** 理解；如果后续要做更精细尽调，再核对与 Metcalfe / Taradale / Chewton 等周边点位的实际车程。
 - 下一步尽调重点：
   - 水权 / 取水许可 / flood risk
   - 历史 carrying capacity 与 stocking rate
