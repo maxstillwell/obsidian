@@ -25,6 +25,28 @@ Ballarat 向西发展是明确趋势，但若细分顺序，**更可能是先西
 - **West of West** 比 North West 更可能先推进；
 - **North-Western Growth Area** 属于明确存在的中长期储备方向，但兑现更依赖道路、市政和规划排序。
 
+
+## 图像与地图素材（官方）
+### 1. 总览图
+![[20_Knowledge/assets/ballarat-west/ballarat-growth-overview.png]]
+
+### 2. 单张官方边界图
+- [[20_Knowledge/assets/ballarat-west/western-growth-area-map.pdf|Western Growth Area 官方地图 PDF]]
+- [[20_Knowledge/assets/ballarat-west/north-western-growth-area-map.pdf|North-Western Growth Area 官方地图 PDF]]
+- [[20_Knowledge/assets/ballarat-west/northern-growth-area-map.pdf|Northern Growth Area 官方地图 PDF]]
+
+### 3. 适合截图的官方大图册
+- [[20_Knowledge/assets/ballarat-west/growth-areas-framework-plan-2024.pdf|Growth Areas Framework Plan（2024）]]
+  - 建议截图页：Map 1（总范围，约第7页）、Map 5a/5b/5c（North Western 约第21–23页）、Development Sequencing / Figure 10（约第50页）
+- [[20_Knowledge/assets/ballarat-west/ballarat-igaf-2026.pdf|Ballarat IGAF（2026）]]
+  - 建议截图页：5.5 Sequencing recommendations（约第54页，列出 Ballarat North → West of West → North West 的顺序）
+
+### 4. 可继续补充的图像方向
+- BWEZ 区位图 / 就业区航拍图
+![[20_Knowledge/assets/ballarat-west/bwez-hero.jpg]]
+- Ballarat Link Road / Remembrance Drive / Draffins Road 相关路线图
+- Lucas / Delacombe / Alfredton West 现状扩张示意图
+
 ## 1. 官方增长框架已经明确西向与西北向
 City of Ballarat 在 **2024年8月** adopted 了 Western and North-Western Growth Areas Framework Plan。该框架明确把未来城市 greenfield 增长讨论延伸到：
 - **Western Growth Area**

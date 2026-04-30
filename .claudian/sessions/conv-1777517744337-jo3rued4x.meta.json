@@ -1,0 +1,26 @@
+{
+  "id": "conv-1777517744337-jo3rued4x",
+  "providerId": "codex",
+  "title": "Create development maps and image collection",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777517744338,
+  "updatedAt": 1777518220824,
+  "lastResponseAt": 1777518220824,
+  "sessionId": "019ddc50-5242-7cf3-8692-f6cd36ceeb8a",
+  "providerState": {
+    "threadId": "019ddc50-5242-7cf3-8692-f6cd36ceeb8a",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\30\\rollout-2026-04-30T12-55-44-019ddc50-5242-7cf3-8692-f6cd36ceeb8a.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "20_Knowledge/Ballarat西向发展研究.md",
+  "usage": {
+    "inputTokens": 69936,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 66944,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 69936,
+    "percentage": 27,
+    "model": "gpt-5.4"
+  }
+}
