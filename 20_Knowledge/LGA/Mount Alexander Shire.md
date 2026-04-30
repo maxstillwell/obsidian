@@ -17,7 +17,7 @@ updated: 2026-04-29
 ## 当前已确认关联
 - Elphinstone 属于 **Mount Alexander Shire**
 - 相关项目：
-  - [[02_Research/项目研究/农地项目/230 Metcalfe-Elphinstone Road, Elphinstone, Vic 3448 项目分析]]
+  - [[../../00_Research/项目研究/农地项目/230 Metcalfe-Elphinstone Road, Elphinstone, Vic 3448 项目分析]]
 
 ## 相关说明
 - 对农地项目来说，LGA 维度主要影响：

@@ -7,8 +7,8 @@ tags:
 created: 2026-04-29
 updated: 2026-04-29
 source_files:
-  - "[[Clippings/230 Metcalfe-Elphinstone Road, Elphinstone, Vic 3448]]"
-  - "[[20_Knowledge/LGA/Mount Alexander Shire]]"
+  - "[[../../../Clippings/230 Metcalfe-Elphinstone Road, Elphinstone, Vic 3448]]"
+  - "[[../../../20_Knowledge/LGA/Mount Alexander Shire]]"
 ---
 
 # 
@@ -20,7 +20,7 @@ source_files:
 - 每公顷价格：约 A$17,220/ha
 
 ## 区位与行政
-- 所属 LGA：[[20_Knowledge/LGA/Mount Alexander Shire|Mount Alexander Shire]]
+- 所属 LGA：[[../../../20_Knowledge/LGA/Mount Alexander Shire|Mount Alexander Shire]]
 - 最近主要服务城镇：**Castlemaine**
 - 与 Castlemaine 的区位关系：**Elphinstone 位于 Castlemaine 东南约 12 km**
 - 与 Melbourne 的区位关系：位于 **Calder Corridor**，属于 **Mount Alexander Shire** 范围；公开区位资料通常将 Elphinstone 归为距 Melbourne 西北约 **100–110 km** 范围
