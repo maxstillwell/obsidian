@@ -4,8 +4,8 @@
   "title": "分析地块并研究Ballarat西向发展",
   "titleGenerationStatus": "success",
   "createdAt": 1777516008777,
-  "updatedAt": 1777517443449,
-  "lastResponseAt": 1777517443449,
+  "updatedAt": 1777517590104,
+  "lastResponseAt": 1777517590104,
   "sessionId": "019ddc35-dec2-70e1-b407-96ca043f46d3",
   "providerState": {
     "threadId": "019ddc35-dec2-70e1-b407-96ca043f46d3",
@@ -14,13 +14,13 @@
   },
   "currentNote": "Clippings/524 Remembrance Drive, Windermere, Vic 3352.md",
   "usage": {
-    "inputTokens": 90835,
+    "inputTokens": 58482,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 89984,
+    "cacheReadInputTokens": 4480,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 90835,
-    "percentage": 35,
+    "contextTokens": 58482,
+    "percentage": 23,
     "model": "gpt-5.4"
   }
 }
