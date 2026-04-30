@@ -1,9 +1,26 @@
 {
   "id": "conv-1777516008777-77znqo60q",
   "providerId": "codex",
-  "title": "写一下这个地块的分析。同时帮我研究ballarat西面的发展方向",
-  "titleGenerationStatus": "pending",
+  "title": "分析地块并研究Ballarat西向发展",
+  "titleGenerationStatus": "success",
   "createdAt": 1777516008777,
-  "updatedAt": 1777516008785,
-  "sessionId": null
+  "updatedAt": 1777516397161,
+  "lastResponseAt": 1777516397160,
+  "sessionId": "019ddc35-dec2-70e1-b407-96ca043f46d3",
+  "providerState": {
+    "threadId": "019ddc35-dec2-70e1-b407-96ca043f46d3",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\30\\rollout-2026-04-30T12-26-51-019ddc35-dec2-70e1-b407-96ca043f46d3.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "Clippings/524 Remembrance Drive, Windermere, Vic 3352.md",
+  "usage": {
+    "inputTokens": 79243,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 4480,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 79243,
+    "percentage": 31,
+    "model": "gpt-5.4"
+  }
 }
