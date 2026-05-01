@@ -7,7 +7,7 @@ tags:
   - titles
   - legal
 project: Cobungra Station
-source_status: freehold title已提取；grazing licence待解锁正文
+source_status: freehold title已提取；IM已确认licence框架；部分licence文件数量与IM存在差异待核
 ---
 
 # Cobungra Station 权属结构总表（初稿）
@@ -15,10 +15,24 @@ source_status: freehold title已提取；grazing licence待解锁正文
 ## 当前结论
 
 - **Freehold titles：31 个**
-- **Grazing licence PDFs：21 个**
+- **Agricultural licence records：20 个可识别 licence**（9 grazing + 5 water frontage + 6 unused roads）
 - 已确认 freehold 注册产权人统一为 **CERTANE CT PTY LTD**
 - Freehold titles 目前至少分布在 **Bingo-Munjie / Bingo-Munjie South / Theddora / Omeo** 几个 parish
 - Grazing licence 文件目前是 **Ansarada / Adobe secured PDF**，当前环境无法直接读取正文，所以暂时只能先锁定 licence 编号，不能确认每个 licence 的面积、期限、地块描述和持有人字段。
+
+## 重要差异提醒
+
+- **IM 第 14 页**识别的 Agricultural Licence 为 **20 个 licence**：
+  - 9 个 Grazing
+  - 5 个 Water Frontage
+  - 6 个 Unused Roads
+- 但项目文件夹中 `02.02 Grazing Licences` 目录下有 **21 个 PDF 文件名**。
+- 多出来/不一致的编号需要后续核对是否属于：
+  - IM 漏列；
+  - 过期或替换 licence；
+  - 附属文件误归档；
+  - 或命名与 licence 类型不完全一致。
+- 在完全核对前，**应以 IM 第 14 页作为当前主口径**，同时保留文件夹清单作为待核底稿。
 
 ## 已确认事项
 
@@ -30,8 +44,12 @@ source_status: freehold title已提取；grazing licence待解锁正文
   - 11 个 title 对应 **AX519395J / 05-12-2023**
   - 20 个 title 对应 **AX824119H / 18-03-2024**
 
-### 2. Grazing Licences
+### 2. Agricultural Licences
 
+- 根据可读取的 2025 IM，Agricultural Licence 由三部分组成：
+  - 9 个 Grazing Licences
+  - 5 个 Water Frontage Licences
+  - 6 个 Unused Roads
 - 当前已识别 licence 编号：
   - 1600062
   - 1600063
@@ -107,8 +125,8 @@ source_status: freehold title已提取；grazing licence待解锁正文
 
 ## 当前无法确认但必须核实
 
-- 每个 freehold title 的准确面积
-- 每个 grazing licence 的持有人、期限、面积、地块描述
+- 每个 freehold title 的准确面积（虽然 IM 已列面积，但仍建议与 title/plan 逐一核验）
+- 各 licence 的持有人、转让条件、续期稳定性、费用责任
 - licence 是否都在出售范围内，是否存在部分不转让/有条件转让的情况
 - title 上是否存在 easement、covenant、road access、water-related encumbrances
 - mortgage 是否只是统一融资安排，还是暗示资产被分成两个法律/融资包
