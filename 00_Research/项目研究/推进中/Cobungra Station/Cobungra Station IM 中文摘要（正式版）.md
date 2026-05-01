@@ -16,7 +16,7 @@ source_file: 'Cobungra Station VIC - LAWD Information Memorandum 2025 (1).pdf'
 
 ## 一句话判断
 
-Cobungra Station 是一宗位于维州高地、**以优质肉牛繁育和育成（breeding + backgrounding）为核心**的大型牧业资产，卖点是 **6,496.84 ha freehold + 24,795 ha agricultural licence 的超大经营版图、50,000 DSE 级别承载能力、成熟基础设施、以及租给 Stone Axe Pastoral Company 的现金流属性**。
+Cobungra Station 是一宗位于维州高地、**以优质肉牛繁育和育成（breeding + backgrounding）为核心**的大型牧业资产，卖点是 **6,496.84 ha freehold + 24,795 ha agricultural licence 的超大经营版图、50,000 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]] 级别承载能力、成熟基础设施、以及租给 Stone Axe Pastoral Company 的现金流属性**。
 
 ## 基本信息
 
@@ -150,10 +150,10 @@ IM 第 14 页确认：
 
 根据 IM 第 17 页：
 
-- 估算承载能力：**50,000 DSE**
+- 估算承载能力：**50,000 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]]**
 - 该口径是按 **freehold + agricultural licence 合并面积 31,292 ha** 计算
 
-### 历史 DSE（IM 已披露部分）
+### 历史 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]]（IM 已披露部分）
 
 - Jun-23: **50,582**
 - Jul-23: **45,367**
@@ -173,10 +173,10 @@ IM 第 14 页确认：
 - Sep-24: **39,141**
 
 虽然提取文本后半段有缺失，但仅从这部分也能看出：
-- 高位时接近或超过 **50k DSE**
-- 低位能回落到 **35k–39k DSE** 区间
+- 高位时接近或超过 **50k [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]]**
+- 低位能回落到 **35k–39k [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]]** 区间
 
-所以“50,000 DSE”更像是**高位/目标承载能力**，不能简单当成全年稳定值。
+所以“50,000 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]]”更像是**高位/目标承载能力**，不能简单当成全年稳定值。
 
 ## 牧场与水系统
 
@@ -290,9 +290,9 @@ IM 第 18 页明确提到：
 - 24,795 ha licence 明显大于 6,497 ha freehold。
 - 这决定了项目价值高度依赖 licence 的延续性与合规性。
 
-### 2. 50,000 DSE 不是全年稳定数
+### 2. 50,000 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]] 不是全年稳定数
 - IM 历史数据已显示 DSE 有明显波动。
-- 所以收益模型不能简单按 50k DSE 打满算。
+- 所以收益模型不能简单按 50k [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]] 打满算。
 
 ### 3. lease economics 未公开
 - IM 没有公开完整租金和 outgoings 分担。
@@ -309,7 +309,7 @@ IM 第 18 页明确提到：
 
 Cobungra 的投资逻辑不是“买 31,292 ha 地”，而是：
 
-> **买一个以 6,496.84 ha freehold 为核心、由 24,795 ha licence 扩展经营半径、具备 50,000 DSE 级别生产能力、并带 Stone Axe 租约现金流的大型高地牧业平台。**
+> **买一个以 6,496.84 ha freehold 为核心、由 24,795 ha licence 扩展经营半径、具备 50,000 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]] 级别生产能力、并带 Stone Axe 租约现金流的大型高地牧业平台。**
 
 也就是说，它同时具备：
 - **底层资产逻辑**：freehold 土地
