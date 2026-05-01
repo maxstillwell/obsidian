@@ -32,6 +32,9 @@ location: Victoria
 ### 1. Marketing / IM
 - [[00_Research/项目研究/推进中/Cobungra Station/Docs/01 LAWD Information Memorandum/01.01 Cobungra Station VIC - LAWD Information Memorandum_2025.pdf|LAWD Information Memorandum]]
 
+### 0.5 权属笔记
+- [[00_Research/项目研究/推进中/Cobungra Station/Cobungra Station 权属结构总表（初稿）|权属结构总表（初稿）]]
+
 ### 2. Titles / 权属
 - [[00_Research/项目研究/推进中/Cobungra Station/Docs/02 Titles (freehold and grazing licences)/02.01 Freehold Land Titles|Freehold Land Titles]]
 - [[00_Research/项目研究/推进中/Cobungra Station/Docs/02 Titles (freehold and grazing licences)/02.02 Grazing Licences|Grazing Licences]]
