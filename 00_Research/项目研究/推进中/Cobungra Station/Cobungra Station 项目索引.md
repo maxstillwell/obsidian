@@ -38,6 +38,9 @@ location: Victoria
 ### 0.5 权属笔记
 - [[00_Research/项目研究/推进中/Cobungra Station/Cobungra Station 权属结构总表（初稿）|权属结构总表（初稿）]]
 
+### 0.6 土地与Licence总表
+- [[00_Research/项目研究/推进中/Cobungra Station/Cobungra Station 土地与Licence总表|土地与Licence总表]]
+
 ### 2. Titles / 权属
 - [[00_Research/项目研究/推进中/Cobungra Station/Docs/02 Titles (freehold and grazing licences)/02.01 Freehold Land Titles|Freehold Land Titles]]
 - [[00_Research/项目研究/推进中/Cobungra Station/Docs/02 Titles (freehold and grazing licences)/02.02 Grazing Licences|Grazing Licences]]
