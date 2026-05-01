@@ -1,0 +1,25 @@
+{
+  "id": "conv-1777614915648-g2w8fl9zr",
+  "providerId": "codex",
+  "title": "创建Cobungra station项目索引页",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777614915648,
+  "updatedAt": 1777615023723,
+  "lastResponseAt": 1777615023723,
+  "sessionId": "019de21b-11df-7f50-819d-5bfa162d3c48",
+  "providerState": {
+    "threadId": "019de21b-11df-7f50-819d-5bfa162d3c48",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\05\\01\\rollout-2026-05-01T15-55-18-019de21b-11df-7f50-819d-5bfa162d3c48.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 45406,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43392,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 45406,
+    "percentage": 18,
+    "model": "gpt-5.4"
+  }
+}
