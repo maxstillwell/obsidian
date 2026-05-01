@@ -4,8 +4,8 @@
   "title": "创建Cobungra station项目索引页",
   "titleGenerationStatus": "success",
   "createdAt": 1777614915648,
-  "updatedAt": 1777615699615,
-  "lastResponseAt": 1777615699615,
+  "updatedAt": 1777628715091,
+  "lastResponseAt": 1777628715091,
   "sessionId": "019de21b-11df-7f50-819d-5bfa162d3c48",
   "providerState": {
     "threadId": "019de21b-11df-7f50-819d-5bfa162d3c48",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
   },
   "usage": {
-    "inputTokens": 120753,
+    "inputTokens": 107625,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 119680,
+    "cacheReadInputTokens": 4480,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 120753,
-    "percentage": 47,
+    "contextTokens": 107625,
+    "percentage": 42,
     "model": "gpt-5.4"
   }
 }
