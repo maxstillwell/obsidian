@@ -12,23 +12,23 @@ source_status: 基于可读取的 2025 LAWD IM + 用户提供价格与租金
 source_file: 'Cobungra Station VIC - LAWD Information Memorandum 2025 (1).pdf'
 ---
 
-# Cobungra Station 客观摘要与投资回报分析
+# 
 
 ## 1. 资产概况
 
-| 项目 | 内容 |
-|---|---|
-| 名称 | Cobungra Station |
-| 地址 | 1929 Great Alpine Road, Omeo VIC 3898 |
-| 区域 | Victoria Alps / Mt Hotham 山脚 |
-| 资产类型 | beef breeding and backgrounding property |
-| 销售方式 | Expression of Interest |
-| EOI 截止 | 2025-12-04 12pm AEDT |
-| 当前租户 | Stone Axe Pastoral Company |
-| Freehold | 6,496.84 ha |
-| Agricultural Licence | 24,795.00 ha（IM口径，近似） |
-| 总运营面积 | 31,292.00 ha（IM口径，近似） |
-| 估算承载能力 | 50,000 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]] |
+| 项目                   | 内容                                       |     |
+| -------------------- | ---------------------------------------- | --- |
+| 名称                   | Cobungra Station                         |     |
+| 地址                   | 1929 Great Alpine Road, Omeo VIC 3898    |     |
+| 区域                   | Victoria Alps / Mt Hotham 山脚             |     |
+| 资产类型                 | beef breeding and backgrounding property |     |
+| 销售方式                 | Expression of Interest                   |     |
+| EOI 截止               | 2025-12-04 12pm AEDT                     |     |
+| 当前租户                 | Stone Axe Pastoral Company               |     |
+| Freehold             | 6,496.84 ha                              |     |
+| Agricultural Licence | 24,795.00 ha（                            |     |
+| 总运营面积                | 31,292.00 ha                             |     |
+| 估算承载能力               | 50,000                                   |     |
 
 ## 2. 投资回报率分析（按当前价格与租金）
 
@@ -53,9 +53,7 @@ source_file: 'Cobungra Station VIC - LAWD Information Memorandum 2025 (1).pdf'
 - 以 **A$52.90m** 买入、按 **A$3.165m** 年租金测算，**毛回报率约 5.98%**。
 - 这是一个**未扣除持有成本、管理成本、法律成本、资本开支和税费**的毛收益率。
 - 如果 landlord 需要承担部分 outgoings（例如 rates、licence fees、维修或资本性支出），**净回报率会低于 5.98%**。
-- 因此，当前更准确的表述应是：
-
-> **Cobungra Station 在 A$52.90m 价格下，对应约 5.98% 的 gross property yield。**
+-
 
 ## 3. 土地结构总览
 
@@ -161,9 +159,9 @@ source_file: 'Cobungra Station VIC - LAWD Information Memorandum 2025 (1).pdf'
 
 ### 7.1 参考地图
 
-- 区位地图：[[00_Research/项目研究/推进中/Cobungra Station/Docs/03 Mapping/03.01 Cobungra_Freehold_and_Grazing_Licences_Map_20220311.pdf|Freehold + Grazing Licences Map]]
-- 地块地图：[[00_Research/项目研究/推进中/Cobungra Station/Docs/03 Mapping/03.04 Cobungra_Paddock_Map_Overview_20241125.pdf|Paddock Map Overview]]
-- 基础设施地图：[[00_Research/项目研究/推进中/Cobungra Station/Docs/03 Mapping/03.07 Cobungra_Main_Infrastructure_Map_20220311.pdf|Main Infrastructure Map]]
+- 区位地图：[[Docs/03 Mapping/03.01 Cobungra_Freehold_and_Grazing_Licences_Map_20220311.pdf|Freehold + Grazing Licences Map]]
+- 地块地图：[[Docs/03 Mapping/03.04 Cobungra_Paddock_Map_Overview_20241125.pdf|Paddock Map Overview]]
+- 基础设施地图：[[Docs/03 Mapping/03.07 Cobungra_Main_Infrastructure_Map_20220311.pdf|Main Infrastructure Map]]
 - IM 中 freehold 概览图：见 IM 第13页
 - IM 中 freehold + licence 概览图：见 IM 第15页
 
@@ -220,15 +218,15 @@ source_file: 'Cobungra Station VIC - LAWD Information Memorandum 2025 (1).pdf'
 
 ## 9. 生产与经营要点
 
-| 项目 | 内容 |
-|---|---|
-| Carrying capacity | 50,000 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]] |
-| Paddocks | 约 66 个 |
-| Water system | rivers + bores + springs + header tanks + trough network |
-| Dams | 60+ |
-| Road frontage | Great Alpine Road 约 10 km |
-| 海拔 | 约 990m–1,340m |
-| 年均降雨 | 约 665 mm |
+| 项目                | 内容                                                       |       |
+| ----------------- | -------------------------------------------------------- | ----- |
+| Carrying capacity | 50,000                                                   | DSE]] |
+| Paddocks          | 约 66 个                                                   |       |
+| Water system      | rivers + bores + springs + header tanks + trough network |       |
+| Dams              | 60+                                                      |       |
+| Road frontage     | Great Alpine Road 约 10 km                                |       |
+| 海拔                | 约 990m–1,340m                                            |       |
+| 年均降雨              | 约 665 mm                                                 |       |
 
 ## 10. 需要特别注意的客观风险点
 
@@ -241,8 +239,7 @@ source_file: 'Cobungra Station VIC - LAWD Information Memorandum 2025 (1).pdf'
 3. **Licence 结构较复杂**  
    至少包括 grazing、water frontage、unused roads 三类权利，法律和续期条件需要分别核对。
 
-4. **IM 内部存在个别表述口径差异**  
-   例如 homestead 面积在不同页面出现不同表述，因此正式投资判断仍应以原始法律/技术文件为准。
+
 
 ## 11. 一句话结论
 
@@ -250,7 +247,7 @@ source_file: 'Cobungra Station VIC - LAWD Information Memorandum 2025 (1).pdf'
 
 ## 关联资料
 
-- 土地与 licence 总表：[[00_Research/项目研究/推进中/Cobungra Station/Cobungra Station 土地与Licence总表]]
-- 权属结构笔记：[[00_Research/项目研究/推进中/Cobungra Station/Cobungra Station 权属结构总表（初稿）]]
-- 可读取 IM：[[00_Research/项目研究/推进中/Cobungra Station/Docs/01 LAWD Information Memorandum/Cobungra Station VIC - LAWD Information Memorandum 2025 (1).pdf]]
-- IM 文本提取：[[00_Research/项目研究/推进中/Cobungra Station/Docs/01 LAWD Information Memorandum/Cobungra Station VIC - LAWD Information Memorandum 2025 (1).extract.txt]]
+- 土地与 licence 总表：[[Cobungra Station 土地与Licence总表]]
+- 权属结构笔记：[[Cobungra Station 权属结构总表（初稿）]]
+- 可读取 IM：[[Docs/01 LAWD Information Memorandum/Cobungra Station VIC - LAWD Information Memorandum 2025 (1).pdf]]
+- IM 文本提取：[[Docs/01 LAWD Information Memorandum/Cobungra Station VIC - LAWD Information Memorandum 2025 (1).extract.txt]]
