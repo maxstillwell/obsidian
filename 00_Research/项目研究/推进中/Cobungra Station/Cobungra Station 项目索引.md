@@ -27,7 +27,7 @@ location: Victoria
 ## 核心资料入口
 
 ### 0.1 正式摘要
-- [[00_Research/项目研究/推进中/Cobungra Station/Cobungra Station IM 中文摘要（正式版）|IM 中文摘要（正式版）]]
+- [[Cobungra Station IM 中文摘要|IM 中文摘要（正式版）]]
 
 ### 0. 摘要笔记
 - [[00_Research/项目研究/推进中/Cobungra Station/Cobungra Station IM 中文摘要（初稿）|IM 中文摘要（初稿）]]

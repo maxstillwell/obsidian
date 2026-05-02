@@ -147,6 +147,6 @@ source_file: 'Cobungra Station VIC - LAWD Information Memorandum 2025 (1).pdf'
 ## 关联资料
 
 - 项目索引：[[00_Research/项目研究/推进中/Cobungra Station/Cobungra Station 项目索引]]
-- IM 正式摘要：[[00_Research/项目研究/推进中/Cobungra Station/Cobungra Station IM 中文摘要（正式版）]]
+- IM 正式摘要：[[Cobungra Station IM 中文摘要]]
 - 权属结构笔记：[[00_Research/项目研究/推进中/Cobungra Station/Cobungra Station 权属结构总表（初稿）]]
 - 可读取 IM：[[00_Research/项目研究/推进中/Cobungra Station/Docs/01 LAWD Information Memorandum/Cobungra Station VIC - LAWD Information Memorandum 2025 (1).pdf]]

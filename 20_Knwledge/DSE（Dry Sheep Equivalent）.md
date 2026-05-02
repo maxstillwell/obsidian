@@ -103,7 +103,7 @@ DSE 反映的是**承载能力/饲料需求**，不直接等于利润。
 
 ## 在 Cobungra 项目里的用法
 
-在 [[00_Research/项目研究/推进中/Cobungra Station/Cobungra Station IM 中文摘要（正式版）]] 里，
+在 [[../00_Research/项目研究/推进中/Cobungra Station/Cobungra Station IM 中文摘要]] 里，
 `50,000 DSE` 的意思是：
 
 - 这是该资产在 **freehold + agricultural licence** 共同作用下的估算承载能力
