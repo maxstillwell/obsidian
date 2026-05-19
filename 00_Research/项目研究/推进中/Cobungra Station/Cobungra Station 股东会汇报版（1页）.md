@@ -10,7 +10,7 @@ tags:
   - summary
 project: Cobungra Station
 related:
-  - "[[Cobungra Station 投资结论：建议放弃项目]]"
+  - "[[Cobungra Station 投资建议]]"
   - "[[Cobungra Station IM 中文摘要v1]]"
   - "[[Cobungra Station 项目索引]]"
 ---
