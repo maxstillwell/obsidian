@@ -19,7 +19,8 @@ def mark_duplicates(records: list[dict]) -> list[dict]:
     result = [deepcopy(record) for record in records]
     seen_hash: dict[str, str] = {}
     seen_url: dict[str, str] = {}
-    canonical_records: list[dict] = []
+    title_buckets: defaultdict[str, list[dict]] = defaultdict(list)
+    filename_buckets: defaultdict[str, list[dict]] = defaultdict(list)
 
     for record in result:
         record.setdefault("duplicate_of", "")
@@ -29,20 +30,20 @@ def mark_duplicates(records: list[dict]) -> list[dict]:
         if file_hash:
             if file_hash in seen_hash:
                 record["duplicate_of"] = seen_hash[file_hash]
-                canonical_records.append(record)
+                _add_candidate(record, title_buckets, filename_buckets)
                 continue
             seen_hash[file_hash] = record_id
         if source_url:
             if source_url in seen_url:
                 record["duplicate_of"] = seen_url[source_url]
-                canonical_records.append(record)
+                _add_candidate(record, title_buckets, filename_buckets)
                 continue
             seen_url[source_url] = record_id
-        for candidate in canonical_records:
+        for candidate in _candidate_records(record, title_buckets, filename_buckets):
             if _is_probable_duplicate(record, candidate):
                 record["duplicate_of"] = str(candidate.get("id") or "")
                 break
-        canonical_records.append(record)
+        _add_candidate(record, title_buckets, filename_buckets)
     return result
 
 
@@ -57,6 +58,43 @@ def duplicate_summary(records: list[dict]) -> dict[str, int]:
 
 def _is_probable_duplicate(record: dict, candidate: dict) -> bool:
     return _filename_size_mtime_match(record, candidate) or _title_summary_match(record, candidate)
+
+
+def _candidate_records(
+    record: dict,
+    title_buckets: dict[str, list[dict]],
+    filename_buckets: dict[str, list[dict]],
+) -> list[dict]:
+    candidates: list[dict] = []
+    seen: set[int] = set()
+    for bucket_key, buckets in (
+        (_normalize_text(_title(record)), title_buckets),
+        (_filename_bucket_key(record), filename_buckets),
+    ):
+        if not bucket_key:
+            continue
+        for candidate in buckets.get(bucket_key, []):
+            marker = id(candidate)
+            if marker not in seen:
+                candidates.append(candidate)
+                seen.add(marker)
+    return candidates
+
+
+def _add_candidate(record: dict, title_buckets: dict[str, list[dict]], filename_buckets: dict[str, list[dict]]) -> None:
+    title_key = _normalize_text(_title(record))
+    if title_key:
+        title_buckets[title_key].append(record)
+    filename_key = _filename_bucket_key(record)
+    if filename_key:
+        filename_buckets[filename_key].append(record)
+
+
+def _filename_bucket_key(record: dict) -> str:
+    normalized = _normalize_filename(str(record.get("filename") or record.get("original_path") or ""))
+    if not normalized:
+        return ""
+    return normalized[:16]
 
 
 def _filename_size_mtime_match(record: dict, candidate: dict) -> bool:

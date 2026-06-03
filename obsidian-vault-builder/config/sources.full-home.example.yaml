@@ -1,0 +1,74 @@
+vault:
+  path: "/Users/ditang/obsidian/FounderOS"
+
+settings:
+  dry_run: true
+  max_file_size_mb: 200
+  copy_attachments: false
+  preserve_originals: true
+  read_file_contents: false
+  allow_ocr: false
+  allow_transcription: false
+  allow_online_ai: false
+  allow_network: false
+  exclude_dirs:
+    - Library
+    - Application Support
+    - Mail
+    - Messages
+    - Keychains
+    - Cookies
+    - Caches
+    - .Trash
+    - .ssh
+    - .gnupg
+    - .1password
+    - .aws
+    - .azure
+    - .gcloud
+    - .kube
+    - .docker
+    - .config
+    - .cache
+    - .local
+    - .codex
+    - .claude
+    - .claudian
+    - .gemini
+    - .antigravity
+    - .antigravity_cockpit
+    - codex_home
+    - .npm
+    - .nvm
+    - .pyenv
+    - .cargo
+    - .rustup
+    - .vscode
+    - .cursor
+    - User Data
+    - Chrome
+    - Chromium
+    - Firefox
+    - BraveSoftware
+    - node_modules
+    - .git
+    - .svn
+    - .hg
+    - venv
+    - .venv
+    - __pycache__
+    - dist
+    - build
+    - target
+    - .next
+    - .nuxt
+    - coverage
+
+sources:
+  - name: "Full Home Metadata Index"
+    type: "folder"
+    path_or_url: "~"
+    enabled: true
+    destination: "00 Inbox/Full Home Metadata Index"
+    privacy_level: "medium"
+    notes: "Metadata-only dry-run. No file contents, attachments, OCR, transcription, online AI, browser data, mail, chats, keychains, or credentials."

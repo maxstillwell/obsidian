@@ -9,8 +9,8 @@ from .config import BuilderConfig
 from .sanitize import safe_join, sanitize_filename, unique_filename
 
 
-def create_import_plan(records: list[dict], config: BuilderConfig) -> Path:
-    output = safe_join(config.vault_path, "_System/IMPORT_PLAN.md")
+def create_import_plan(records: list[dict], config: BuilderConfig, output: Path | None = None) -> Path:
+    output = output or safe_join(config.vault_path, "_System/IMPORT_PLAN.md")
     output.parent.mkdir(parents=True, exist_ok=True)
     importable = importable_records(records)
     review = [record for record in records if _as_bool(record.get("needs_manual_review"))]

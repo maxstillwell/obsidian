@@ -17,6 +17,7 @@ def main() -> int:
     parser.add_argument("--vault", default=None)
     parser.add_argument("--inventory", default="data/inventory.csv")
     parser.add_argument("--json", default="data/inventory.json")
+    parser.add_argument("--report", default=None)
     args = parser.parse_args()
 
     config = load_config(args.config)
@@ -26,7 +27,8 @@ def main() -> int:
     marked = mark_duplicates(records)
     write_inventory(marked, Path(args.inventory), Path(args.json))
     summary = duplicate_summary(marked)
-    report = safe_join(config.vault_path, "_System/DEDUPE_REPORT.md")
+    report = Path(args.report) if args.report else safe_join(config.vault_path, "_System/DEDUPE_REPORT.md")
+    report.parent.mkdir(parents=True, exist_ok=True)
     lines = [
         "# DEDUPE_REPORT",
         "",

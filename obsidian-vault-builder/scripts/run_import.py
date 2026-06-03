@@ -16,6 +16,7 @@ def main() -> int:
     parser.add_argument("--vault", default=None)
     parser.add_argument("--inventory", default="data/inventory.csv")
     parser.add_argument("--state", default="data/import_state.json")
+    parser.add_argument("--plan-output", default=None)
     parser.add_argument("--plan-only", action="store_true")
     parser.add_argument("--execute", action="store_true")
     parser.add_argument("--confirmed", action="store_true", help="Required for non-empty execute after Gate C approval.")
@@ -26,7 +27,7 @@ def main() -> int:
         config.vault_path = Path(args.vault).expanduser()
     records = read_inventory(Path(args.inventory))
     if args.plan_only or not args.execute:
-        plan = create_import_plan(records, config)
+        plan = create_import_plan(records, config, output=Path(args.plan_output) if args.plan_output else None)
         print("Import plan-only")
         print(f"- Vault: {config.vault_path}")
         print(f"- Inventory records: {len(records)}")

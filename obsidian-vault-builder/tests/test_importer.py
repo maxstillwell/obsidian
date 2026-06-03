@@ -35,6 +35,31 @@ class ImporterTests(unittest.TestCase):
             self.assertIn("Gate C", plan.read_text(encoding="utf-8"))
             self.assertEqual(list(vault.glob("60 Resources/Websites/*.md")), [])
 
+    def test_create_import_plan_can_write_to_custom_output(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            vault = Path(tmp) / "vault"
+            output = Path(tmp) / "FULL_HOME_IMPORT_PLAN.md"
+            config = BuilderConfig(vault_path=vault, dry_run=True)
+            records = [
+                {
+                    "id": "file-1",
+                    "original_path": str(Path(tmp) / "document.md"),
+                    "filename": "document.md",
+                    "suggested_destination": "00 Inbox",
+                    "pii_risk": "medium",
+                    "secret_risk": False,
+                    "import_action": "metadata_note",
+                    "needs_manual_review": False,
+                    "hash": "",
+                }
+            ]
+
+            plan = create_import_plan(records, config, output=output)
+
+            self.assertEqual(plan, output)
+            self.assertTrue(output.exists())
+            self.assertFalse((vault / "_System/IMPORT_PLAN.md").exists())
+
     def test_create_import_plan_counts_string_false_as_not_manual_review(self):
         with tempfile.TemporaryDirectory() as tmp:
             config = BuilderConfig(vault_path=Path(tmp) / "vault", dry_run=True)

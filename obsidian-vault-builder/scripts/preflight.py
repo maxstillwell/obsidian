@@ -8,6 +8,7 @@ from pathlib import Path
 
 import _bootstrap  # noqa: F401
 from vault_builder.config import load_config
+from vault_builder.preflight import validate_scan_scope
 
 
 def main() -> int:
@@ -32,11 +33,20 @@ def main() -> int:
     enabled_count = sum(1 for source in config.sources if source.get('enabled') is True)
     print(f"- Enabled sources: {enabled_count}")
     print("")
-    print("No Desktop/Documents/Downloads/cloud folders were scanned.")
+    print("No source folders were scanned by preflight.")
     if enabled_count:
         print("Gate A source selection is present. Dry-run will only use enabled sources.")
     else:
         print("Gate A remains pending until config/sources.yaml is confirmed.")
+    result = validate_scan_scope(config)
+    for warning in result.warnings:
+        print(f"Warning: {warning}")
+    if not result.ok:
+        print("")
+        print("Blocked by safety preflight:")
+        for error in result.errors:
+            print(f"- {error}")
+        return 2
     return 0
 
 

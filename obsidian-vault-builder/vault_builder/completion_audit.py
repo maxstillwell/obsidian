@@ -107,6 +107,7 @@ REQUIRED_BUILDER_FILES = [
     ".gitignore",
     "config/sources.example.yaml",
     "config/sources.yaml",
+    "config/sources.full-home.example.yaml",
     "config/rules.yaml",
     "config/privacy_rules.yaml",
     "config/classification_rules.yaml",
@@ -138,6 +139,7 @@ REQUIRED_BUILDER_FILES = [
     "scripts/ensure_obsidian_visibility.py",
     "scripts/configure_obsidian_ui.py",
     "vault_builder/obsidian_app_config.py",
+    "vault_builder/preflight.py",
 ]
 
 
@@ -153,6 +155,7 @@ REQUIRED_TESTS = [
     "tests/test_daily_operating_layer.py",
     "tests/test_obsidian_visibility.py",
     "tests/test_obsidian_app_config.py",
+    "tests/test_preflight_scope.py",
 ]
 
 

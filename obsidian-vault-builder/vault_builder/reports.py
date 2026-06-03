@@ -8,8 +8,8 @@ from .config import BuilderConfig
 from .sanitize import safe_join
 
 
-def write_scan_report(records: list[dict], config: BuilderConfig) -> Path:
-    output = safe_join(config.vault_path, "_System/SCAN_REPORT.md")
+def write_scan_report(records: list[dict], config: BuilderConfig, output: Path | None = None) -> Path:
+    output = output or safe_join(config.vault_path, "_System/SCAN_REPORT.md")
     output.parent.mkdir(parents=True, exist_ok=True)
     enabled = [source for source in config.sources if source.get("enabled") is True]
     by_type = Counter(record.get("guessed_type", "unknown") or "unknown" for record in records)
@@ -65,8 +65,8 @@ def write_scan_report(records: list[dict], config: BuilderConfig) -> Path:
     return output
 
 
-def write_manual_review(records: list[dict], config: BuilderConfig) -> Path:
-    output = safe_join(config.vault_path, "_System/MANUAL_REVIEW.md")
+def write_manual_review(records: list[dict], config: BuilderConfig, output: Path | None = None) -> Path:
+    output = output or safe_join(config.vault_path, "_System/MANUAL_REVIEW.md")
     output.parent.mkdir(parents=True, exist_ok=True)
     manual = [record for record in records if bool(record.get("needs_manual_review"))]
     lines = [

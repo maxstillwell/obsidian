@@ -25,6 +25,10 @@ DEFAULT_EXCLUDE_DIRS = {
 }
 
 
+def _default_exclude_dirs() -> set[str]:
+    return set(DEFAULT_EXCLUDE_DIRS)
+
+
 @dataclass
 class BuilderConfig:
     vault_path: Path
@@ -38,7 +42,7 @@ class BuilderConfig:
     allow_online_ai: bool = False
     allow_network: bool = False
     sources: list[dict[str, Any]] = field(default_factory=list)
-    exclude_dirs: set[str] = field(default_factory=lambda: set(DEFAULT_EXCLUDE_DIRS))
+    exclude_dirs: set[str] = field(default_factory=_default_exclude_dirs)
 
 
 def load_config(path: Path | str) -> BuilderConfig:
@@ -55,6 +59,10 @@ def load_config(path: Path | str) -> BuilderConfig:
 def _from_raw_config(raw: dict[str, Any]) -> BuilderConfig:
     settings = raw.get("settings", {})
     vault = raw.get("vault", {})
+    exclude_dirs = _default_exclude_dirs()
+    raw_exclude_dirs = settings.get("exclude_dirs")
+    if isinstance(raw_exclude_dirs, list):
+        exclude_dirs.update(str(item) for item in raw_exclude_dirs if str(item).strip())
     return BuilderConfig(
         vault_path=Path(vault.get("path", "~/Documents/Obsidian/FounderOS")).expanduser(),
         dry_run=bool(settings.get("dry_run", True)),
@@ -67,6 +75,7 @@ def _from_raw_config(raw: dict[str, Any]) -> BuilderConfig:
         allow_online_ai=bool(settings.get("allow_online_ai", False)),
         allow_network=bool(settings.get("allow_network", False)),
         sources=list(raw.get("sources", [])),
+        exclude_dirs=exclude_dirs,
     )
 
 
@@ -83,9 +92,20 @@ def _load_simple_yaml_config(config_path: Path) -> BuilderConfig:
             continue
         if section == "vault" and stripped.startswith("path:"):
             raw["vault"]["path"] = _yaml_scalar(stripped.split(":", 1)[1])
+        elif section == "settings" and stripped.startswith("- "):
+            active = raw["settings"].get("_active_list")
+            if active:
+                raw["settings"].setdefault(active, []).append(_yaml_scalar(stripped[2:]))
         elif section == "settings" and ":" in stripped:
             key, value = stripped.split(":", 1)
-            raw["settings"][key.strip()] = _yaml_scalar(value)
+            key = key.strip()
+            parsed = _yaml_scalar(value)
+            if value.strip() == "":
+                raw["settings"][key] = []
+                raw["settings"]["_active_list"] = key
+            else:
+                raw["settings"][key] = parsed
+                raw["settings"].pop("_active_list", None)
         elif section == "sources":
             if stripped.startswith("- "):
                 if current_source:

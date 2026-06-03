@@ -54,6 +54,34 @@ python scripts/generate_all.py --config config/sources.yaml
 
 Use `--refresh-scan` only when you intend to rerun the enabled-source dry-run scan. In the active config, that can fetch public URL metadata because `allow_network: true`. Use `--execute-import --confirmed` only after Gate C.
 
+## Safe Full-Home Metadata Scan
+
+Use this only when you want a metadata-only index of the home folder. It does not read file contents, copy attachments, run OCR/transcription, use online AI, or scan excluded sensitive folders. It writes separate full-home inventory and review files so the current public URL inventory is not overwritten:
+
+```bash
+python scripts/preflight.py --config config/sources.full-home.example.yaml
+python scripts/scan_sources.py \
+  --config config/sources.full-home.example.yaml \
+  --dry-run \
+  --inventory data/full_home_inventory.csv \
+  --inventory-json data/full_home_inventory.json \
+  --scan-report ../FounderOS/_System/FULL_HOME_SCAN_REPORT.md \
+  --privacy-output ../FounderOS/_System/FULL_HOME_PRIVACY_REVIEW.md \
+  --manual-output ../FounderOS/_System/FULL_HOME_MANUAL_REVIEW.md
+python scripts/dedupe_files.py \
+  --config config/sources.full-home.example.yaml \
+  --inventory data/full_home_inventory.csv \
+  --json data/full_home_inventory.json \
+  --report ../FounderOS/_System/FULL_HOME_DEDUPE_REPORT.md
+python scripts/run_import.py \
+  --config config/sources.full-home.example.yaml \
+  --inventory data/full_home_inventory.csv \
+  --plan-output ../FounderOS/_System/FULL_HOME_IMPORT_PLAN.md \
+  --plan-only
+```
+
+Do not run `--execute --confirmed` for full-home results until the full-home privacy and manual-review reports have been reviewed.
+
 ## Gate A: Confirm Sources
 
 Edit `config/sources.yaml` manually. Start with one low-risk export folder, keep `read_file_contents: false`, and enable only that source.

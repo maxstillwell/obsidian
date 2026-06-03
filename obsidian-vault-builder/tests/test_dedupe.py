@@ -1,5 +1,7 @@
 import unittest
+from unittest.mock import patch
 
+from vault_builder import dedupe
 from vault_builder.dedupe import mark_duplicates
 
 
@@ -95,6 +97,32 @@ class DedupeTests(unittest.TestCase):
         result = mark_duplicates(records)
 
         self.assertEqual(result[1].get("duplicate_of"), "a")
+
+    def test_metadata_only_dedupe_limits_pairwise_similarity_checks(self):
+        records = [
+            {
+                "id": f"record-{index}",
+                "hash": "",
+                "source_url": "",
+                "filename": f"unique-file-{index}.pdf",
+                "size_bytes": "100000",
+                "modified_time": "2026-06-03T00:00:00+00:00",
+            }
+            for index in range(400)
+        ]
+        calls = 0
+        original = dedupe._is_probable_duplicate
+
+        def counted(record, candidate):
+            nonlocal calls
+            calls += 1
+            return original(record, candidate)
+
+        with patch("vault_builder.dedupe._is_probable_duplicate", side_effect=counted):
+            result = mark_duplicates(records)
+
+        self.assertEqual(len(result), 400)
+        self.assertLess(calls, 500)
 
 
 if __name__ == "__main__":
