@@ -78,9 +78,13 @@ python scripts/run_import.py \
   --inventory data/full_home_inventory.csv \
   --plan-output ../FounderOS/_System/FULL_HOME_IMPORT_PLAN.md \
   --plan-only
+python scripts/generate_safe_import_candidates.py \
+  --inventory-json data/full_home_inventory.json \
+  --output ../FounderOS/_System/SAFE_IMPORT_CANDIDATES.md
 ```
 
 Do not run `--execute --confirmed` for full-home results until the full-home privacy and manual-review reports have been reviewed.
+Do not commit `data/full_home_inventory.*` or `FounderOS/_System/FULL_HOME_*`/`SAFE_IMPORT_CANDIDATES.md`; they contain local filesystem paths.
 
 ## Gate A: Confirm Sources
 

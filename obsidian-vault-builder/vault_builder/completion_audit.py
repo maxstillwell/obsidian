@@ -138,8 +138,10 @@ REQUIRED_BUILDER_FILES = [
     "scripts/generate_daily_operating_layer.py",
     "scripts/ensure_obsidian_visibility.py",
     "scripts/configure_obsidian_ui.py",
+    "scripts/generate_safe_import_candidates.py",
     "vault_builder/obsidian_app_config.py",
     "vault_builder/preflight.py",
+    "vault_builder/safe_import_candidates.py",
 ]
 
 
@@ -156,6 +158,7 @@ REQUIRED_TESTS = [
     "tests/test_obsidian_visibility.py",
     "tests/test_obsidian_app_config.py",
     "tests/test_preflight_scope.py",
+    "tests/test_safe_import_candidates.py",
 ]
 
 
