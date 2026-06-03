@@ -1,0 +1,11 @@
+pyyaml
+pandas
+python-frontmatter
+markdownify
+beautifulsoup4
+python-docx
+pypdf
+openpyxl
+python-pptx
+tqdm
+rich

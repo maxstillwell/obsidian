@@ -1,0 +1,33 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+    - 'type == "person"'
+    - 'type == "company"'
+    - 'file.inFolder("40 Meetings & People/People")'
+properties:
+  file.name:
+    displayName: File.Name
+  name:
+    displayName: Name
+  company:
+    displayName: Company
+  role:
+    displayName: Role
+  relationship:
+    displayName: Relationship
+  projects:
+    displayName: Projects
+  last_contact:
+    displayName: Last Contact
+views:
+  - type: table
+    name: People
+    order:
+    - file.name
+    - name
+    - company
+    - role
+    - relationship
+    - projects
+    - last_contact

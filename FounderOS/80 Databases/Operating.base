@@ -1,0 +1,35 @@
+# Operating
+
+<!-- founderos-daily-operating:start -->
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+    - 'type == "daily_operating"'
+    - 'type == "source_approval_plan"'
+    - 'file.inFolder("01 Daily Notes")'
+    - 'file.inFolder("00 Inbox")'
+properties:
+  file.name:
+    displayName: File.Name
+  type:
+    displayName: Type
+  date:
+    displayName: Date
+  focus:
+    displayName: Focus
+  status:
+    displayName: Status
+  risk_level:
+    displayName: Risk Level
+views:
+  - type: table
+    name: Operating
+    order:
+    - file.name
+    - type
+    - date
+    - focus
+    - status
+    - risk_level
+<!-- founderos-daily-operating:end -->
