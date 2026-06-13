@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
+  <defs>
+    <style>
+      .title { font: 700 34px 'Arial', sans-serif; fill: #17324d; }
+      .subtitle { font: 400 18px 'Arial', sans-serif; fill: #4c6478; }
+      .label { font: 700 22px 'Arial', sans-serif; fill: #17324d; }
+      .small { font: 400 18px 'Arial', sans-serif; fill: #29465f; }
+      .tiny { font: 400 16px 'Arial', sans-serif; fill: #3c556c; }
+      .legend { font: 700 18px 'Arial', sans-serif; fill: #17324d; }
+      .box { stroke: #ffffff; stroke-width: 4; rx: 18; ry: 18; }
+      .region { stroke: #ffffff; stroke-width: 6; }
+      .outline { fill: none; stroke: #8ba2b7; stroke-width: 5; stroke-linejoin: round; }
+      .river { fill: none; stroke: #6da8d6; stroke-width: 5; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="980" fill="#f7fafc"/>
+  <text x="60" y="70" class="title">Victoria Nut Suitability Map (Schematic)</text>
+  <text x="60" y="102" class="subtitle">Focus: macadamia / walnut / almond · for strategic site screening, not parcel-level due diligence</text>
+
+  <!-- stylised victoria outline -->
+  <path class="outline" d="M210 170 L1020 170 L1110 255 L1170 405 L1125 585 L1035 710 L925 820 L720 865 L530 860 L325 800 L220 690 L175 560 L165 420 L190 270 Z"/>
+  <path class="river" d="M235 205 C410 195, 575 205, 760 195 S1010 190, 1070 220"/>
+  <text x="860" y="185" class="tiny">Murray River corridor</text>
+
+  <!-- regions -->
+  <path class="region" fill="#f7c948" d="M235 205 L760 195 L760 340 L600 365 L430 350 L300 315 L230 265 Z"/>
+  <text x="360" y="270" class="label">Sunraysia / Mallee</text>
+  <text x="315" y="300" class="small">Mildura · Merbein · Robinvale · Red Cliffs</text>
+  <text x="315" y="330" class="small">杏仁：强</text>
+  <text x="455" y="330" class="small">核桃：中-弱</text>
+  <text x="585" y="330" class="small">澳洲坚果：弱</text>
+
+  <path class="region" fill="#a9d18e" d="M600 365 L760 340 L885 360 L905 505 L800 560 L660 540 L575 455 Z"/>
+  <text x="655" y="435" class="label">Goulburn Valley</text>
+  <text x="640" y="465" class="small">Shepparton · Cobram · Kyabram belt</text>
+  <text x="640" y="495" class="small">核桃：强</text>
+  <text x="745" y="495" class="small">杏仁：中</text>
+  <text x="835" y="495" class="small">澳洲坚果：弱</text>
+
+  <path class="region" fill="#8fd3ff" d="M885 360 L1020 355 L1100 420 L1085 540 L1005 650 L905 635 L905 505 Z"/>
+  <text x="920" y="445" class="label">North East / Ovens Valley</text>
+  <text x="925" y="475" class="small">Wangaratta · Gapsted · Ovens Valley</text>
+  <text x="925" y="505" class="small">核桃：强</text>
+  <text x="1030" y="505" class="small">杏仁：弱-中</text>
+  <text x="925" y="535" class="small">澳洲坚果：弱</text>
+
+  <path class="region" fill="#d6c6ff" d="M510 530 L660 540 L800 560 L760 725 L565 740 L460 645 Z"/>
+  <text x="555" y="615" class="label">Central Victoria</text>
+  <text x="545" y="645" class="small">Bendigo · Redesdale · Castlemaine belt</text>
+  <text x="545" y="675" class="small">核桃：中</text>
+  <text x="640" y="675" class="small">杏仁：中（看水）</text>
+  <text x="790" y="675" class="small">澳洲坚果：弱</text>
+
+  <path class="region" fill="#c7e9c0" d="M825 650 L1005 650 L1035 710 L925 820 L720 865 L760 725 Z"/>
+  <text x="810" y="740" class="label">Gippsland / East & South-East</text>
+  <text x="820" y="770" class="small">较湿凉，病害与采收窗口风险更高</text>
+  <text x="820" y="800" class="small">核桃：点状可行</text>
+  <text x="985" y="800" class="small">杏仁：弱</text>
+  <text x="1060" y="800" class="small">澳洲坚果：弱-试验性</text>
+
+  <path class="region" fill="#ffd7a8" d="M220 690 L325 800 L530 860 L360 865 L235 820 L185 760 Z"/>
+  <text x="250" y="780" class="label">South-West / Surf Coast</text>
+  <text x="255" y="810" class="small">不属三类坚果优势商业带</text>
+
+  <!-- Melbourne marker -->
+  <circle cx="745" cy="785" r="10" fill="#17324d"/>
+  <text x="760" y="790" class="small">Melbourne</text>
+
+  <!-- legend -->
+  <rect x="70" y="760" width="520" height="160" fill="#ffffff" stroke="#d5dde5" stroke-width="2" rx="18" ry="18"/>
+  <text x="95" y="800" class="legend">Legend</text>
+  <circle cx="120" cy="835" r="10" fill="#2e7d32"/>
+  <text x="145" y="842" class="small">强：已有产业基础 / 气候与水资源较匹配</text>
+  <circle cx="120" cy="870" r="10" fill="#f9a825"/>
+  <text x="145" y="877" class="small">中：局部可行，强依赖地块、灌溉、霜冻管理</text>
+  <circle cx="120" cy="905" r="10" fill="#c62828"/>
+  <text x="145" y="912" class="small">弱：不建议作为大规模商业首选产区</text>
+
+  <!-- takeaway box -->
+  <rect x="965" y="75" width="360" height="180" fill="#ffffff" stroke="#d5dde5" stroke-width="2" rx="18" ry="18"/>
+  <text x="990" y="115" class="legend">Quick takeaway</text>
+  <text x="990" y="150" class="small">1. 杏仁最佳带：Sunraysia / Mallee</text>
+  <text x="990" y="180" class="small">2. 核桃最佳带：Goulburn Valley + North East</text>
+  <text x="990" y="210" class="small">3. 澳洲坚果在维州整体不具主产区优势</text>
+  <text x="990" y="240" class="tiny">Source synthesis date: 2026-05-01</text>
+</svg>

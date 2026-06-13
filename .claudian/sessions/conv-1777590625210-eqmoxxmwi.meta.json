@@ -1,0 +1,25 @@
+{
+  "id": "conv-1777590625210-eqmoxxmwi",
+  "providerId": "codex",
+  "title": "调研维州适合种植的坚果产区",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777590625210,
+  "updatedAt": 1777614847481,
+  "lastResponseAt": 1777592020999,
+  "sessionId": "019de0a8-6ce6-7a80-9cb7-c98b9d5cf137",
+  "providerState": {
+    "threadId": "019de0a8-6ce6-7a80-9cb7-c98b9d5cf137",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\05\\01\\rollout-2026-05-01T09-10-27-019de0a8-6ce6-7a80-9cb7-c98b9d5cf137.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 94801,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 86912,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 94801,
+    "percentage": 37,
+    "model": "gpt-5.4"
+  }
+}

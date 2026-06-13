@@ -1,0 +1,26 @@
+{
+  "id": "conv-1780803937920-3dz3yx6g2",
+  "providerId": "codex",
+  "title": "Draft May agriculture report",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780803937921,
+  "updatedAt": 1780804535547,
+  "lastResponseAt": 1780804535547,
+  "sessionId": "019ea02f-da1f-7e20-9bdc-f0e7f507b622",
+  "providerState": {
+    "threadId": "019ea02f-da1f-7e20-9bdc-f0e7f507b622",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\06\\07\\rollout-2026-06-07T13-45-51-019ea02f-da1f-7e20-9bdc-f0e7f507b622.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "00_Research/月度报告/202605/may-commodity-update-2026.pdf",
+  "usage": {
+    "inputTokens": 73863,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 72064,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 73863,
+    "percentage": 29,
+    "model": "gpt-5.4"
+  }
+}

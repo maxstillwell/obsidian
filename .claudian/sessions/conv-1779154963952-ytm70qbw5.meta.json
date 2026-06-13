@@ -1,0 +1,25 @@
+{
+  "id": "conv-1779154963952-ytm70qbw5",
+  "providerId": "codex",
+  "title": "Review report formatting",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779154963952,
+  "updatedAt": 1779950673825,
+  "lastResponseAt": 1779155077889,
+  "sessionId": "019e3de6-66f0-7c71-9aab-086dacf46bcd",
+  "providerState": {
+    "threadId": "019e3de6-66f0-7c71-9aab-086dacf46bcd",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\05\\19\\rollout-2026-05-19T11-42-50-019e3de6-66f0-7c71-9aab-086dacf46bcd.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 49852,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 48000,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 49852,
+    "percentage": 19,
+    "model": "gpt-5.4"
+  }
+}
