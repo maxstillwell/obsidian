@@ -1,11 +1,11 @@
 {
   "id": "conv-1777517744337-jo3rued4x",
   "providerId": "codex",
-  "title": "根据这个报告，帮我写25-26小节。具体数据在根目录下的资产收入表里",
-  "titleGenerationStatus": "pending",
+  "title": "撰写报告25-26小节内容",
+  "titleGenerationStatus": "success",
   "createdAt": 1777517744338,
-  "updatedAt": 1781327206264,
-  "lastResponseAt": 1781327206264,
+  "updatedAt": 1781327238336,
+  "lastResponseAt": 1781327228102,
   "sessionId": "019ddc50-5242-7cf3-8692-f6cd36ceeb8a",
   "providerState": {
     "threadId": "019ddc50-5242-7cf3-8692-f6cd36ceeb8a",

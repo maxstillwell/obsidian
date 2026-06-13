@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781327262645-yxvxwbcd0",
+  "providerId": "codex",
+  "title": "Create conversation title",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781327262646,
+  "updatedAt": 1781327487532,
+  "lastResponseAt": 1781327487532,
+  "sessionId": "019ebf60-f409-7ea3-af41-62aa6532b605",
+  "providerState": {
+    "threadId": "019ebf60-f409-7ea3-af41-62aa6532b605",
+    "sessionFilePath": "/Users/mq/.codex/sessions/2026/06/13/rollout-2026-06-13T15-07-42-019ebf60-f409-7ea3-af41-62aa6532b605.jsonl",
+    "transcriptRootPath": "/Users/mq/.codex/sessions"
+  },
+  "currentNote": "10_Projects/Lara Down/165 Bufftons Road 财务小结（2324，2425财年）.md",
+  "usage": {
+    "inputTokens": 69472,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 68480,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 69472,
+    "percentage": 27,
+    "model": "gpt-5.4"
+  }
+}
