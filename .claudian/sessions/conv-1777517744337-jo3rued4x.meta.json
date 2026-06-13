@@ -1,18 +1,18 @@
 {
   "id": "conv-1777517744337-jo3rued4x",
   "providerId": "codex",
-  "title": "Create development maps and image collection",
-  "titleGenerationStatus": "success",
+  "title": "根据这个报告，帮我写25-26小节。具体数据在根目录下的资产收入表里",
+  "titleGenerationStatus": "pending",
   "createdAt": 1777517744338,
-  "updatedAt": 1777590560978,
-  "lastResponseAt": 1777518220824,
+  "updatedAt": 1781327206264,
+  "lastResponseAt": 1781327206264,
   "sessionId": "019ddc50-5242-7cf3-8692-f6cd36ceeb8a",
   "providerState": {
     "threadId": "019ddc50-5242-7cf3-8692-f6cd36ceeb8a",
     "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\04\\30\\rollout-2026-04-30T12-55-44-019ddc50-5242-7cf3-8692-f6cd36ceeb8a.jsonl",
-    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+    "transcriptRootPath": "/Users/mq/.codex/sessions"
   },
-  "currentNote": "20_Knowledge/Ballarat西向发展研究.md",
+  "currentNote": "10_Projects/Lara Down/165 Bufftons Road 财务小结（2324，2425财年）.md",
   "usage": {
     "inputTokens": 69936,
     "cacheCreationInputTokens": 0,
