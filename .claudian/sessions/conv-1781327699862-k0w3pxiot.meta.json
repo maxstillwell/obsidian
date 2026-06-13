@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781327699862-k0w3pxiot",
+  "providerId": "codex",
+  "title": "撰写资产收入报告MD小节",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781327699863,
+  "updatedAt": 1781328008792,
+  "lastResponseAt": 1781328008792,
+  "sessionId": "019ebf67-9ff7-79a0-9491-6a2b3f3b78bf",
+  "providerState": {
+    "threadId": "019ebf67-9ff7-79a0-9491-6a2b3f3b78bf",
+    "sessionFilePath": "/Users/mq/.codex/sessions/2026/06/13/rollout-2026-06-13T15-14-59-019ebf67-9ff7-79a0-9491-6a2b3f3b78bf.jsonl",
+    "transcriptRootPath": "/Users/mq/.codex/sessions"
+  },
+  "currentNote": "10_Projects/Yaloak Estate/Yaloak Estate 财务汇总报告（202324 财年 ）.md",
+  "usage": {
+    "inputTokens": 92904,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 92544,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 92904,
+    "percentage": 36,
+    "model": "gpt-5.4"
+  }
+}
