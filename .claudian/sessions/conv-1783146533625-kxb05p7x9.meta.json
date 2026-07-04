@@ -1,9 +1,26 @@
 {
   "id": "conv-1783146533625-kxb05p7x9",
   "providerId": "codex",
-  "title": "帮我按照之前报告的格式，更改这个报告的格式",
-  "titleGenerationStatus": "pending",
+  "title": "Reformat report to match prior template",
+  "titleGenerationStatus": "success",
   "createdAt": 1783146533625,
-  "updatedAt": 1783146533630,
-  "sessionId": null
+  "updatedAt": 1783146627174,
+  "lastResponseAt": 1783146627174,
+  "sessionId": "019f2bd0-d52c-7c93-a4cc-3fa808d1bfb4",
+  "providerState": {
+    "threadId": "019f2bd0-d52c-7c93-a4cc-3fa808d1bfb4",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\04\\rollout-2026-07-04T16-28-54-019f2bd0-d52c-7c93-a4cc-3fa808d1bfb4.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "00_Research/月度报告/202607/2026年6月市场报告.md",
+  "usage": {
+    "inputTokens": 76289,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 76160,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 76289,
+    "percentage": 30,
+    "model": "gpt-5.4"
+  }
 }
