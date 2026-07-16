@@ -1,9 +1,26 @@
 {
   "id": "conv-1784184548663-x27fi1t7i",
   "providerId": "codex",
-  "title": "4",
-  "titleGenerationStatus": "pending",
+  "title": "计算4.1情景总览销量24至47套",
+  "titleGenerationStatus": "success",
   "createdAt": 1784184548663,
-  "updatedAt": 1784184548700,
-  "sessionId": null
+  "updatedAt": 1784184776149,
+  "lastResponseAt": 1784184776149,
+  "sessionId": "019f69af-c2ad-7f01-b537-c2ae0b6cfc5a",
+  "providerState": {
+    "threadId": "019f69af-c2ad-7f01-b537-c2ae0b6cfc5a",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\16\\rollout-2026-07-16T16-49-14-019f69af-c2ad-7f01-b537-c2ae0b6cfc5a.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "10_Projects/Morack 700/700 Project - 数字模型版.md",
+  "usage": {
+    "inputTokens": 74871,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 74112,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 74871,
+    "percentage": 29,
+    "model": "gpt-5.4"
+  }
 }
