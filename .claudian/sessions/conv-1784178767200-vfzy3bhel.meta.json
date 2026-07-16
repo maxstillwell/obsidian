@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784178767200-vfzy3bhel",
+  "providerId": "codex",
+  "title": "Draft board-level investment analysis paper",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784178767200,
+  "updatedAt": 1784179526377,
+  "lastResponseAt": 1784179526377,
+  "sessionId": "019f6957-8ce1-79a3-b82b-e5edcf846a56",
+  "providerState": {
+    "threadId": "019f6957-8ce1-79a3-b82b-e5edcf846a56",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\16\\rollout-2026-07-16T15-12-53-019f6957-8ce1-79a3-b82b-e5edcf846a56.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 100650,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 95616,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 100650,
+    "percentage": 39,
+    "model": "gpt-5.4"
+  }
+}
