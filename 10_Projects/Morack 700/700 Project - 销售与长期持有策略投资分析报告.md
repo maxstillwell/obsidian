@@ -66,22 +66,22 @@
 
 ### 3.2 租赁假设
 
-| 项目 | 假设 |
-|---|---:|
-| 周租金 | $1,000 |
+| 项目  |      假设 |
+| --- | ------: |
+| 周租金 |  $1,000 |
 | 年租金 | $52,000 |
 
 ### 3.3 运营成本假设（单套）
 
-| 项目 | 金额 | 说明 |
-|---|---:|---|
-| Property Management | $3,952 | 按 7.6% 管理费 |
-| Owners Corporation | $1,000 | 新 townhouse 估算 |
-| Building Insurance | $1,200 | 住宅保险 |
-| Council Rates | $2,200 | 地方 council 估算 |
-| Routine Maintenance | $1,000 | 年度维护准备 |
-| Vacancy / Leasing | $500 | 空置及重新招租平均成本 |
-| **小计（不含 Land Tax）** | **$9,852** | 占租金约 18.9% |
+| 项目                  |         金额 | 说明             |
+| ------------------- | ---------: | -------------- |
+| Property Management |     $3,952 | 按 7.6% 管理费     |
+| Owners Corporation  |     $1,000 | 新 townhouse 估算 |
+| Building Insurance  |     $1,200 | 住宅保险           |
+| Council Rates       |     $2,200 | 地方 council 估算  |
+| Routine Maintenance |     $1,000 | 年度维护准备         |
+| Vacancy / Leasing   |       $500 | 空置及重新招租平均成本    |
+| **小计（不含 Land Tax）** | **$9,852** | 占租金约 18.9%     |
 
 ### 3.4 持有成本口径
 
