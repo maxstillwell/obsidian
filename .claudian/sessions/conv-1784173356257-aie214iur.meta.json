@@ -1,9 +1,25 @@
 {
   "id": "conv-1784173356257-aie214iur",
   "providerId": "codex",
-  "title": "帮我跟进资产收入汇总表，写49 betula25-26财年财务汇总报告，并放在对应的文件夹里，可以参...",
-  "titleGenerationStatus": "pending",
+  "title": "Draft Betula 25-26 financial summary report",
+  "titleGenerationStatus": "success",
   "createdAt": 1784173356257,
-  "updatedAt": 1784173356265,
-  "sessionId": null
+  "updatedAt": 1784173999113,
+  "lastResponseAt": 1784173999113,
+  "sessionId": "019f6904-e6a9-7713-a674-cb55070e3e3d",
+  "providerState": {
+    "threadId": "019f6904-e6a9-7713-a674-cb55070e3e3d",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\16\\rollout-2026-07-16T13-42-36-019f6904-e6a9-7713-a674-cb55070e3e3d.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 99675,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 99200,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 99675,
+    "percentage": 39,
+    "model": "gpt-5.4"
+  }
 }
