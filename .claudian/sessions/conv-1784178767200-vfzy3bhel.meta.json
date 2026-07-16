@@ -4,8 +4,8 @@
   "title": "Draft board-level investment analysis paper",
   "titleGenerationStatus": "success",
   "createdAt": 1784178767200,
-  "updatedAt": 1784179699110,
-  "lastResponseAt": 1784179699110,
+  "updatedAt": 1784179925526,
+  "lastResponseAt": 1784179925526,
   "sessionId": "019f6957-8ce1-79a3-b82b-e5edcf846a56",
   "providerState": {
     "threadId": "019f6957-8ce1-79a3-b82b-e5edcf846a56",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
   },
   "usage": {
-    "inputTokens": 101225,
+    "inputTokens": 109534,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 100736,
+    "cacheReadInputTokens": 103296,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 101225,
-    "percentage": 39,
+    "contextTokens": 109534,
+    "percentage": 42,
     "model": "gpt-5.4"
   }
 }
