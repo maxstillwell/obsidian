@@ -56,7 +56,7 @@ location: Victoria
 - [[00_Research/项目研究/推进中/Cobungra Station/Docs/04 Water Details _ Infrastructure/04.02 WLE086859_WorksLicence_COR.pdf|Works Licence / COR 2]]
 
 ### 5. Production / 经营
-- [[00_Research/项目研究/推进中/Cobungra Station/Docs/05 Livestock production/10 Cobungra DSE (Oct22-Sep25).xlsx|Livestock production / DSE]]（见 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]] 说明）
+- [[00_Research/项目研究/推进中/Cobungra Station/Docs/05 Livestock production/10 Cobungra DSE (Oct22-Sep25).xlsx|Livestock production / DSE]]（见 [[../../../../20_Knowledge/DSE（Dry Sheep Equivalent）|DSE]] 说明）
 
 ### 6. Lease / Legal
 - [[00_Research/项目研究/推进中/Cobungra Station/Docs/06 Copy of Lease _ Deed/06.01 Cobungra Station - Lease (20190301).pdf|Lease]]
@@ -97,7 +97,7 @@ location: Victoria
 - [ ] 项目总 freehold 面积是多少？grazing licence 面积是多少？
 - [ ] 现有 lease 结构下，买方拿到的是空置交割还是带租约交割？
 - [ ] FY25 / FY26 的 rates、water charges、licence fees 合计分别是多少？
-- [ ] 历史 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]] 数据反映出的稳定承载能力大概是多少？
+- [ ] 历史 [[../../../../20_Knowledge/DSE（Dry Sheep Equivalent）|DSE]] 数据反映出的稳定承载能力大概是多少？
 - [ ] 当前已知 capex 中，哪些是维持性投入，哪些是提升性投入？
 - [ ] 水证、works licence、frontage licence 之间的关系是什么？
 

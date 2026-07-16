@@ -82,7 +82,7 @@ Cobungra Station 是一宗**大体量、稀缺、高海拔、带长期租约现�
 
 ### 已确认公开信息
 
-- 2025 市场报道给出的估算承载能力为 **50,000 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]]**。
+- 2025 市场报道给出的估算承载能力为 **50,000 [[../../../../20_Knowledge/DSE（Dry Sheep Equivalent）|DSE]]**。
 - 2018 销售资料提到当时为大型纯种与杂交 beef enterprise，历史上 cattle numbers 很大。
 - 项目文件夹中有专门的经营数据文件：
   - [[00_Research/项目研究/推进中/Cobungra Station/Docs/05 Livestock production/10 Cobungra DSE (Oct22-Sep25).xlsx]]
@@ -214,7 +214,7 @@ Cobungra Station 是一宗**大体量、稀缺、高海拔、带长期租约现�
 1. freehold titles 与 grazing/alpine licences 的准确数量、面积、期限分别是什么？
 2. 当前 lease 的租金、review 机制、outgoings 分担、续租条款是什么？
 3. FY25 / FY26 的 rates、water charges、licence fees 合计多少？
-4. DSE 历史数据能否支撑 50,000 [[20_Knwledge/DSE（Dry Sheep Equivalent）|DSE]] 这一市场说法？
+4. DSE 历史数据能否支撑 50,000 [[../../../../20_Knowledge/DSE（Dry Sheep Equivalent）|DSE]] 这一市场说法？
 5. 2019–2025 的 capex 中，哪些属于一次性提升，哪些是未来持续 maintenance？
 6. 买方买到的本质到底是“稳定租金资产”、还是“高地牧场运营平台”？
 
