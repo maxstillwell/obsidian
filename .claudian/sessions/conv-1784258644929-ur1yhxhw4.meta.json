@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784258644929-ur1yhxhw4",
+  "providerId": "codex",
+  "title": "Create Creekside Hills FY2526 finance report",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784258644929,
+  "updatedAt": 1784259149162,
+  "lastResponseAt": 1784259149162,
+  "sessionId": "019f6e1a-6054-7ae3-8754-a12c1223ecb0",
+  "providerState": {
+    "threadId": "019f6e1a-6054-7ae3-8754-a12c1223ecb0",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\17\\rollout-2026-07-17T13-24-10-019f6e1a-6054-7ae3-8754-a12c1223ecb0.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 109624,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 106880,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 109624,
+    "percentage": 42,
+    "model": "gpt-5.4"
+  }
+}
