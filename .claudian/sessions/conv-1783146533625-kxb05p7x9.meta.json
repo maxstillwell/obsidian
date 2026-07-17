@@ -4,7 +4,7 @@
   "title": "Reformat report to match prior template",
   "titleGenerationStatus": "success",
   "createdAt": 1783146533625,
-  "updatedAt": 1783146627174,
+  "updatedAt": 1784268207644,
   "lastResponseAt": 1783146627174,
   "sessionId": "019f2bd0-d52c-7c93-a4cc-3fa808d1bfb4",
   "providerState": {
@@ -12,7 +12,6 @@
     "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\04\\rollout-2026-07-04T16-28-54-019f2bd0-d52c-7c93-a4cc-3fa808d1bfb4.jsonl",
     "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
   },
-  "currentNote": "00_Research/月度报告/202607/2026年6月市场报告.md",
   "usage": {
     "inputTokens": 76289,
     "cacheCreationInputTokens": 0,
