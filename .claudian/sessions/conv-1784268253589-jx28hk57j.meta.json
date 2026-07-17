@@ -4,8 +4,8 @@
   "title": "检查并更新资产收入汇总表new为v2",
   "titleGenerationStatus": "success",
   "createdAt": 1784268253589,
-  "updatedAt": 1784271108867,
-  "lastResponseAt": 1784271108867,
+  "updatedAt": 1784271568225,
+  "lastResponseAt": 1784271568225,
   "sessionId": "019f6eac-f1c0-7072-88b8-8b19a4782c50",
   "providerState": {
     "threadId": "019f6eac-f1c0-7072-88b8-8b19a4782c50",
@@ -14,13 +14,13 @@
   },
   "currentNote": "10_Projects/Lara Down/165 Bufftons Road 财务小结（2526财年）.md",
   "usage": {
-    "inputTokens": 99890,
+    "inputTokens": 112701,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 99200,
+    "cacheReadInputTokens": 112000,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 99890,
-    "percentage": 39,
+    "contextTokens": 112701,
+    "percentage": 44,
     "model": "gpt-5.4"
   }
 }
