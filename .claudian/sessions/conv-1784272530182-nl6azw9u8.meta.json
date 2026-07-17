@@ -1,0 +1,26 @@
+{
+  "id": "conv-1784272530182-nl6azw9u8",
+  "providerId": "codex",
+  "title": "Update rent growth and insurance in xlsx/md",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784272530182,
+  "updatedAt": 1784272887507,
+  "lastResponseAt": 1784272887507,
+  "sessionId": "019f6eee-3289-7e81-a352-28d979746c08",
+  "providerState": {
+    "threadId": "019f6eee-3289-7e81-a352-28d979746c08",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\17\\rollout-2026-07-17T17-15-32-019f6eee-3289-7e81-a352-28d979746c08.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "10_Projects/Chintin/Creekside Hills 财务汇总报告（202526 财年）v2.md",
+  "usage": {
+    "inputTokens": 86538,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 83840,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 86538,
+    "percentage": 33,
+    "model": "gpt-5.4"
+  }
+}
