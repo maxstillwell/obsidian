@@ -1,9 +1,26 @@
 {
   "id": "conv-1784259206191-hx4seepnn",
   "providerId": "codex",
-  "title": "我更新了资产收入汇总表，这个文件叫资产收入汇总表new，请从新整理，更新每个项目下的财务汇总报告，并...",
-  "titleGenerationStatus": "pending",
+  "title": "更新项目财务汇总报告v2",
+  "titleGenerationStatus": "success",
   "createdAt": 1784259206191,
-  "updatedAt": 1784259206208,
-  "sessionId": null
+  "updatedAt": 1784259523972,
+  "lastResponseAt": 1784259523972,
+  "sessionId": "019f6e22-ddf0-75e3-a3b5-fa2584ccee88",
+  "providerState": {
+    "threadId": "019f6e22-ddf0-75e3-a3b5-fa2584ccee88",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\17\\rollout-2026-07-17T13-33-26-019f6e22-ddf0-75e3-a3b5-fa2584ccee88.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "10_Projects/Yaloak Estate/Yaloak Estate 财务汇总报告（202425 财年）.md",
+  "usage": {
+    "inputTokens": 109844,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 109440,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 109844,
+    "percentage": 43,
+    "model": "gpt-5.4"
+  }
 }
