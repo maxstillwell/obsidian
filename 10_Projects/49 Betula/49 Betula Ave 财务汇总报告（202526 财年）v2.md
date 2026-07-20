@@ -1,86 +1,195 @@
+# 49 Betula Ave 财务汇总报告（2025/26 财年，按 Agent Statements 重写）
 
+本版不再以 [[10_Projects/资产收入汇总表new.xlsx]] 为主，而是改为直接依据 [[10_Projects/49 Betula/Agent Statements]] 下现有的 **Commercial Statement** 与 **End of Year Statement** 重写。
 
-2025/26 财年的 v2 源数据来自 [[10_Projects/资产收入汇总表new.xlsx]] 中的 **“SY Cash Flow Budget for 2026FY”** 工作表。
+## 一、资料范围与结论先看
 
-本次按新表复核后，**49 Betula 的年度收入、实收、管理费与净额口径均与 v1 一致**；因此 v2 主要完成了：
+当前文件夹内共找到 **18** 份 PDF：
 
-- 源文件切换为 [[10_Projects/资产收入汇总表new.xlsx]]；
-- 按新表再次核对 49 Betula 对应行；
-- 保留已验证无误的财务结论。
+- **年度报表 2 份**
+  - [[10_Projects/49 Betula/Agent Statements/4814961-REPORT_END_OF_YEAR_STATEMENT__LANDSCAPE_.pdf]]：**2024/25 财年**（01/07/2024–30/06/2025）
+  - [[10_Projects/49 Betula/Agent Statements/6600857-REPORT_END_OF_YEAR_STATEMENT__LANDSCAPE_.pdf]]：**2025/26 财年**（01/07/2025–30/06/2026）
+- **商业/月度报表 16 份**
+  - 其中与 **2025/26 财年直接相关** 的为 **Statement No. 38–55** 中已找到的 15 份
+  - [[10_Projects/49 Betula/Agent Statements/6644128-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]]（Statement No. 56）对应 **2026/07**，属于 **下一财年**，不纳入本报告主分析
 
-整体来看，49 Betula 在 2025/26 财年的租金执行情况总体稳定。
+### 核心判断
 
-- **全年预计收入**：A$113,563.75
-- **当前已录入实收**：A$110,345.82
-- **已录入完成度**：约 **97.17%**
+1. **2025/26 年度报表本身是完整的，可以作为本财年的主口径。**
+2. **月度商业报表在当前文件夹中并不完整**：缺少 **Statement No. 50、52、53**。
+3. 因为缺少上述 3 份月报，**现有月报无法 100% 回溯并完全对齐年度报表**。
+4. 所以本次重写建议：
+   - **年度结论以 2025/26 年度报表为准**；
+   - **月度报表只作为佐证与缺失检查**；
+   - 原先基于 Excel 的版本可保留作预算/内部追踪口径，但不应继续作为“Agent Statements 口径”的正式版本。
 
-其中，**Factory 2 & 3** 的年度收款与预计基本一致；**Factory 1** 当前已录入实收略低于预计，主要表现为个别月份尚未完全按预计节奏体现在工作表中。
+## 二、两份年度报表对比（2024/25 vs 2025/26）
 
-## 一、收入明细
+> 以下金额均按年度报表展示口径整理；报表注明 **Revenue / Expenses figures are EX GST**。
 
-| 租赁单元 | 预计金额（A$） | 已录入实收（A$） | 差额（A$） | 说明 |
+| 项目 | 2024/25 财年 | 2025/26 财年 | 变化 | 说明 |
 |---|---:|---:|---:|---|
-| Factory 1 New Lease | 42,178.15 | 38,959.42 | -3,218.73 | 2025/7–2025/9 按 A$3,437.50/月，之后约 A$3,540.63/月 |
-| Factory 2 & 3 | 71,385.60 | 71,386.40 | 0.80 | 全年执行基本与预计一致 |
-| **收入合计** | **113,563.75** | **110,345.82** | **-3,217.93** | **当前已录入完成度约 97.17%** |
+| Rent（租金） | A$80,122.40 | A$106,458.50 | **+A$26,336.10** | 租金主收入明显上升 |
+| Revenue Total（年度总收入） | A$99,754.99 | A$120,982.64 | **+A$21,227.65** | 总收入继续增长 |
+| Expenses Total（年度总支出） | A$21,273.81 | A$15,344.90 | **-A$5,928.91** | 总支出下降 |
+| Distribution to Owner（业主分配） | A$86,672.51 | A$117,163.30 | **+A$30,490.79** | 对业主净分配提升明显 |
 
-## 二、收租执行情况说明
+### 2024/25 年度报表要点
 
-### Factory 1
+- **租金收入**：A$80,122.40
+- **总收入**：A$99,754.99
+- **总支出**：A$21,273.81
+- **业主分配**：A$86,672.51
 
-- 全年预计收入：**A$42,178.15**
-- 当前已录入实收：**A$38,959.42**
-- 与预计差额：**A$-3,218.73**
+主要支出包括：
 
-从工作表月度记录看，Factory 1 的大部分月份已经按新租约节奏入账，但仍有个别月份的实际收款与预计列示时间并不完全同步，因此当前更适合作为**阶段性执行汇总**。
+- Door Repairs：A$345.45（收入侧有对应回收项目）
+- Insurance：A$4,104.92
+- Council Rates / Water Rates
+- Agreed Leasing Fee：A$3,125.00
+- Commission on Rental：A$4,006.12
+- Administration Fee：A$75.00
+- Disclosure Statement：A$250.00
+- Preparation of Lease：A$500.00
 
-### Factory 2 & 3
+### 2025/26 年度报表要点
 
-- 全年预计收入：**A$71,385.60**
-- 当前已录入实收：**A$71,386.40**
-- 与预计差额：**A$0.80**
+- **租金收入**：A$106,458.50
+- **总收入**：A$120,982.64
+- **总支出**：A$15,344.90
+- **业主分配**：A$117,163.30
 
-全年累计口径与预计基本一致，没有看到明显的年度欠租问题。
+主要支出包括：
 
-## 三、费用情况（不含管理费）
+- Plumbing：A$310.00
+- Council Rates：A$6,989.15
+- Water Rates：A$2,627.80
+- Commission on Rental：A$5,322.95
+- Administration Fee：A$95.00
 
-参照 [[10_Projects/资产收入汇总表new.xlsx]] 当前口径，2025/26 财年 **49 Betula 暂未单独列示可直接归属的非管理费支出**。
+### 年度层面的结论
 
-| 费用类别 | 金额（A$） | 说明 |
-|---|---:|---|
-| 已单独列示的非管理费支出 | 0.00 | 当前工作表未见 49 Betula 独立列示的非管理费费用 |
-| **费用小计（不含管理费）** | **0.00** |  |
+与 2024/25 相比，**2025/26 财年整体表现更好**：
 
-## 四、管理费（供参考）
+- 租金收入明显增长；
+- 总支出下降；
+- 业主可分配金额显著增加；
+- 从年度报表看，**2025/26 是更强的一年**。
 
-| 项目 | 金额（A$） | 说明 |
-|---|---:|---|
-| 预计管理费 | 6,246.01 | 按全年预计收入测算 |
-| 已录入管理费 | 6,069.02 | 按当前已录入实收口径测算 |
+## 三、2025/26 财年月度商业报表检查
 
-> 注：为保持与往年报告“费用（不含管理费）”的写法一致，以上管理费单独列示，未并入上一节费用小计。
+### 1）当前已找到的 2025/26 财年报表
 
-## 五、盈亏结余（按当前可归属口径）
+| Statement No. | 报表日期 | 文件 | 备注 |
+|---|---|---|---|
+| 38 | 2025-07-15 | [[10_Projects/49 Betula/Agent Statements/4877140-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 39 | 2025-07-29 | [[10_Projects/49 Betula/Agent Statements/4939049-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 40 | 2025-08-26 | [[10_Projects/49 Betula/Agent Statements/5077721-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 41 | 2025-09-18 | [[10_Projects/49 Betula/Agent Statements/5191282-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 42 | 2025-10-01 | [[10_Projects/49 Betula/Agent Statements/5245877-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 43 | 2025-10-21 | [[10_Projects/49 Betula/Agent Statements/5350705-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 44 | 2025-11-03 | [[10_Projects/49 Betula/Agent Statements/5403501-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 45 | 2025-12-05 | [[10_Projects/49 Betula/Agent Statements/5572709-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 46 | 2026-01-13 | [[10_Projects/49 Betula/Agent Statements/5728247-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 47 | 2026-02-02 | [[10_Projects/49 Betula/Agent Statements/5821425-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 48 | 2026-02-26 | [[10_Projects/49 Betula/Agent Statements/5950987-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 49 | 2026-03-12 | [[10_Projects/49 Betula/Agent Statements/6019342-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 50 | — | — | **缺失** |
+| 51 | 2026-04-21 | [[10_Projects/49 Betula/Agent Statements/6216408-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 52 | — | — | **缺失** |
+| 53 | — | — | **缺失** |
+| 54 | 2026-06-01 | [[10_Projects/49 Betula/Agent Statements/6423691-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
+| 55 | 2026-06-25 | [[10_Projects/49 Betula/Agent Statements/6545107-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 已找到 |
 
-### 不含管理费口径
+### 2）不属于本财年的文件
 
-| 项目 | 金额（A$） | 说明 |
-|---|---:|---|
-| 净现金流（预计） | 113,563.75 | 仅按当前已单独归属收入与费用口径整理 |
-| 净现金流（已录入实收） | 110,345.82 | 当前已录入实收口径 |
+| Statement No. | 报表日期 | 文件 | 说明 |
+|---|---|---|---|
+| 56 | 2026-07-09 | [[10_Projects/49 Betula/Agent Statements/6644128-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] | 属于 **2026/27 财年**，不纳入本报告 |
 
-### 扣除管理费后的参考口径
+## 四、2025/26 年度报表 vs 现有月报汇总的核对
 
-| 项目 | 金额（A$） | 说明 |
-|---|---:|---|
-| 净现金流（预计，扣管理费后） | 107,317.74 | 113,563.75 - 6,246.01 |
-| 净现金流（已录入实收，扣管理费后） | 104,276.80 | 110,345.82 - 6,069.02 |
+把当前能找到的 **Statement No. 38–55（不含 56）** 汇总后，可得到：
 
-## 六、结论
+| 项目 | 现有月报汇总 | 2025/26 年度报表 | 差额 | 判断 |
+|---|---:|---:|---:|---|
+| Income Total 汇总 | A$112,815.16 | A$120,982.64 | **A$8,167.48** | 未完全对上 |
+| Deductions Total 汇总 | A$14,403.31 | A$15,344.90 | **A$941.59** | 未完全对上 |
+| Distribution 汇总 | A$98,411.85 | A$117,163.30 | **A$18,751.45** | 差额较大 |
 
-截至 [[10_Projects/资产收入汇总表new.xlsx]] 当前记录，49 Betula 在 2025/26 财年的整体出租表现仍然稳健：
+### 这说明什么？
 
-- Factory 2 & 3 的全年执行基本达到预计；
-- Factory 1 目前略低于预计，但更可能属于入账节奏差异；
-- 当前已录入实收已达到全年预计的 **97.17%**；
-- 本次 v2 复核后，**核心金额与 v1 保持一致**。
+这说明 **当前文件夹中的月度 commercial statements 不是完整集合**，至少不能单独支撑出一份完整的 2025/26 年度回溯。
+
+最直接的证据有两个：
+
+1. **编号缺失**：Statement **50、52、53** 不在当前文件夹中；
+2. **金额缺口明显**：尤其是 **Distribution to Owner**，月报汇总比年度报表少 **A$18,751.45**。
+
+因此，从审计/复核角度看：
+
+- **年度报表数据可用；**
+- **月报资料不完整；**
+- **若要做到逐笔完全核销，必须补齐缺失的 50 / 52 / 53 号 statement。**
+
+## 五、数据是否 ok
+
+### 可以认为“ok”的部分
+
+1. **年度报表层面是 ok 的**：
+   - 2024/25 与 2025/26 两份年度报表都齐全；
+   - 关键年度指标（Rent / Total Revenue / Total Expenses / Distribution）明确；
+   - 可以支持年度结论与年度对比。
+
+2. **2025/26 的经营趋势判断是清晰的**：
+   - 租金收入较上年增长；
+   - 支出较上年下降；
+   - 业主分配显著增加。
+
+### 目前“不 ok / 不完整”的部分
+
+1. **2025/26 月报链条不完整**：缺少 Statement **50、52、53**；
+2. **2024/25 只有年度报表，没有对应月报在当前文件夹内**，无法逐月复核；
+3. **当前这份旧版 md（基于 Excel）与 Agent 年度报表口径不同**：
+   - 旧版写的是“预计 / 已录入实收”逻辑；
+   - Agent Statements 是“物业管理报表 / 年度汇总”逻辑；
+   - 两者不能直接混写在同一正式结论里。
+
+## 六、缺失报表清单
+
+### 2025/26 财年缺失
+
+- **Statement No. 50**
+- **Statement No. 52**
+- **Statement No. 53**
+
+### 2024/25 财年缺失（按当前文件夹）
+
+- 缺少对应的 **月度 commercial statements**；
+- 当前仅有 **年度报表** [[10_Projects/49 Betula/Agent Statements/4814961-REPORT_END_OF_YEAR_STATEMENT__LANDSCAPE_.pdf]]。
+
+## 七、本次重写后的正式结论
+
+如果本文件以 **Agent Statements** 为唯一正式依据，那么 2025/26 财年的结论应写为：
+
+- **49 Betula 在 2025/26 财年的年度表现优于 2024/25 财年；**
+- 年度报表显示：
+  - **租金收入** A$106,458.50；
+  - **总收入** A$120,982.64；
+  - **总支出** A$15,344.90；
+  - **业主分配** A$117,163.30；
+- 但当前 [[10_Projects/49 Betula/Agent Statements]] 文件夹中的月度 commercial statements **并不完整**；
+- 因缺少 **50、52、53 号报表**，现有月报 **无法与年度报表做到完全逐笔核对**；
+- 所以现阶段最稳妥的做法是：
+  - **年度数字采用年度报表；**
+  - **月度核对结论标记为“待补齐缺失报表后完成”。**
+
+## 八、建议下一步
+
+1. 向中介或档案来源补齐：
+   - **Statement 50**
+   - **Statement 52**
+   - **Statement 53**
+2. 如果要做最终版归档，建议另起一份：
+   - `49 Betula Ave 财务汇总报告（2025/26 财年，Agent Statements终版）`
+3. 并将本报告作为“基于现有 Agent Statements 的中间复核版”。
