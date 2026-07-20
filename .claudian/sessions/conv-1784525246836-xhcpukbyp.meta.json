@@ -4,8 +4,8 @@
   "title": "梳理老房子租金",
   "titleGenerationStatus": "success",
   "createdAt": 1784525246836,
-  "updatedAt": 1784526210458,
-  "lastResponseAt": 1784526210458,
+  "updatedAt": 1784526656725,
+  "lastResponseAt": 1784526656725,
   "sessionId": "019f7dfe-54b6-77a0-ab78-8ab2e18bb04e",
   "providerState": {
     "threadId": "019f7dfe-54b6-77a0-ab78-8ab2e18bb04e",
@@ -14,12 +14,12 @@
   },
   "currentNote": "10_Projects/Yaloak Estate/Yaloak Estate 财务汇总报告（202526 财年）v2.md",
   "usage": {
-    "inputTokens": 91993,
+    "inputTokens": 93535,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 1920,
+    "cacheReadInputTokens": 92032,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 91993,
+    "contextTokens": 93535,
     "percentage": 36,
     "model": "gpt-5.4"
   }
