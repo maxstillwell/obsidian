@@ -4,8 +4,8 @@
   "title": "整理 beefcorp 中的 Agistment Payment",
   "titleGenerationStatus": "success",
   "createdAt": 1784526317910,
-  "updatedAt": 1784527629411,
-  "lastResponseAt": 1784527629411,
+  "updatedAt": 1784543702518,
+  "lastResponseAt": 1784543702518,
   "sessionId": "019f7e0e-aa79-75b2-9056-8abbfa89533d",
   "providerState": {
     "threadId": "019f7e0e-aa79-75b2-9056-8abbfa89533d",
@@ -14,13 +14,13 @@
   },
   "currentNote": "10_Projects/Yaloak Estate/Beefcorp.md",
   "usage": {
-    "inputTokens": 111423,
+    "inputTokens": 125394,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 102784,
+    "cacheReadInputTokens": 117632,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 111423,
-    "percentage": 43,
+    "contextTokens": 125394,
+    "percentage": 49,
     "model": "gpt-5.4"
   }
 }
