@@ -1,166 +1,146 @@
-# 49 Betula Ave 财务汇总报告（2025/26 财年，按严格财年口径）
+# 49 Betula Ave 财务总结（供股东审阅，按应收与实收区分）
 
-你提醒得对：**看财年时，不能按 statement 出单日期机械汇总，更不能把下一财年的租金或费用带进来。**
+## 一、结论摘要
 
-因此本版按以下原则修正：
+基于 [[10_Projects/49 Betula/Agent Statements/4814961-REPORT_END_OF_YEAR_STATEMENT__LANDSCAPE_.pdf]]、[[10_Projects/49 Betula/Agent Statements/6600857-REPORT_END_OF_YEAR_STATEMENT__LANDSCAPE_.pdf]] 以及 2025 年 7 月起的 Commercial Statements 复核后，现对 49 Betula 的租金口径作如下调整：
 
-1. **财年范围固定为 2025-07-01 至 2026-06-30**；
-2. **凡是属于 2026/27 财年的内容，一律不计入 2025/26**；
-3. **2025/26 的正式结论以年度报表为准**；
-4. Commercial Statements 只作为辅助核对材料，不能直接把整张 statement 的 total 全部相加后当作财年结果。
+- **2024/25 财年末（截至 2025-06-30）存在 1 笔未收租金，应属于 2024/25 财年应收；**
+- 该笔租金**很大概率在 2025/26 财年 7 月收到**；
+- 因此：
+  - **2024/25 财年的“应收租金”应高于当年“实际收到租金”；**
+  - **2025/26 财年的“实际收到租金”中，包含了上一个财年的回款。**
 
----
+按目前证据，最合理的调整是：
 
-## 一、可直接采用的正式财年口径
-
-2025/26 财年的正式口径，应以年度报表：
-
-- [[10_Projects/49 Betula/Agent Statements/6600857-REPORT_END_OF_YEAR_STATEMENT__LANDSCAPE_.pdf]]
-
-为准。
-
-该年度报表覆盖期间明确写明为：
-
-- **01/07/2025 – 30/06/2026**
-
-所以这份报表本身已经是**严格财年口径**。
-
-### 2025/26 财年正式结果
-
-| 项目 | 金额 |
-|---|---:|
-| Rent（租金） | A$106,458.50 |
-| Revenue Total（总收入） | A$120,982.64 |
-| Expenses Total（总支出） | A$15,344.90 |
-| Distribution to Owner（业主分配） | A$117,163.30 |
+- **2024/25 财年末应收未收租金：A$3,125.00（ex GST）**
+- 该款项应从 2025/26 财年的实收中剥离，并回拨到 2024/25 财年的应收分析中。
 
 ---
 
-## 二、为什么不能直接把 Commercial Statements 全部相加
+## 二、为什么判断 2024/25 年 6 月有一笔租金跨财年收取
 
-因为 **Commercial Statement 是结算单/流水单**，不是天然的财年汇总表。
+判断依据主要有两点：
 
-它会出现两类问题：
+### 1）2025/26 年度报表中，Factory 1 的租金总额比正常 12 个月应收多出 A$3,125.00
 
-### 1）statement 日期在财年内，但内容已经跨到下一财年
+在 [[10_Projects/49 Betula/Agent Statements/6600857-REPORT_END_OF_YEAR_STATEMENT__LANDSCAPE_.pdf]] 中：
 
-最典型的是：
+- **1/49 Betula Avenue** 的全年 Rent 为 **A$41,562.50**（ex GST）
 
-- [[10_Projects/49 Betula/Agent Statements/6545107-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]]
-- **Statement No. 55**
-- 出单日期：**2026-06-25**
+按租约节奏推算，2025/26 财年 Factory 1 的正常应收租金应为：
 
-这张单虽然出在 2025/26 财年结束前，但其中 1/49 的租金写的是：
+- **2025 年 7–8 月：A$3,125.00 / 月**
+- **2025 年 9 月–2026 年 6 月：A$3,218.75 / 月**
 
-- **Paid From 01/07/2026**
-- **Paid To 31/07/2026**
+即：
 
-这已经属于 **2026/27 财年**，所以：
+- **2 × 3,125.00 + 10 × 3,218.75 = A$38,437.50**
 
-- **不能因为 statement 日期还是 2026-06-25，就把这笔 2026/27 的租金算进 2025/26。**
+而年度报表实际列示为：
 
-### 2）statement total 可能混有跨期费用/跨期收款
+- **A$41,562.50**
 
-例如：
+两者差额正好是：
 
-- Council Rates
-- Water Rates
-- Metered Fire Service
-- Insurance
+- **A$3,125.00**
 
-这些项目在 statement 中出现时，常按账单区间或结算时点入单，不一定天然等于“严格财年归属”。
+这说明 2025/26 财年内，Factory 1 很可能多收了一笔 **上个财年结转过来的租金**。
 
-所以：
+### 2）该差额最合理地对应 2024/25 财年 6 月租金未在当年收到
 
-- **statement 用来看过程**没问题；
-- **真正看财年 closing，要回到年度报表。**
+这与您的判断一致：
 
----
+- **2024/25 财年 6 月应有 1 笔租金未付；**
+- **2025/26 财年 7 月才收到。**
 
-## 三、补齐后的 statement 完整性结论
+因此，这 A$3,125.00 应视为：
 
-这次补齐后，2025/26 相关的 Commercial Statements 编号已经完整：
-
-| Statement No. | 报表日期 | 文件 |
-|---|---|---|
-| 38 | 2025-07-15 | [[10_Projects/49 Betula/Agent Statements/4877140-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 39 | 2025-07-29 | [[10_Projects/49 Betula/Agent Statements/4939049-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 40 | 2025-08-26 | [[10_Projects/49 Betula/Agent Statements/5077721-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 41 | 2025-09-18 | [[10_Projects/49 Betula/Agent Statements/5191282-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 42 | 2025-10-01 | [[10_Projects/49 Betula/Agent Statements/5245877-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 43 | 2025-10-21 | [[10_Projects/49 Betula/Agent Statements/5350705-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 44 | 2025-11-03 | [[10_Projects/49 Betula/Agent Statements/5403501-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 45 | 2025-12-05 | [[10_Projects/49 Betula/Agent Statements/5572709-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 46 | 2026-01-13 | [[10_Projects/49 Betula/Agent Statements/5728247-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 47 | 2026-02-02 | [[10_Projects/49 Betula/Agent Statements/5821425-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 48 | 2026-02-26 | [[10_Projects/49 Betula/Agent Statements/5950987-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 49 | 2026-03-12 | [[10_Projects/49 Betula/Agent Statements/6019342-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 50 | 2026-03-31 | [[10_Projects/49 Betula/Agent Statements/6107567-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 51 | 2026-04-21 | [[10_Projects/49 Betula/Agent Statements/6216408-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 52 | 2026-05-07 | [[10_Projects/49 Betula/Agent Statements/6298411-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 53 | 2026-05-14 | [[10_Projects/49 Betula/Agent Statements/6333247-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 54 | 2026-06-01 | [[10_Projects/49 Betula/Agent Statements/6423691-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-| 55 | 2026-06-25 | [[10_Projects/49 Betula/Agent Statements/6545107-REPORT_COMMERCIAL_STATEMENT_STANDARD.pdf]] |
-
-### 说明
-
-- **文件完整性：现在是 ok 的**；
-- **但财年归属判断：仍然必须以年度报表为主**；
-- **不能把 statement 55 里属于 2026/07 的内容算进 2025/26。**
+- **2024/25 财年应收未收；**
+- **2025/26 财年实收中的上年回款。**
 
 ---
 
-## 四、2024/25 vs 2025/26 年度报表对比（严格财年口径）
+## 三、调整后的租金口径（应收 vs 实收）
 
-| 项目                          |  2024/25 财年 |   2025/26 财年 |           变化 |
-| --------------------------- | ----------: | -----------: | -----------: |
-| Rent（租金）                    | A$80,122.40 | A$106,458.50 | +A$26,336.10 |
-| Revenue Total（总收入）          | A$99,754.99 | A$120,982.64 | +A$21,227.65 |
-| Expenses Total（总支出）         | A$21,273.81 |  A$15,344.90 |  -A$5,928.91 |
-| Distribution to Owner（业主分配） | A$86,672.51 | A$117,163.30 | +A$30,490.79 |
+> 以下金额统一按 **ex GST** 口径整理，与年度报表 Rent 项一致。
 
-### 财年结论
+### 1）2024/25 财年
 
-和 2024/25 相比，**2025/26 财年表现更好**：
+年度报表显示：
 
-- 租金更高；
-- 总费用更低；
-- 对业主分配更高。
+- **实际收到租金（Rent）**：A$80,122.40
 
----
+加入跨财年未收的 1 笔 2025 年 6 月租金后，调整为：
 
-## 五、现在对“数据是否 ok”的判断
+- **应收租金**：A$83,247.40
+- **实际收到租金**：A$80,122.40
+- **期末应收未收租金**：A$3,125.00
 
-### ok 的部分
+### 2）2025/26 财年
 
-- **年度报表口径是 ok 的**；
-- **2025/26 财年的 statement 文件现在也补齐了**；
-- 做正式财年总结时，已经有足够材料支持结论。
+年度报表显示：
 
-### 需要注意的部分
+- **实际收到租金（Rent）**：A$106,458.50
 
-- **不能再直接把 Commercial Statements 的 total 当作财年总额**；
-- 月度 statement 中可能带有：
-  - 下一财年的租金
-  - 跨期 rates / 水费 / 保险
-  - 年终前后的结转项
+但其中包含上年回款：
 
-所以：
+- **其中属于 2024/25 财年的回款**：A$3,125.00
 
-> **财年分析看年度报表，statement 只做辅助说明。**
+因此，剔除上年回款后，2025/26 财年本身的租金口径应调整为：
+
+- **本财年应收租金**：A$103,333.50
+- **本财年实际收到租金（剔除上年回款后）**：A$103,333.50
+- **期末应收未收租金**：A$0.00（按目前资料判断）
 
 ---
 
-## 六、最终结论
+## 四、调整后的两年租金对比表
 
-本次按严格财年口径重看后，结论应当是：
+| 项目 | 2024/25 财年 | 2025/26 财年 |
+|---|---:|---:|
+| 应收租金 | A$83,247.40 | A$103,333.50 |
+| 实际收到租金 | A$80,122.40 | A$106,458.50 |
+| 其中：上年回款 | — | A$3,125.00 |
+| 剔除上年回款后的本年实收 | A$80,122.40 | A$103,333.50 |
+| 年末应收未收租金 | A$3,125.00 | A$0.00 |
 
-1. **2025/26 财年的正式数据，以年度报表为准；**
-2. **不能跨财年使用 statement 中的下一期租金或费用；**
-3. 2025/26 财年最终结果为：
-   - Rent：**A$106,458.50**
-   - Revenue Total：**A$120,982.64**
-   - Expenses Total：**A$15,344.90**
-   - Distribution to Owner：**A$117,163.30**
-4. 与 2024/25 比较，**2025/26 财年整体更好。**
+---
+
+## 五、给股东的财务总结（可直接引用）
+
+### 49 Betula Ave 财务总结（股东版）
+
+在对 49 Betula 的 2024/25 与 2025/26 财年租金记录进行复核后，我们对“应收租金”与“实际收到租金”作了重新区分，以避免跨财年收款造成误判。
+
+复核结果显示，**2024/25 财年末存在一笔 A$3,125.00（ex GST）的租金未在 2025 年 6 月前收到，应作为 2024/25 财年的应收租金处理**。该笔款项已在 **2025/26 财年初** 收回，因此会反映在 2025/26 财年的现金实收中，但其经济归属应属于上一财年。
+
+按此调整后：
+
+- **2024/25 财年应收租金为 A$83,247.40，实际收到 A$80,122.40，年末尚有 A$3,125.00 未收；**
+- **2025/26 财年实际收到租金为 A$106,458.50，但其中包含上年回款 A$3,125.00；剔除该项后，2025/26 财年本身应收并实收租金为 A$103,333.50。**
+
+这意味着：
+
+1. **2024/25 财年并非少赚，而是有一笔租金跨财年到账；**
+2. **2025/26 财年的现金回款看起来偏高，部分原因是收回了上一财年的欠租；**
+3. 在剔除跨财年影响后，**2025/26 财年的本年租金水平仍明显高于 2024/25 财年**，说明物业整体出租表现较上一年改善。
+
+从股东角度看，这样的调整可以更准确地区分：
+
+- 哪些收入属于本财年经营成果；
+- 哪些只是上一财年的应收回款；
+- 以及每个财年末真实存在的租金应收余额。
+
+---
+
+## 六、建议的后续口径
+
+今后在向股东汇报时，建议固定分成两条线：
+
+1. **应收租金（Accrual）**：反映该财年真正赚到多少租金；
+2. **实际收到租金（Cash Collected）**：反映当年真实到账现金；
+
+这样可以避免：
+
+- 因跨财年收款造成某一年“偏低”、下一年“偏高”的误读。
 

@@ -4,8 +4,8 @@
   "title": "整理Agent Statements报表并重写MD",
   "titleGenerationStatus": "success",
   "createdAt": 1784520741950,
-  "updatedAt": 1784523084207,
-  "lastResponseAt": 1784523084207,
+  "updatedAt": 1784523779587,
+  "lastResponseAt": 1784523779587,
   "sessionId": "019f7db9-a0f0-7583-8e3d-91f3b18eeb36",
   "providerState": {
     "threadId": "019f7db9-a0f0-7583-8e3d-91f3b18eeb36",
@@ -14,13 +14,13 @@
   },
   "currentNote": "10_Projects/49 Betula/49 Betula Ave 财务汇总报告（202526 财年）v2.md",
   "usage": {
-    "inputTokens": 127159,
+    "inputTokens": 144768,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 126848,
+    "cacheReadInputTokens": 144256,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 127159,
-    "percentage": 49,
+    "contextTokens": 144768,
+    "percentage": 56,
     "model": "gpt-5.4"
   }
 }
