@@ -4,7 +4,7 @@
   "title": "更新项目财务汇总报告v2",
   "titleGenerationStatus": "success",
   "createdAt": 1784259206191,
-  "updatedAt": 1784259523972,
+  "updatedAt": 1784617303279,
   "lastResponseAt": 1784259523972,
   "sessionId": "019f6e22-ddf0-75e3-a3b5-fa2584ccee88",
   "providerState": {
@@ -12,7 +12,6 @@
     "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\17\\rollout-2026-07-17T13-33-26-019f6e22-ddf0-75e3-a3b5-fa2584ccee88.jsonl",
     "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
   },
-  "currentNote": "10_Projects/Yaloak Estate/Yaloak Estate 财务汇总报告（202425 财年）.md",
   "usage": {
     "inputTokens": 109844,
     "cacheCreationInputTokens": 0,

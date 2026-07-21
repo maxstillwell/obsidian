@@ -1,0 +1,26 @@
+{
+  "id": "conv-1784617337215-3eph9nt1a",
+  "providerId": "codex",
+  "title": "修改租约全年租金为A$11,916.67",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784617337215,
+  "updatedAt": 1784617426373,
+  "lastResponseAt": 1784617426373,
+  "sessionId": "019f837b-9758-7a33-917b-2b5f0dac75a2",
+  "providerState": {
+    "threadId": "019f837b-9758-7a33-917b-2b5f0dac75a2",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\21\\rollout-2026-07-21T17-02-22-019f837b-9758-7a33-917b-2b5f0dac75a2.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "10_Projects/Chintin/Creekside Hills 财务汇总报告（202526 财年）v2.md",
+  "usage": {
+    "inputTokens": 65135,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 63872,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 65135,
+    "percentage": 25,
+    "model": "gpt-5.4"
+  }
+}
