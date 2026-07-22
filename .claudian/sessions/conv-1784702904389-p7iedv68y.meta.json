@@ -1,0 +1,26 @@
+{
+  "id": "conv-1784702904389-p7iedv68y",
+  "providerId": "codex",
+  "title": "Calculate SY and Harvest growth figures",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784702904389,
+  "updatedAt": 1784703346093,
+  "lastResponseAt": 1784703346093,
+  "sessionId": "019f8895-2ba4-76e1-b270-d32d556a68bb",
+  "providerState": {
+    "threadId": "019f8895-2ba4-76e1-b270-d32d556a68bb",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\22\\rollout-2026-07-22T16-48-25-019f8895-2ba4-76e1-b270-d32d556a68bb.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "10_Projects/Yaloak Estate/R M Gillet 种植收入汇总（202526财年）.md",
+  "usage": {
+    "inputTokens": 69391,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 62336,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 69391,
+    "percentage": 27,
+    "model": "gpt-5.4"
+  }
+}
