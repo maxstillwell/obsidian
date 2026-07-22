@@ -1,9 +1,26 @@
 {
   "id": "conv-1784687032151-97i9splm7",
   "providerId": "codex",
-  "title": "帮我总结这2个视频内容到这个md",
-  "titleGenerationStatus": "pending",
+  "title": "Summarize two videos into Markdown",
+  "titleGenerationStatus": "success",
   "createdAt": 1784687032151,
-  "updatedAt": 1784687032171,
-  "sessionId": null
+  "updatedAt": 1784687294007,
+  "lastResponseAt": 1784687294007,
+  "sessionId": "019f87a2-fea8-7132-a4d1-864beec7f584",
+  "providerState": {
+    "threadId": "019f87a2-fea8-7132-a4d1-864beec7f584",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\22\\rollout-2026-07-22T12-23-54-019f87a2-fea8-7132-a4d1-864beec7f584.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "20_Knowledge/Others/铝型材.md",
+  "usage": {
+    "inputTokens": 72227,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 70016,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 72227,
+    "percentage": 28,
+    "model": "gpt-5.4"
+  }
 }
