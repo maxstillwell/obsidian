@@ -7,12 +7,12 @@
 
 > 覆盖月份：**2023-03 ~ 2023-06**
 
-| 月份 | Invoice | Head | Net | GST | Total | Calf Bonus | 调整项 | Paid | PDF |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
-| 2023-03 | P7307 | 243 | $15,343.86 | $1,534.39 | $16,878.25 | $6,437.57 | bonus head 211 | — | [[10_Projects/Yaloak Estate/Beefcorp/2023-03 Agistment Payment - P7307.pdf|pdf]] |
-| 2023-04 | P7344 | 243 | $8,331.43 | $833.14 | $9,164.57 | $0.00 | — | 30 May 2023 | [[10_Projects/Yaloak Estate/Beefcorp/2023-04 Agistment Payment - P7344.pdf|pdf]] |
-| 2023-05 | P7381 | 343 | $10,138.29 | $1,013.83 | $11,152.12 | $0.00 | — | 29 June 2023 | [[10_Projects/Yaloak Estate/Beefcorp/2023-05 Agistment Payment - P7381.pdf|pdf]] |
-| 2023-06 | — | 343 | $8,478.86 | $847.89 | $9,326.75 | $0.00 | — | 30 July 2023 | [[10_Projects/Yaloak Estate/Beefcorp/2023-06 Agistment Payment.pdf|pdf]] |
+| 月份      | Invoice | Head |        Net |       GST |      Total | Calf Bonus | 调整项            | Paid         | PDF                                                                        |       |
+| ------- | ------- | ---: | ---------: | --------: | ---------: | ---------: | -------------- | ------------ | -------------------------------------------------------------------------- | ----- |
+| 2023-03 | P7307   |  243 | $15,343.86 | $1,534.39 | $16,878.25 |  $6,437.57 | bonus head 211 | —            | [[10_Projects/Yaloak Estate/Beefcorp/2023-03 Agistment Payment - P7307.pdf | pdf]] |
+| 2023-04 | P7344   |  243 |  $8,331.43 |   $833.14 |  $9,164.57 |      $0.00 | —              | 30 May 2023  | [[10_Projects/Yaloak Estate/Beefcorp/2023-04 Agistment Payment - P7344.pdf | pdf]] |
+| 2023-05 | P7381   |  343 | $10,138.29 | $1,013.83 | $11,152.12 |      $0.00 | —              | 29 June 2023 | [[10_Projects/Yaloak Estate/Beefcorp/2023-05 Agistment Payment - P7381.pdf | pdf]] |
+| 2023-06 | —       |  343 |  $8,478.86 |   $847.89 |  $9,326.75 |      $0.00 | —              | 30 July 2023 | [[10_Projects/Yaloak Estate/Beefcorp/2023-06 Agistment Payment.pdf         | pdf]] |
 
 **财年总结**
 
@@ -56,20 +56,20 @@
 
 > 覆盖月份：**2024-07 ~ 2025-06**
 
-| 月份 | Invoice | Head | Net | GST | Total | Calf Bonus | 调整项 | Paid | PDF |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
-| 2024-07 | P7774 | 385 | $12,785.64 | $1,278.56 | $14,064.21 | $0.00 | meat ($3,641.50) | 30 August 2024 | [[10_Projects/Yaloak Estate/Beefcorp/2024-07 Agistment Payment - P7774.pdf|pdf]] |
-| 2024-08 | P7804 | 443 | $13,728.93 | $1,372.89 | $15,101.82 | $0.00 | — | 30 September 2024 | [[10_Projects/Yaloak Estate/Beefcorp/2024-08 Agistment Payment - P7804.pdf|pdf]] |
-| 2024-09 | P7844 | 368 | $37,728.93 | $3,772.89 | $41,501.83 | $23,734.29 | — | 30 October 2024 | [[10_Projects/Yaloak Estate/Beefcorp/2024-09 Agistment Payment - P7844.pdf|pdf]] |
-| 2024-10 | P7873 | 279 | $11,613.71 | $1,161.37 | $12,775.09 | $0.00 | — | 29 November 2024 | [[10_Projects/Yaloak Estate/Beefcorp/2024-10 Agistment Payment - P7873.pdf|pdf]] |
-| 2024-11 | P7908 | 278 | $9,538.29 | $953.83 | $10,492.11 | $0.00 | — | 30 December 2024 | [[10_Projects/Yaloak Estate/Beefcorp/2024-11 Agistment Payment - P7908.pdf|pdf]] |
-| 2024-12 | P7934 | 223 | $8,760.00 | $876.00 | $9,636.00 | $0.00 | — | 30 January 2025 | [[10_Projects/Yaloak Estate/Beefcorp/2024-12 Agistment Payment - P7934.pdf|pdf]] |
-| 2025-01 | P7968 | 176 | $6,611.43 | $661.14 | $7,272.57 | $0.00 | — | 28 February 2025 | [[10_Projects/Yaloak Estate/Beefcorp/2025-01 Agistment Payment - P7968.pdf|pdf]] |
-| 2025-02 | P7984 | 173 | $8,621.14 | $862.11 | $9,483.26 | $3,071.43 | — | 31 March 2025 | [[10_Projects/Yaloak Estate/Beefcorp/2025-02 Agistment Payment - P7984.pdf|pdf]] |
-| 2025-03 | — | 139 | -$506.29 | -$50.63 | -$556.91 | $0.00 | — | — | [[10_Projects/Yaloak Estate/Beefcorp/2025-03 Agistment Payment.pdf|pdf]] |
-| 2025-04 | — | 100 | $4,204.57 | $420.46 | $4,625.03 | $0.00 | — | 30 May 2025 | [[10_Projects/Yaloak Estate/Beefcorp/2025-04 Agistment Payment.pdf|pdf]] |
-| 2025-05 | P8047 | 100 | $3,597.71 | $359.77 | $3,957.49 | $0.00 | — | 27 June 2025 | [[10_Projects/Yaloak Estate/Beefcorp/2025-05 Agistment Payment - P8047.pdf|pdf]] |
-| 2025-06 | P8085 | 103 | $3,531.43 | $353.14 | $3,884.57 | $0.00 | — | 30 July 2025 | [[10_Projects/Yaloak Estate/Beefcorp/2025-06 Agistment Payment - P8085.pdf|pdf]] |
+| 月份      | Invoice | Head |        Net |       GST |      Total | Calf Bonus | 调整项              | Paid              | PDF                                                                        |       |
+| ------- | ------- | ---: | ---------: | --------: | ---------: | ---------: | ---------------- | ----------------- | -------------------------------------------------------------------------- | ----- |
+| 2024-07 | P7774   |  385 | $12,785.64 | $1,278.56 | $14,064.21 |      $0.00 | meat ($3,641.50) | 30 August 2024    | [[10_Projects/Yaloak Estate/Beefcorp/2024-07 Agistment Payment - P7774.pdf | pdf]] |
+| 2024-08 | P7804   |  443 | $13,728.93 | $1,372.89 | $15,101.82 |      $0.00 | —                | 30 September 2024 | [[10_Projects/Yaloak Estate/Beefcorp/2024-08 Agistment Payment - P7804.pdf | pdf]] |
+| 2024-09 | P7844   |  368 | $37,728.93 | $3,772.89 | $41,501.83 | $23,734.29 | —                | 30 October 2024   | [[10_Projects/Yaloak Estate/Beefcorp/2024-09 Agistment Payment - P7844.pdf | pdf]] |
+| 2024-10 | P7873   |  279 | $11,613.71 | $1,161.37 | $12,775.09 |      $0.00 | —                | 29 November 2024  | [[10_Projects/Yaloak Estate/Beefcorp/2024-10 Agistment Payment - P7873.pdf | pdf]] |
+| 2024-11 | P7908   |  278 |  $9,538.29 |   $953.83 | $10,492.11 |      $0.00 | —                | 30 December 2024  | [[10_Projects/Yaloak Estate/Beefcorp/2024-11 Agistment Payment - P7908.pdf | pdf]] |
+| 2024-12 | P7934   |  223 |  $8,760.00 |   $876.00 |  $9,636.00 |      $0.00 | —                | 30 January 2025   | [[10_Projects/Yaloak Estate/Beefcorp/2024-12 Agistment Payment - P7934.pdf | pdf]] |
+| 2025-01 | P7968   |  176 |  $6,611.43 |   $661.14 |  $7,272.57 |      $0.00 | —                | 28 February 2025  | [[10_Projects/Yaloak Estate/Beefcorp/2025-01 Agistment Payment - P7968.pdf | pdf]] |
+| 2025-02 | P7984   |  173 |  $8,621.14 |   $862.11 |  $9,483.26 |  $3,071.43 | —                | 31 March 2025     | [[10_Projects/Yaloak Estate/Beefcorp/2025-02 Agistment Payment - P7984.pdf | pdf]] |
+| 2025-03 | —       |  139 |   -$506.29 |   -$50.63 |   -$556.91 |      $0.00 | —                | —                 | [[10_Projects/Yaloak Estate/Beefcorp/2025-03 Agistment Payment.pdf         | pdf]] |
+| 2025-04 | —       |  100 |  $4,204.57 |   $420.46 |  $4,625.03 |      $0.00 | —                | 30 May 2025       | [[10_Projects/Yaloak Estate/Beefcorp/2025-04 Agistment Payment.pdf         | pdf]] |
+| 2025-05 | P8047   |  100 |  $3,597.71 |   $359.77 |  $3,957.49 |      $0.00 | —                | 27 June 2025      | [[10_Projects/Yaloak Estate/Beefcorp/2025-05 Agistment Payment - P8047.pdf | pdf]] |
+| 2025-06 | P8085   |  103 |  $3,531.43 |   $353.14 |  $3,884.57 |      $0.00 | —                | 30 July 2025      | [[10_Projects/Yaloak Estate/Beefcorp/2025-06 Agistment Payment - P8085.pdf | pdf]] |
 
 **财年总结**
 
