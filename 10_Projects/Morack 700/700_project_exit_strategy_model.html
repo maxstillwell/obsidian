@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>700 Project 销售与持有策略模型</title>
+<style>
+:root{--bg:#f4f6f8;--card:#fff;--ink:#17202a;--muted:#6b7280;--line:#e5e7eb;--brand:#1f4e78;--brand2:#2f75b5;--input:#fff3bf;--good:#e8f5e9;--bad:#fdecec;--shadow:0 6px 18px rgba(15,23,42,.08)}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink)}
+header{background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;padding:28px 24px;box-shadow:var(--shadow)}
+header h1{margin:0 0 6px;font-size:28px} header p{margin:0;opacity:.9}
+.container{max-width:1500px;margin:22px auto;padding:0 18px 48px}
+.grid{display:grid;grid-template-columns:360px 1fr;gap:18px;align-items:start}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+.card h2{font-size:18px;margin:0;padding:16px 18px;border-bottom:1px solid var(--line);background:#fafafa}
+.section{padding:14px 18px;border-bottom:1px solid var(--line)} .section:last-child{border-bottom:none}
+.section h3{font-size:14px;margin:0 0 10px;color:var(--brand);text-transform:uppercase;letter-spacing:.04em}
+.row{display:grid;grid-template-columns:1fr 135px;gap:10px;align-items:center;margin:8px 0}
+label{font-size:13px;line-height:1.25}.hint{display:block;color:var(--muted);font-size:11px;margin-top:2px}
+input,select{width:100%;padding:8px 9px;border:1px solid #d5b400;border-radius:8px;background:var(--input);font-size:13px;text-align:right}
+input:focus,select:focus{outline:2px solid #bfdbfe;border-color:#2563eb}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.btn{border:0;border-radius:8px;padding:9px 12px;font-weight:600;cursor:pointer}.btn-primary{background:var(--brand);color:#fff}.btn-secondary{background:#eef2f7;color:#243447}
+.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:16px}
+.metric{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fff}.metric .label{font-size:12px;color:var(--muted)}.metric .value{font-size:22px;font-weight:700;margin-top:7px}.metric.good{background:var(--good)}.metric.bad{background:var(--bad)}
+.tables{display:grid;grid-template-columns:1fr;gap:16px;padding:0 16px 16px}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:12px}
+table{width:100%;border-collapse:collapse;min-width:980px}th,td{padding:10px 9px;border-bottom:1px solid var(--line);font-size:12px;text-align:right;white-space:nowrap}th{position:sticky;top:0;background:#f8fafc;z-index:1;color:#374151}th:first-child,td:first-child{text-align:center}.selected{background:#fff8d8}.positive{color:#137333;font-weight:600}.negative{color:#b91c1c;font-weight:600}
+.note{padding:14px 16px;color:#4b5563;font-size:12px;line-height:1.55;background:#fbfbfb;border-top:1px solid var(--line)}
+.summary-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:16px}.summary-box{border:1px solid var(--line);border-radius:12px;padding:14px}.summary-box h3{margin:0 0 8px;font-size:15px;color:var(--brand)}.summary-box table{min-width:0}.summary-box td{font-size:13px;padding:7px 0;border:0}.summary-box td:first-child{text-align:left;color:var(--muted)}
+@media(max-width:1000px){.grid{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,1fr)}.summary-grid{grid-template-columns:1fr}}
+@media print{header{background:#fff;color:#000}.grid{display:block}.card.inputs{display:none}.container{max-width:none}.btn{display:none}}
+</style>
+</head>
+<body>
+<header><h1>700 Project 销售与持有策略模型</h1><p>可调整售价、销售套数、租金、利率、税费与增长率，自动测算现金回收、持有现金流及10年资产净值。</p></header>
+<div class="container">
+<div class="grid">
+<aside class="card inputs"><h2>可调参数（黄色）</h2>
+<div class="section"><h3>项目与销售</h3>
+<div class="row"><label>总套数<span class="hint">项目总住宅数量</span></label><input id="totalLots" type="number" value="47" min="1"></div>
+<div class="row"><label>卖出套数<span class="hint">保留套数自动计算</span></label><input id="soldLots" type="number" value="30" min="0"></div>
+<div class="row"><label>平均售价 / 套</label><input id="salePrice" type="number" value="1200000" step="10000"></div>
+<div class="row"><label>销售成本率</label><input id="sellingCostRate" type="number" value="3" step="0.1"></div>
+<div class="row"><label>原始购地价<span class="hint">Margin Scheme GST 简化基数</span></label><input id="originalLand" type="number" value="7000000" step="100000"></div>
+<div class="row"><label>总土地及持有成本</label><input id="landCarryCost" type="number" value="15000000" step="100000"></div>
+<div class="row"><label>建筑及开发成本</label><input id="buildCost" type="number" value="22000000" step="100000"></div>
+<div class="row"><label>公司税率</label><input id="companyTaxRate" type="number" value="25" step="0.1"></div>
+</div>
+<div class="section"><h3>租赁与持有成本</h3>
+<div class="row"><label>周租金 / 套</label><input id="weeklyRent" type="number" value="1000" step="10"></div>
+<div class="row"><label>物业管理费率</label><input id="pmRate" type="number" value="7.6" step="0.1"></div>
+<div class="row"><label>空置率</label><input id="vacancyRate" type="number" value="2" step="0.1"></div>
+<div class="row"><label>Land Tax / 套 / 年</label><input id="landTax" type="number" value="6400" step="100"></div>
+<div class="row"><label>Council / 套 / 年</label><input id="council" type="number" value="2200" step="100"></div>
+<div class="row"><label>保险 / 套 / 年</label><input id="insurance" type="number" value="1200" step="100"></div>
+<div class="row"><label>Owners Corp / 套 / 年</label><input id="oc" type="number" value="1000" step="100"></div>
+<div class="row"><label>维修 / 套 / 年</label><input id="maintenance" type="number" value="1000" step="100"></div>
+</div>
+<div class="section"><h3>融资、折旧与增长</h3>
+<div class="row"><label>每套贷款金额<span class="hint">可直接调，不固定LVR</span></label><input id="loanPerLot" type="number" value="538000" step="10000"></div>
+<div class="row"><label>利率</label><input id="interestRate" type="number" value="7" step="0.1"></div>
+<div class="row"><label>Division 43 / 套 / 年</label><input id="div43" type="number" value="10500" step="500"></div>
+<div class="row"><label>Division 40 首年 / 套</label><input id="div40" type="number" value="6000" step="500"></div>
+<div class="row"><label>房价年增长率</label><input id="priceGrowth" type="number" value="3" step="0.1"></div>
+<div class="row"><label>租金年增长率</label><input id="rentGrowth" type="number" value="3" step="0.1"></div>
+<div class="row"><label>持有年限</label><input id="holdYears" type="number" value="10" min="1" max="30"></div>
+<div class="actions"><button class="btn btn-primary" onclick="calculate()">重新计算</button><button class="btn btn-secondary" onclick="resetDefaults()">恢复默认</button><button class="btn btn-secondary" onclick="window.print()">打印 / PDF</button></div>
+</div>
+</aside>
+<main class="card"><h2>当前方案结果</h2>
+<div class="metrics">
+<div class="metric"><div class="label">卖出 / 保留</div><div id="mLots" class="value">-</div></div>
+<div class="metric"><div class="label">销售净现金回收</div><div id="mSaleCash" class="value">-</div></div>
+<div class="metric"><div class="label">持有首年税后现金流</div><div id="mCashFlow" class="value">-</div></div>
+<div class="metric"><div class="label">持有期末资产净值</div><div id="mEquity" class="value">-</div></div>
+</div>
+<div class="summary-grid">
+<div class="summary-box"><h3>销售部分</h3><table><tbody id="saleSummary"></tbody></table></div>
+<div class="summary-box"><h3>持有部分</h3><table><tbody id="holdSummary"></tbody></table></div>
+</div>
+<div class="tables">
+<div><h2 style="padding-left:0;background:none;border:0">0–47套持有方案对比</h2><div class="table-wrap"><table><thead><tr><th>卖出</th><th>保留</th><th>销售净现金</th><th>年租金</th><th>年运营成本</th><th>NOI</th><th>利息</th><th>首年税后现金流</th><th>期末资产值</th><th>期末贷款</th><th>期末资产净值</th><th>综合财富*</th></tr></thead><tbody id="scenarioBody"></tbody></table></div></div>
+</div>
+<div class="note">* 综合财富 = 销售净现金回收 + 持有期末资产净值 + 持有期间累计税后现金流。模型为董事会决策和情景比较工具，Margin Scheme、公司税、折旧、土地税与未来出售GST处理均为简化估算，正式交易前应由会计师和税务顾问复核。</div>
+</main>
+</div></div>
+<script>
+const ids=['totalLots','soldLots','salePrice','sellingCostRate','originalLand','landCarryCost','buildCost','companyTaxRate','weeklyRent','pmRate','vacancyRate','landTax','council','insurance','oc','maintenance','loanPerLot','interestRate','div43','div40','priceGrowth','rentGrowth','holdYears'];
+const defaults={totalLots:47,soldLots:30,salePrice:1200000,sellingCostRate:3,originalLand:7000000,landCarryCost:15000000,buildCost:22000000,companyTaxRate:25,weeklyRent:1000,pmRate:7.6,vacancyRate:2,landTax:6400,council:2200,insurance:1200,oc:1000,maintenance:1000,loanPerLot:538000,interestRate:7,div43:10500,div40:6000,priceGrowth:3,rentGrowth:3,holdYears:10};
+ids.forEach(id=>document.getElementById(id).addEventListener('input',calculate));
+function n(id){return Number(document.getElementById(id).value)||0} function pct(id){return n(id)/100}
+function money(x){return new Intl.NumberFormat('en-AU',{style:'currency',currency:'AUD',maximumFractionDigits:0}).format(x)}
+function calcScenario(held){
+ const total=n('totalLots'), sold=total-held, price=n('salePrice');
+ const gross=sold*price, selling=gross*pct('sellingCostRate');
+ const landBasePerLot=n('originalLand')/total;
+ const gst=Math.max(0,(price-landBasePerLot)/11)*sold;
+ const allocDev=(n('landCarryCost')+n('buildCost'))*(sold/total);
+ const taxable=Math.max(0,gross-selling-gst-allocDev);
+ const companyTax=taxable*pct('companyTaxRate');
+ const saleCash=gross-selling-gst-companyTax;
+ const annualGross=held*n('weeklyRent')*52;
+ const vacancy=annualGross*pct('vacancyRate');
+ const pm=(annualGross-vacancy)*pct('pmRate');
+ const fixed=held*(n('landTax')+n('council')+n('insurance')+n('oc')+n('maintenance'));
+ const op=vacancy+pm+fixed;
+ const noi=annualGross-op;
+ const debt=held*n('loanPerLot');
+ const interest=debt*pct('interestRate');
+ const depreciation=held*(n('div43')+n('div40'));
+ const taxableRental=noi-interest-depreciation;
+ const rentalTax=taxableRental>0?taxableRental*pct('companyTaxRate'):taxableRental*pct('companyTaxRate');
+ const afterTaxCF=noi-interest-rentalTax;
+ let cumulativeCF=0, rent=n('weeklyRent')*52, div40=n('div40');
+ for(let y=1;y<=n('holdYears');y++){
+   const g=held*rent, vac=g*pct('vacancyRate'), pmY=(g-vac)*pct('pmRate'), opY=vac+pmY+fixed;
+   const noiY=g-opY, depY=held*(n('div43')+div40), taxY=(noiY-interest-depY)*pct('companyTaxRate');
+   cumulativeCF += noiY-interest-taxY;
+   rent*=1+pct('rentGrowth'); div40*=0.8;
+ }
+ const futureValue=held*price*Math.pow(1+pct('priceGrowth'),n('holdYears'));
+ const equity=futureValue-debt;
+ return {sold,held,gross,selling,gst,allocDev,taxable,companyTax,saleCash,annualGross,op,noi,debt,interest,depreciation,taxableRental,rentalTax,afterTaxCF,cumulativeCF,futureValue,equity,totalWealth:saleCash+equity+cumulativeCF};
+}
+function pair(label,value){return `<tr><td>${label}</td><td>${value}</td></tr>`}
+function calculate(){
+ let total=Math.max(1,Math.round(n('totalLots'))); document.getElementById('totalLots').value=total;
+ let sold=Math.min(total,Math.max(0,Math.round(n('soldLots')))); document.getElementById('soldLots').value=sold;
+ const r=calcScenario(total-sold);
+ document.getElementById('mLots').textContent=`${r.sold} / ${r.held}`;
+ document.getElementById('mSaleCash').textContent=money(r.saleCash);
+ document.getElementById('mCashFlow').textContent=money(r.afterTaxCF);
+ document.getElementById('mEquity').textContent=money(r.equity);
+ const cfCard=document.getElementById('mCashFlow').parentElement; cfCard.className='metric '+(r.afterTaxCF>=0?'good':'bad');
+ document.getElementById('saleSummary').innerHTML=pair('销售总额',money(r.gross))+pair('销售费用',money(r.selling))+pair('Margin Scheme GST',money(r.gst))+pair('分摊开发成本',money(r.allocDev))+pair('应税利润',money(r.taxable))+pair('公司税',money(r.companyTax))+pair('<b>销售净现金</b>','<b>'+money(r.saleCash)+'</b>');
+ document.getElementById('holdSummary').innerHTML=pair('首年租金',money(r.annualGross))+pair('运营成本',money(r.op))+pair('NOI',money(r.noi))+pair('总贷款',money(r.debt))+pair('利息',money(r.interest))+pair('折旧',money(r.depreciation))+pair('<b>首年税后现金流</b>','<b>'+money(r.afterTaxCF)+'</b>')+pair(`${n('holdYears')}年累计税后现金流`,money(r.cumulativeCF))+pair('期末资产净值',money(r.equity));
+ let html='';
+ for(let held=0;held<=total;held++){
+  const x=calcScenario(held), cls=(held===r.held?'selected':'');
+  html+=`<tr class="${cls}"><td>${x.sold}</td><td>${x.held}</td><td>${money(x.saleCash)}</td><td>${money(x.annualGross)}</td><td>${money(x.op)}</td><td>${money(x.noi)}</td><td>${money(x.interest)}</td><td class="${x.afterTaxCF>=0?'positive':'negative'}">${money(x.afterTaxCF)}</td><td>${money(x.futureValue)}</td><td>${money(x.debt)}</td><td>${money(x.equity)}</td><td><b>${money(x.totalWealth)}</b></td></tr>`;
+ }
+ document.getElementById('scenarioBody').innerHTML=html;
+}
+function resetDefaults(){Object.entries(defaults).forEach(([k,v])=>document.getElementById(k).value=v);calculate()}
+calculate();
+</script>
+</body></html>
