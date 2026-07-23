@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Victoria Land Intelligence Platform V5</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<style>
+:root{--bg:#0d1417;--panel:#142026;--panel2:#19282f;--line:#2c3d45;--text:#edf5f2;--muted:#9eb0aa;--accent:#d9ff70;--warn:#ffca6a;--ok:#74d6a2;--bad:#ff887c}
+*{box-sizing:border-box}html,body{height:100%;margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text)}
+button,input,select,textarea{font:inherit}.app{height:100%;display:grid;grid-template-columns:330px minmax(0,1fr) 340px;grid-template-rows:58px minmax(0,1fr)}
+header{grid-column:1/-1;display:flex;align-items:center;gap:14px;padding:0 16px;border-bottom:1px solid var(--line);background:#101a1e;z-index:1100}.brand{font-weight:750}.tag{font-size:11px;color:#07100a;background:var(--accent);padding:4px 8px;border-radius:999px;font-weight:800}.sub{font-size:12px;color:var(--muted)}
+.sidebar,.inspector{overflow:auto;background:var(--panel);padding:14px}.sidebar{border-right:1px solid var(--line)}.inspector{border-left:1px solid var(--line)}#map{height:100%;width:100%;background:#d8ded9}
+.section{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--line)}h2{font-size:13px;margin:0 0 8px}.hint{font-size:11px;line-height:1.45;color:var(--muted);margin:0 0 9px}.searchRow{display:flex;gap:6px}.input,select,textarea{width:100%;border:1px solid #3b5059;background:#0f191d;color:var(--text);border-radius:8px;padding:9px}.btn{border:1px solid #43575f;background:#203038;color:var(--text);border-radius:8px;padding:8px 10px;cursor:pointer}.btn:hover{border-color:var(--accent)}.btn.primary{background:var(--accent);color:#101610;border-color:var(--accent);font-weight:750}.btn.small{padding:5px 8px;font-size:11px}.btnRow{display:flex;gap:6px;flex-wrap:wrap}
+.group{margin:7px 0}.groupTitle{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#c7d2ce;margin:11px 0 6px}.layer{display:grid;grid-template-columns:20px 1fr auto;gap:7px;align-items:start;padding:7px 6px;border-radius:7px}.layer:hover{background:rgba(255,255,255,.035)}.layer input{margin-top:2px}.layer b{display:block;font-size:12px}.layer small{display:block;color:var(--muted);font-size:10px;line-height:1.35;margin-top:2px}.status{font-size:9px;border-radius:999px;padding:3px 6px;font-weight:750}.live{color:#062113;background:var(--ok)}.pending{color:#251700;background:var(--warn)}
+.card{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:11px;margin-bottom:9px}.metric{font-size:22px;font-weight:750}.label{font-size:10px;color:var(--muted)}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}.row{display:flex;justify-content:space-between;gap:10px;font-size:12px;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06)}.row:last-child{border:0}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.notice{font-size:11px;line-height:1.5;color:#d5dfdb;border-left:3px solid var(--accent);padding-left:9px}.legendLine{display:flex;align-items:center;gap:8px;font-size:11px;margin:6px 0}.swatch{width:24px;height:4px;border-radius:2px}.leaflet-control-layers{font-size:12px}.mobileToggle{display:none}
+@media(max-width:1000px){.app{grid-template-columns:280px minmax(0,1fr);grid-template-rows:58px minmax(0,1fr)}.inspector{display:none}.sub{display:none}}
+@media(max-width:720px){.app{display:block;height:100%}header{height:58px}.sidebar{position:fixed;left:0;top:58px;bottom:0;width:88%;max-width:340px;z-index:1300;transform:translateX(-102%);transition:.2s}.sidebar.open{transform:none}.mobileToggle{display:inline-block}#map{height:calc(100% - 58px)}.brand{font-size:13px}}
+</style>
+</head>
+<body>
+<div class="app">
+<header><button id="menuBtn" class="btn small mobileToggle">图层</button><div class="brand">Victoria Land Intelligence Platform</div><span class="tag">V5 REAL GIS</span><div class="sub">维州土地、基础设施与用途变化研究平台</div></header>
+<aside class="sidebar" id="sidebar">
+  <div class="section">
+    <h2>地址或地点搜索</h2>
+    <div class="searchRow"><input id="searchInput" class="input" placeholder="例如 742 Greigs Rd, Thornhill Park"><button id="searchBtn" class="btn primary">搜索</button></div>
+    <p id="searchStatus" class="hint">搜索使用 OpenStreetMap Nominatim；也可以直接点击地图。</p>
+  </div>
+  <div class="section">
+    <h2>底图</h2>
+    <select id="baseSelect"><option value="street">街道图</option><option value="satellite">卫星图</option><option value="topo">地形图</option></select>
+  </div>
+  <div class="section">
+    <h2>真实空间图层</h2>
+    <p class="hint">绿色“已接入”表示显示官方真实线、点或边界。黄色项目不会绘制任何假数据。</p>
+    <div id="layerList"></div>
+  </div>
+  <div class="section">
+    <h2>图层透明度</h2>
+    <input id="opacity" type="range" min="20" max="100" value="78" style="width:100%">
+  </div>
+  <div class="section">
+    <h2>研究范围</h2>
+    <div class="btnRow"><button class="btn small extent" data-view="vic">全维州</button><button class="btn small extent" data-view="mel">墨尔本外围</button><button class="btn small extent" data-view="bass">Bass Coast</button><button class="btn small extent" data-view="latrobe">Latrobe</button><button class="btn small extent" data-view="west">西部走廊</button></div>
+  </div>
+  <div class="notice">本平台用于初步投资研究。WMS 是官方地图渲染服务，但不替代尽调、测量、产权、规划证书或电网运营商确认。</div>
+</aside>
+<main id="map"></main>
+<aside class="inspector">
+  <div class="section"><h2>选定位置</h2><div class="grid2"><div class="card"><div id="latVal" class="metric mono">—</div><div class="label">纬度</div></div><div class="card"><div id="lngVal" class="metric mono">—</div><div class="label">经度</div></div></div><div class="btnRow"><button id="copyBtn" class="btn small">复制坐标</button><button id="clearBtn" class="btn small">清除标记</button></div></div>
+  <div class="section"><h2>现场判断提示</h2><div class="card"><div class="row"><span>输电线路</span><b>打开图层核对</b></div><div class="row"><span>能源设施</span><b>打开图层核对</b></div><div class="row"><span>铁路 / 道路</span><b>打开图层核对</b></div><div class="row"><span>水道约束</span><b>打开图层核对</b></div></div><p class="hint">由于当前官方图层通过 WMS 以影像显示，浏览器无法直接读取每条线的属性。下一阶段可用 WFS/ArcGIS Feature Service 做距离和属性自动计算。</p></div>
+  <div class="section"><h2>项目备注</h2><textarea id="notes" rows="8" placeholder="记录地块、联系人、价格、规划假设、需要核实的基础设施……"></textarea><div class="btnRow" style="margin-top:7px"><button id="downloadNotes" class="btn small">导出备注</button><button id="clearNotes" class="btn small">清空</button></div></div>
+  <div class="section"><h2>图例</h2><div class="legendLine"><span class="swatch" style="background:#ff4f45"></span>电力线路</div><div class="legendLine"><span class="swatch" style="background:#ffca6a"></span>能源设施</div><div class="legendLine"><span class="swatch" style="background:#9f8cff"></span>铁路 / 物流</div><div class="legendLine"><span class="swatch" style="background:#55b8ff"></span>水道</div></div>
+  <div class="section"><h2>数据来源</h2><p class="hint">Victorian Government Open Data GeoServer、Vicmap Infrastructure、Vicmap Transport、Vicmap Hydro；底图来自 OpenStreetMap、Esri 与 OpenTopoMap。</p></div>
+</aside>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+const map=L.map('map',{center:[-37.2,144.4],zoom:7,zoomControl:true});
+const bases={
+ street:L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}),
+ satellite:L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Tiles © Esri'}),
+ topo:L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',{maxZoom:17,attribution:'© OpenTopoMap'})
+};
+bases.street.addTo(map);
+const WMS='https://opendata.maps.vic.gov.au/geoserver/wms';
+function wms(name,opacity=.78){return L.tileLayer.wms(WMS,{layers:'open-data-platform:'+name,format:'image/png8',transparent:true,version:'1.1.1',tiled:true,opacity,attribution:'Victorian Government Open Data'});}
+const definitions=[
+ {group:'人口与住房',key:'built',label:'现有建成区 / 城镇范围',detail:'待接入正式 statewide settlement / planning boundary 服务',status:'pending'},
+ {group:'人口与住房',key:'psp',label:'Growth Area、PSP、Structure Plan',detail:'待接入规划边界与状态属性',status:'pending'},
+ {group:'能源',key:'energy',label:'能源设施',detail:'维州政府 Energy Facilities 实际点位',status:'live',layer:wms('energy_facilities',.9)},
+ {group:'输电网络',key:'power',label:'架空电力线路',detail:'Transmission、Sub-transmission、HV、LV 实际线位',status:'live',layer:wms('powerline',.9)},
+ {group:'输电网络',key:'substation',label:'变电站与 Terminal Station',detail:'待接入可核实属性服务',status:'pending'},
+ {group:'AI与数字',key:'digital',label:'数据中心、光纤、IX、海缆',detail:'待逐项建立可验证点线数据集',status:'pending'},
+ {group:'物流',key:'rail',label:'铁路网络',detail:'Vicmap Transport Railway 实际线位',status:'live',layer:wms('tr_rail',.88)},
+ {group:'物流',key:'railinfra',label:'铁路设施',detail:'车站、铁路场站、桥隧等设施',status:'live',layer:wms('tr_rail_infrastructure',.9)},
+ {group:'物流',key:'road',label:'道路网络',detail:'Vicmap Transport statewide road network',status:'live',layer:wms('tr_road',.58)},
+ {group:'工业',key:'industrial',label:'工业分区与未来就业区',detail:'待接入规划区划与就业用地边界',status:'pending'},
+ {group:'水资源',key:'water',label:'河流与水道',detail:'Vicmap Hydro Watercourse 实际线位',status:'live',layer:wms('hydro_watercourse',.68)},
+ {group:'水资源',key:'sewer',label:'供水、污水、再生水',detail:'待按各水务公司服务逐项接入',status:'pending'},
+ {group:'政府投资',key:'projects',label:'未来十年重大项目',detail:'待建立项目点、线、边界与时间表',status:'pending'},
+ {group:'农业',key:'agri',label:'优质农业地与农业保护区',detail:'待接入土壤、灌溉与保护政策边界',status:'pending'},
+ {group:'土地机会',key:'opportunity',label:'宗地级机会筛选',detail:'等待前九层矢量化后自动计算，不使用假评分圈',status:'pending'}
+];
+const layers={}; definitions.forEach(d=>{if(d.layer) layers[d.key]=d.layer});
+const list=document.getElementById('layerList'); let currentGroup='';
+definitions.forEach(d=>{if(d.group!==currentGroup){currentGroup=d.group;const gt=document.createElement('div');gt.className='groupTitle';gt.textContent=currentGroup;list.appendChild(gt)}const row=document.createElement('label');row.className='layer';row.innerHTML=`<input type="checkbox" data-key="${d.key}" ${d.key==='power'?'checked':''} ${d.status==='pending'?'disabled':''}><span><b>${d.label}</b><small>${d.detail}</small></span><span class="status ${d.status}">${d.status==='live'?'已接入':'待接入'}</span>`;list.appendChild(row)});
+layers.power.addTo(map);
+document.querySelectorAll('[data-key]').forEach(el=>el.addEventListener('change',()=>{const l=layers[el.dataset.key];if(!l)return;el.checked?l.addTo(map):map.removeLayer(l)}));
+document.getElementById('opacity').addEventListener('input',e=>Object.values(layers).forEach(l=>l.setOpacity(+e.target.value/100)));
+document.getElementById('baseSelect').addEventListener('change',e=>{Object.values(bases).forEach(b=>map.removeLayer(b));bases[e.target.value].addTo(map);bases[e.target.value].bringToBack()});
+const views={vic:[[-39.3,140.7],[-33.8,150.3]],mel:[[-38.6,143.8],[-37.0,146.1]],bass:[[-38.75,145.15],[-37.85,146.05]],latrobe:[[-38.65,145.75],[-37.35,147.35]],west:[[-38.4,141.0],[-35.4,144.8]]};
+document.querySelectorAll('.extent').forEach(b=>b.addEventListener('click',()=>map.fitBounds(views[b.dataset.view])));
+let marker=null; function setPoint(lat,lng,label='选定位置'){if(marker)map.removeLayer(marker);marker=L.marker([lat,lng]).addTo(map).bindPopup(label).openPopup();document.getElementById('latVal').textContent=lat.toFixed(5);document.getElementById('lngVal').textContent=lng.toFixed(5)}
+map.on('click',e=>setPoint(e.latlng.lat,e.latlng.lng));
+document.getElementById('clearBtn').addEventListener('click',()=>{if(marker)map.removeLayer(marker);marker=null;document.getElementById('latVal').textContent='—';document.getElementById('lngVal').textContent='—'});
+document.getElementById('copyBtn').addEventListener('click',async()=>{const a=document.getElementById('latVal').textContent,b=document.getElementById('lngVal').textContent;if(a==='—')return;try{await navigator.clipboard.writeText(a+', '+b)}catch{prompt('复制坐标',a+', '+b)}});
+async function search(){const q=document.getElementById('searchInput').value.trim();if(!q)return;const s=document.getElementById('searchStatus');s.textContent='正在搜索…';try{const r=await fetch('https://nominatim.openstreetmap.org/search?format=json&limit=5&countrycodes=au&q='+encodeURIComponent(q),{headers:{'Accept':'application/json'}});const data=await r.json();if(!data.length){s.textContent='没有找到，请加入 suburb、VIC 或 postcode。';return}const x=data[0],lat=+x.lat,lng=+x.lon;map.setView([lat,lng],15);setPoint(lat,lng,x.display_name);s.textContent=x.display_name}catch(e){s.textContent='在线搜索暂时不可用；请直接在地图上缩放并点击位置。'}}
+document.getElementById('searchBtn').addEventListener('click',search);document.getElementById('searchInput').addEventListener('keydown',e=>{if(e.key==='Enter')search()});
+const notes=document.getElementById('notes');notes.value=localStorage.getItem('vlip-notes')||'';notes.addEventListener('input',()=>localStorage.setItem('vlip-notes',notes.value));document.getElementById('clearNotes').addEventListener('click',()=>{notes.value='';localStorage.removeItem('vlip-notes')});document.getElementById('downloadNotes').addEventListener('click',()=>{const blob=new Blob([notes.value],{type:'text/plain;charset=utf-8'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='VLIP_project_notes.txt';a.click();URL.revokeObjectURL(a.href)});
+document.getElementById('menuBtn').addEventListener('click',()=>document.getElementById('sidebar').classList.toggle('open'));
+L.control.scale({imperial:false}).addTo(map);
+</script>
+</body>
+</html>
