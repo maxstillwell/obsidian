@@ -1,9 +1,9 @@
 {
   "id": "conv-1784781807275-1we8lhvg1",
   "providerId": "codex",
-  "title": "先不要修改文件。",
-  "titleGenerationStatus": "pending",
+  "title": "读取地块主页并总结规划缺口",
+  "titleGenerationStatus": "success",
   "createdAt": 1784781807276,
-  "updatedAt": 1784781807283,
+  "updatedAt": 1784781826072,
   "sessionId": null
 }
