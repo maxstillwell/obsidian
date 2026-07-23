@@ -4,6 +4,23 @@
   "title": "分析维州AI数据中心选址与农业地机会",
   "titleGenerationStatus": "success",
   "createdAt": 1784842158686,
-  "updatedAt": 1784842170713,
-  "sessionId": null
+  "updatedAt": 1784842514717,
+  "lastResponseAt": 1784842514717,
+  "sessionId": "019f90e2-070b-78f0-a799-5e2d48e127e0",
+  "providerState": {
+    "threadId": "019f90e2-070b-78f0-a799-5e2d48e127e0",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\24\\rollout-2026-07-24T07-29-19-019f90e2-070b-78f0-a799-5e2d48e127e0.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "20_Knowledge/发展研究/维州未来发展研究.md",
+  "usage": {
+    "inputTokens": 73620,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 66944,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 73620,
+    "percentage": 28,
+    "model": "gpt-5.4"
+  }
 }
