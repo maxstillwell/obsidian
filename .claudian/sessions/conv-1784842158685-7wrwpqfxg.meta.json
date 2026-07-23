@@ -4,8 +4,8 @@
   "title": "分析维州AI数据中心选址与农业地机会",
   "titleGenerationStatus": "success",
   "createdAt": 1784842158686,
-  "updatedAt": 1784842514717,
-  "lastResponseAt": 1784842514717,
+  "updatedAt": 1784842771373,
+  "lastResponseAt": 1784842771373,
   "sessionId": "019f90e2-070b-78f0-a799-5e2d48e127e0",
   "providerState": {
     "threadId": "019f90e2-070b-78f0-a799-5e2d48e127e0",
@@ -14,13 +14,13 @@
   },
   "currentNote": "20_Knowledge/发展研究/维州未来发展研究.md",
   "usage": {
-    "inputTokens": 73620,
+    "inputTokens": 91178,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 66944,
+    "cacheReadInputTokens": 89472,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 73620,
-    "percentage": 28,
+    "contextTokens": 91178,
+    "percentage": 35,
     "model": "gpt-5.4"
   }
 }
