@@ -4,7 +4,7 @@
   "title": "整理 beefcorp 中的 Agistment Payment",
   "titleGenerationStatus": "success",
   "createdAt": 1784526317910,
-  "updatedAt": 1784619870888,
+  "updatedAt": 1784842121348,
   "lastResponseAt": 1784619870888,
   "sessionId": "019f7e0e-aa79-75b2-9056-8abbfa89533d",
   "providerState": {
@@ -12,7 +12,6 @@
     "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\20\\rollout-2026-07-20T15-45-18-019f7e0e-aa79-75b2-9056-8abbfa89533d.jsonl",
     "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
   },
-  "currentNote": "10_Projects/Yaloak Estate/Beefcorp.md",
   "usage": {
     "inputTokens": 155307,
     "cacheCreationInputTokens": 0,
