@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>4980 South Gippsland Highway — 规划与城镇位置图</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{--ink:#17312d;--muted:#63736e;--paper:#f4f1e8;--card:#fffdf8;--accent:#c65a31;--green:#2d7867}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,"Noto Sans SC",system-ui,sans-serif;color:var(--ink);background:var(--paper)}
+.top{padding:22px 28px 18px;background:#17312d;color:white}.top small{letter-spacing:.13em;color:#b9d4cc}.top h1{font-size:clamp(23px,3vw,38px);margin:7px 0 5px}.top p{margin:0;color:#d8e7e2}
+.layout{display:grid;grid-template-columns:minmax(280px,360px) 1fr;height:calc(100vh - 124px);min-height:620px}.panel{padding:18px;overflow:auto;border-right:1px solid #d8d4c9}.card{background:var(--card);border:1px solid #ddd8cb;border-radius:13px;padding:14px;margin-bottom:12px;box-shadow:0 4px 14px #17312d0d}.card h2{font-size:16px;margin:0 0 9px}.card p{font-size:13px;line-height:1.55;margin:7px 0;color:#41534e}.fact{display:grid;grid-template-columns:95px 1fr;gap:5px;font-size:13px;padding:5px 0;border-bottom:1px solid #eee9de}.fact:last-child{border:0}.fact b{color:#5d6c68}.status{display:inline-block;background:#f8e2d7;color:#8a351b;border-radius:99px;padding:5px 10px;font-weight:700;font-size:12px}.legend{display:flex;align-items:center;gap:8px;font-size:12px;margin:7px 0}.swatch{width:20px;height:12px;border-radius:3px;border:2px solid}.warn{background:#fff3cc;border-left:4px solid #d69a19;padding:10px;font-size:12px;line-height:1.5}.buttons{display:grid;grid-template-columns:1fr 1fr;gap:8px}.buttons button{border:0;border-radius:8px;padding:9px;background:#e4eee9;color:#184c40;font-weight:650;cursor:pointer}.buttons button:hover{background:#d4e6de}#map{width:100%;height:100%}.leaflet-popup-content{line-height:1.45}.leaflet-control-layers{font-size:13px}.source a{color:#216a5a}.source{font-size:11px!important}
+@media(max-width:760px){.layout{display:block;height:auto}.panel{border:0}.mapwrap{height:70vh;min-height:520px}.top{padding:18px}.top p{font-size:13px}}
+@media print{.layout{grid-template-columns:300px 1fr;height:720px}.top{padding:14px 20px}.buttons{display:none}}
+</style>
+</head>
+<body>
+<header class="top"><small>PLANNING CONTEXT MAP · 23 JUL 2026</small><h1>4980 South Gippsland Highway, Lang Lang</h1><p>地块定位 · 城镇关系 · 法定 Zone · Urban Growth Boundary · 规划 Overlay</p></header>
+<main class="layout">
+<aside class="panel">
+  <section class="card"><span class="status">住宅 Rezoning：不建议按溢价下注</span><h2 style="margin-top:12px">地图怎么读</h2><p>右上角图层按钮可开关各层。放大后点击地块定位点、Zone 或 Overlay，可查看法定属性。红色定位点为政府地址库返回的两个门牌候选点，分别位于高速两侧。</p></section>
+  <section class="card"><h2>当前判断</h2>
+    <div class="fact"><b>行政区</b><span>Cardinia Shire</span></div><div class="fact"><b>标的</b><span>约108.05 ha／两张 Title（出售资料）</span></div>
+    <div class="fact"><b>现行 Zone</b><span>西侧抽样 RCZ1；东侧抽样 GWZ1</span></div><div class="fact"><b>增长边界</b><span>Urban Growth Boundary 外</span></div>
+    <div class="fact"><b>主要机会</b><span>农业持有＋资源潜力核查</span></div>
+  </section>
+  <section class="card"><h2>图例</h2>
+    <div class="legend"><i class="swatch" style="background:#d94c3d;border-color:#8e241c"></i>地块地址定位点</div>
+    <div class="legend"><i class="swatch" style="background:#ffd86a88;border-color:#c69400"></i>Planning Zone（实时法定图层）</div>
+    <div class="legend"><i class="swatch" style="background:#8c6bd844;border-color:#6b45b8"></i>Planning Overlay（点击看代码）</div>
+    <div class="legend"><i class="swatch" style="background:transparent;border-color:#005ce6"></i>Urban Growth Boundary</div>
+    <div class="legend"><i class="swatch" style="background:#2d7867;border-color:#184c40"></i>周边城镇</div>
+  </section>
+  <section class="card"><h2>快速定位</h2><div class="buttons"><button onclick="siteView()">返回地块</button><button onclick="regionView()">查看周边城镇</button><button onclick="toggleZones()">开关 Zone</button><button onclick="window.print()">打印 / PDF</button></div></section>
+  <div class="warn"><b>边界说明：</b>本图没有把门牌定位点伪装成 Title 边界。准确的两宗地界必须取得 Title Plan／Section 32 后再叠加；拿到文件后可升级成精确地块图。</div>
+  <section class="card"><h2>来源</h2><p class="source">法定图层：<a target="_blank" href="https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Planning/FeatureServer">Victorian Government Vicmap Planning</a><br>地址定位：ArcGIS World Geocoder（两个100分候选）<br>背景图：OpenStreetMap contributors</p></section>
+</aside>
+<div class="mapwrap"><div id="map"></div></div>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const siteA=[-38.285703,145.537761], siteB=[-38.285887,145.546063];
+const map=L.map('map',{zoomControl:true}).setView([-38.279,145.548],14);
+const street=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
+const satellite=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Esri World Imagery'});
+const siteLayer=L.layerGroup().addTo(map), townLayer=L.layerGroup().addTo(map), zoneLayer=L.geoJSON(null), overlayLayer=L.geoJSON(null), ugbLayer=L.geoJSON(null);
+function siteMarker(ll,label,side){L.circleMarker(ll,{radius:10,color:'#8e241c',weight:3,fillColor:'#ef5b49',fillOpacity:.9}).bindPopup(`<b>${label}</b><br>${side}<br><small>政府地址库定位候选；不是 Title 边界</small>`).addTo(siteLayer)}
+siteMarker(siteA,'4980 South Gippsland Highway — 候选点 A','高速公路西侧');siteMarker(siteB,'4980 South Gippsland Highway — 候选点 B','高速公路东侧');
+L.polyline([siteA,siteB],{color:'#d94c3d',dashArray:'5 7',weight:2}).bindTooltip('两个地址候选点').addTo(siteLayer);
+const towns=[['Lang Lang',-38.2660,145.5620,'最近镇区／服务中心'],['Koo Wee Rup',-38.1996,145.4902,'区域城镇'],['Nyora',-38.3338,145.6721,'邻近城镇'],['Grantville',-38.4077,145.5307,'Bass Coast 沿岸城镇'],['Corinella',-38.4146,145.4248,'Western Port 沿岸城镇']];
+towns.forEach(t=>L.circleMarker([t[1],t[2]],{radius:t[0]=='Lang Lang'?8:6,color:'#184c40',weight:2,fillColor:'#2d7867',fillOpacity:.85}).bindTooltip(`<b>${t[0]}</b><br>${t[3]}`).addTo(townLayer));
+const service='https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Planning/FeatureServer';
+const env='145.40,-38.43,145.70,-38.16';
+function url(layer,where='1=1'){return `${service}/${layer}/query?where=${encodeURIComponent(where)}&geometry=${env}&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=true&f=geojson`}
+function zoneStyle(f){const c=(f.properties.zone_code||'').toUpperCase();let fill='#f2c94c';if(c.includes('GWZ'))fill='#79a95b';if(c.includes('RCZ'))fill='#b69b62';if(c.includes('GRZ'))fill='#e9a4a4';if(c.includes('IN'))fill='#ab8fc7';return{color:'#8a7600',weight:1,fillColor:fill,fillOpacity:.23}}
+fetch(url(3)).then(r=>r.json()).then(d=>{zoneLayer.addData(d);zoneLayer.setStyle(zoneStyle);zoneLayer.eachLayer(l=>{const p=l.feature.properties;l.bindPopup(`<b>${p.zone_code||'Planning Zone'}</b><br>${p.zone_description||''}<br><small>${p.lga||''}</small>`)})}).catch(()=>{});
+fetch(url(2,"zone_code LIKE 'SRO%' OR zone_code LIKE 'DPO%' OR zone_code LIKE 'LSIO%' OR zone_code LIKE 'FO%' OR zone_code LIKE 'ESO%' ")).then(r=>r.json()).then(d=>{overlayLayer.addData(d);overlayLayer.setStyle(f=>({color:(f.properties.zone_code||'').startsWith('SRO')?'#8136a8':'#6b45b8',weight:2,fillColor:'#8c6bd8',fillOpacity:.10}));overlayLayer.eachLayer(l=>{const p=l.feature.properties;l.bindPopup(`<b>${p.zone_code||'Planning Overlay'}</b><br>${p.zone_description||''}`)})}).catch(()=>{});
+fetch(url(0)).then(r=>r.json()).then(d=>{ugbLayer.addData(d);ugbLayer.setStyle({color:'#005ce6',weight:4,opacity:.9});ugbLayer.eachLayer(l=>l.bindPopup('<b>Urban Growth Boundary</b>'))}).catch(()=>{});
+zoneLayer.addTo(map);ugbLayer.addTo(map);
+const controls=L.control.layers({'街道图':street,'卫星图':satellite},{'地块定位':siteLayer,'周边城镇':townLayer,'Planning Zones':zoneLayer,'Urban Growth Boundary':ugbLayer,'相关 Planning Overlays':overlayLayer},{collapsed:false}).addTo(map);
+function siteView(){map.fitBounds(L.latLngBounds([siteA,siteB]).pad(2.2))}function regionView(){map.fitBounds([[-38.44,145.39],[-38.16,145.70]])}function toggleZones(){map.hasLayer(zoneLayer)?map.removeLayer(zoneLayer):map.addLayer(zoneLayer)}
+</script>
+</body></html>
