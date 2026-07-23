@@ -1,0 +1,409 @@
+{
+  "address": "498 Ballarat-Daylesford Road, Pootilla VIC 3352",
+  "coordinates": {
+    "lat": -37.538434,
+    "lon": 143.96092
+  },
+  "council": "Moorabool Shire",
+  "locality": "Pootilla",
+  "lot_plan": {
+    "parcel_spi": "1~10\\PP2279",
+    "parcel_pfi": "45407790",
+    "allotment": "1",
+    "section": "10",
+    "plan_reference": "PP2279",
+    "status": "official parcel identification from VicPlan Property & Parcel"
+  },
+  "titles": {
+    "identified_parcel_count": 1,
+    "title_search_pending": true,
+    "comment": "当前仅独立核实到一个官方 parcel；最终 title 数量仍应以 title search / Section 32 为准。"
+  },
+  "area": {
+    "official_parcel_polygon_ha": 52.18,
+    "listing_ha": 51.8,
+    "listing_acres": 128,
+    "comment": "官方 parcel polygon 面积与销售资料大体一致。"
+  },
+  "zones": [
+    {
+      "code": "FZ",
+      "description": "Farming Zone",
+      "evidence": "A",
+      "source": "https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Planning/FeatureServer/3"
+    }
+  ],
+  "overlays": [
+    {
+      "code": "BMO",
+      "description": "Bushfire Management Overlay",
+      "evidence": "A",
+      "source": "https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Planning/FeatureServer/2"
+    },
+    {
+      "code": "DDO2",
+      "description": "Design and Development Overlay - Schedule 2",
+      "evidence": "A",
+      "source": "https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Planning/FeatureServer/2"
+    },
+    {
+      "code": "ESO1",
+      "description": "Environmental Significance Overlay - Schedule 1",
+      "evidence": "A",
+      "source": "https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Planning/FeatureServer/2"
+    }
+  ],
+  "boundaries": {
+    "parcel_geojson": {
+      "type": "Feature",
+      "id": 4045363,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              143.96306295800002,
+              -37.54332545608813
+            ],
+            [
+              143.9671007720001,
+              -37.540131882088126
+            ],
+            [
+              143.9592011860001,
+              -37.53379233108818
+            ],
+            [
+              143.95443904800004,
+              -37.53639677408816
+            ],
+            [
+              143.96306295800002,
+              -37.54332545608813
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4045363,
+        "PARCEL_PFI": "45407790",
+        "PARCEL_SPI": "1~10\\PP2279",
+        "PARCEL_SPI_CODE": 101,
+        "PARCEL_DESC_TYPE": "14",
+        "PARCEL_MULTI": "N",
+        "PARCEL_ROAD": "N",
+        "PARCEL_LGA_CODE": "350",
+        "PARCEL_PLAN_NUMBER": null,
+        "PARCEL_LOT_NUMBER": null,
+        "PARCEL_ACCESSORY_LOT": null,
+        "PARCEL_ALLOTMENT": "1",
+        "PARCEL_SEC": "10",
+        "PARCEL_BLOCK": null,
+        "PARCEL_PORTION": null,
+        "PARCEL_SUBDIVISION": null,
+        "PARCEL_CROWN_STATUS": null,
+        "PARCEL_PARISH_CODE": "2279",
+        "PARCEL_TOWNSHIP_CODE": "9999",
+        "PARCEL_P_NUMBER": null,
+        "PARCEL_FURTHER_DESCRIPTION": null,
+        "PARCEL_PART": "N",
+        "PARCEL_STATUS": "A",
+        "PARCEL_REG_DATE": null,
+        "PARCEL_ID": null,
+        "PARCEL_PFI_CREATED": 864432000000,
+        "PARCEL_UFI": 567819491,
+        "PARCEL_UFI_CREATED": 1549362582000,
+        "PARCEL_UFI_OLD": 356550255,
+        "PARCEL_TASK_ID": 228630,
+        "PARV_HORIZ_POS_UNCERTAINTY": 4.5,
+        "PARV_UFI": 802260863,
+        "PARV_UFI_OLD": 418622990,
+        "PARV_TASK_ID": 409923,
+        "VDPID": 1977580,
+        "Shape_Length": 0.031767216944469885,
+        "Shape_Area": 5.31408310585548e-05
+      }
+    },
+    "ugb_intersects": false,
+    "uga_intersects": false,
+    "ugb_features": [],
+    "uga_features": [],
+    "comment": "Vicmap Planning 查询未显示 parcel 与 UGB 或 UGA 相交。"
+  },
+  "towns": [
+    {
+      "name": "Ballarat",
+      "lat": -37.55622624,
+      "lon": 143.846447843,
+      "address": "Ballarat, Victoria",
+      "role": "区域服务中心 / 最近大城市"
+    },
+    {
+      "name": "Brown Hill",
+      "lat": -37.552474791,
+      "lon": 143.904627879,
+      "address": "Brown Hill, Ballarat, Victoria",
+      "role": "Ballarat 东侧城镇边缘"
+    },
+    {
+      "name": "Warrenheip",
+      "lat": -37.563600974,
+      "lon": 143.937332292,
+      "address": "Warrenheip, Ballarat, Victoria",
+      "role": "Ballarat 东侧地区"
+    },
+    {
+      "name": "Bungaree",
+      "lat": -37.55825877,
+      "lon": 143.995912513,
+      "address": "Bungaree, Moorabool, Victoria",
+      "role": "Moorabool 西部小镇 / STS 进一步增长调查镇"
+    },
+    {
+      "name": "Dunnstown",
+      "lat": -37.59076399,
+      "lon": 143.965815822,
+      "address": "Dunnstown, Moorabool, Victoria",
+      "role": "Moorabool 西部小镇 / STS 进一步增长调查镇"
+    },
+    {
+      "name": "Daylesford",
+      "lat": -37.342644461,
+      "lon": 144.143254946,
+      "address": "Daylesford, Daylesford - Hepburn Springs, Victoria",
+      "role": "区域旅游服务中心"
+    }
+  ],
+  "strategic_plans": [
+    {
+      "name": "Moorabool Small Towns and Settlements Strategy",
+      "status": "official council strategy",
+      "key_points": [
+        "Moorabool 小镇增长需与区域层级一致。",
+        "缺乏 reticulated sewer 和位于 potable drinking water catchments 内，会显著限制增长。",
+        "西部 Moorabool 受 Ballarat 服务与就业影响。"
+      ],
+      "source": "https://www.moorabool.vic.gov.au/files/assets/public/residents/documents/small-towns-and-settlements-strategy-final.compressed.pdf"
+    },
+    {
+      "name": "City of Ballarat Growth Areas Framework Plan – Western and North Western Growth Areas",
+      "status": "official council framework",
+      "key_points": [
+        "当前已发布 growth framework 聚焦 Ballarat 西部与西北部 growth areas。",
+        "未见该 Pootilla 地址被纳入 Ballarat 官方 growth area framework。"
+      ],
+      "source": "https://www.ballarat.vic.gov.au/sites/default/files/2024-08/Growth%20Areas%20Framework%20Plan%20-%20Western%20and%20North%20Western%20Growth%20Areas_AUGUST%202024.pdf"
+    }
+  ],
+  "infrastructure": {
+    "road_access": "现有 frontage 至 Ballarat-Daylesford Road；销售资料称为 corner block with two street frontages，但 DTP/council access permit 未核实。",
+    "water": "销售资料称 30 megs water、large dam；权利与许可未核实。",
+    "sewer": "未见 property-specific sewer availability 证据；西部 Moorabool 战略文件反复提示 sewer 是增长关键约束。",
+    "electricity": "现有 dwelling imply connection, but capacity not confirmed."
+  },
+  "constraints": {
+    "special_water_supply_catchment": true,
+    "bmo_intersection": true,
+    "bpa_presence": true,
+    "flood_overlay_detected": false,
+    "heritage_overlay_detected": false,
+    "comment": "BMO 为 parcel 相交结果；点位抽样不足以代表整块地。"
+  },
+  "opportunity_paths": [
+    {
+      "path": "普通住宅 Rezoning",
+      "conclusion": "不建议",
+      "score": 12,
+      "gate": [
+        "现状 FZ",
+        "无 UGB/UGA",
+        "未见被识别为 Ballarat 或 Moorabool 住宅增长范围"
+      ],
+      "support": [
+        "距 Ballarat 较近",
+        "现有居住使用与道路可达性"
+      ],
+      "against": [
+        "Moorabool 西部战略强调避免 ad-hoc 住宅向高质量农业地扩张",
+        "ESO1 特别供水集水区",
+        "BMO/BPA 增加审批与成本"
+      ],
+      "next_evidence": "如有任何已启动的住宅增长/结构规划文件，需提供官方 amendment 或 framework 边界。"
+    },
+    {
+      "path": "低密度 / 乡村住宅",
+      "conclusion": "长期观察",
+      "score": 24,
+      "gate": [
+        "FZ 农业政策与分割控制",
+        "集水区与 bushfire 约束"
+      ],
+      "support": [
+        "大地块，近 Ballarat",
+        "现有住宅可支持持有"
+      ],
+      "against": [
+        "Moorabool 农业政策对孤立小地块/住宅切割谨慎",
+        "无已核实 sewer 方案"
+      ],
+      "next_evidence": "Title、现有 dwelling entitlement、可否进行 dwelling excision 与现场 wastewater 适应性。"
+    },
+    {
+      "path": "工业 / 商业 / 就业用地",
+      "conclusion": "不建议",
+      "score": 14,
+      "gate": [
+        "FZ + ESO1",
+        "无官方就业 precinct / industrial strategy 指向该址"
+      ],
+      "support": [
+        "临 Ballarat-Daylesford Road",
+        "靠近 Ballarat 市场"
+      ],
+      "against": [
+        "缺乏官方 employment designation",
+        "潜在交通许可与 servicing 成本不明"
+      ],
+      "next_evidence": "若拟研究特定 roadside/agri-business 用途，需先做 zone table、DTP access 与 CHW servicing 复核。"
+    },
+    {
+      "path": "保持农业 / 现状用途",
+      "conclusion": "条件推进",
+      "score": 76,
+      "gate": [
+        "需核实 Title、用水权、BMO 建筑平台与服务能力"
+      ],
+      "support": [
+        "官方 parcel 面积约 52.18 ha",
+        "销售资料描述平坦火山土、30 megs 水、大坝、棚舍与现有住宅",
+        "FZ 与当地农业政策更匹配"
+      ],
+      "against": [
+        "BMO/BPA、ESO1 可能抬高后续建房/扩建与 wastewater 成本",
+        "道路与服务许可未核实"
+      ],
+      "next_evidence": "Title/Section 32、用水权与服务能力、现有改良清单、农业收益或租赁证据。"
+    },
+    {
+      "path": "资源 / 采掘 / 特殊机会",
+      "conclusion": "资料不足",
+      "score": 18,
+      "gate": [
+        "未见 SRO/SERA 或 quarry 相关官方控制覆盖该址"
+      ],
+      "support": [
+        "区域政策层面存在对土石资源的普遍保护意识"
+      ],
+      "against": [
+        "当前无官方 extractive designation 证据",
+        "住宅与农业环境约束仍在"
+      ],
+      "next_evidence": "若卖方或顾问主张资源潜力，需提供地质 desktop、储量/品质与许可路径意见。"
+    },
+    {
+      "path": "分拆 / 独立退出 / 长期 land banking",
+      "conclusion": "长期观察",
+      "score": 31,
+      "gate": [
+        "Title 结构未核实",
+        "FZ/ESO1/BMO 限制分拆与新增住宅"
+      ],
+      "support": [
+        "现有 dwelling 可能存在 excision 讨论空间",
+        "近 Ballarat 使长期持有具一定流动性"
+      ],
+      "against": [
+        "当前官方 parcel 显示单一 parcel",
+        "地方农业政策对住宅切割谨慎，且剩余地通常需保持较大面积"
+      ],
+      "next_evidence": "Title、地役权/贷款、可否 dwelling excision、Subdivision 前置意见。"
+    }
+  ],
+  "gate_tests": [
+    {
+      "test": "是否位于已识别住宅增长边界内",
+      "result": "FAIL",
+      "reason": "Vicmap Planning 未见 UGB/UGA，相应官方战略也未将该址识别为住宅增长区。"
+    },
+    {
+      "test": "现行分区是否支持常规城市扩张",
+      "result": "FAIL",
+      "reason": "现行分区为 FZ。"
+    },
+    {
+      "test": "是否存在重大环境/服务约束",
+      "result": "PASS_WITH_CONSTRAINTS",
+      "reason": "ESO1、BMO、BPA 与 sewer 不确定性将直接影响开发与建造。"
+    },
+    {
+      "test": "农业持有是否与现行控制一致",
+      "result": "PASS",
+      "reason": "FZ、52.18ha parcel 和销售资料描述的农业改良更匹配农业持有路径。"
+    }
+  ],
+  "scores": {
+    "普通住宅 Rezoning": 12,
+    "低密度 / 乡村住宅": 24,
+    "工业 / 商业 / 就业用地": 14,
+    "保持农业 / 现状用途": 76,
+    "资源 / 采掘 / 特殊机会": 18,
+    "分拆 / 独立退出 / 长期 land banking": 31
+  },
+  "sources": [
+    {
+      "topic": "Parcel identification and area",
+      "url": "https://plan-gis.mapshare.vic.gov.au/arcgis/rest/services/Planning/VicPlan_PropertyAndParcel/MapServer/4",
+      "evidence": "A"
+    },
+    {
+      "topic": "Planning zones / overlays / UGB/UGA",
+      "url": "https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Planning/FeatureServer",
+      "evidence": "A"
+    },
+    {
+      "topic": "Bushfire Prone Area",
+      "url": "https://plan-gis.mapshare.vic.gov.au/arcgis/rest/services/Planning/VicPlan_Bushfire/MapServer/1",
+      "evidence": "A"
+    },
+    {
+      "topic": "Moorabool planning scheme agriculture policy",
+      "url": "https://planning-schemes.app.planning.vic.gov.au/Moorabool/ordinance/14.01-2L-02",
+      "evidence": "A/B"
+    },
+    {
+      "topic": "ESO1 schedule",
+      "url": "https://planning-schemes.app.planning.vic.gov.au/MOORABOOL/ordinance/42.01-s1",
+      "evidence": "A/B"
+    },
+    {
+      "topic": "DDO2 schedule",
+      "url": "https://planning-schemes.app.planning.vic.gov.au/MOORABOOL/map-lookup?level=LPP&mapCode=DDO2",
+      "evidence": "A/B"
+    },
+    {
+      "topic": "Moorabool small towns strategy",
+      "url": "https://www.moorabool.vic.gov.au/files/assets/public/residents/documents/small-towns-and-settlements-strategy-final.compressed.pdf",
+      "evidence": "B"
+    },
+    {
+      "topic": "Ballarat growth areas framework plan",
+      "url": "https://www.ballarat.vic.gov.au/sites/default/files/2024-08/Growth%20Areas%20Framework%20Plan%20-%20Western%20and%20North%20Western%20Growth%20Areas_AUGUST%202024.pdf",
+      "evidence": "B"
+    },
+    {
+      "topic": "Sales listing",
+      "url": "https://www.realestate.com.au/property-house-vic-pootilla-150700428",
+      "evidence": "C"
+    },
+    {
+      "topic": "Agent brochure",
+      "url": "https://www.ballaratrealestate.com.au/brochure-8655913.pdf",
+      "evidence": "C"
+    }
+  ],
+  "evidence_status": {
+    "overall_completeness_percent": 68,
+    "summary": "核心法定控制已核实；Title、servicing、water rights、现有许可与 BMO buildability 仍待补。"
+  },
+  "generated_at": "2026-07-23T00:00:00+10:00"
+}

@@ -4,6 +4,23 @@
   "title": "读取地块主页并总结规划缺口",
   "titleGenerationStatus": "success",
   "createdAt": 1784781807276,
-  "updatedAt": 1784781826072,
-  "sessionId": null
+  "updatedAt": 1784787265672,
+  "lastResponseAt": 1784787265672,
+  "sessionId": "019f8d49-369b-7010-88b3-d73a5461dba1",
+  "providerState": {
+    "threadId": "019f8d49-369b-7010-88b3-d73a5461dba1",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\23\\rollout-2026-07-23T14-43-33-019f8d49-369b-7010-88b3-d73a5461dba1.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "00_Research/项目研究/农地项目/4980_South_Gippsland_Highway_Lang_Lang/地块主页.md",
+  "usage": {
+    "inputTokens": 189589,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 189312,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 189589,
+    "percentage": 73,
+    "model": "gpt-5.4"
+  }
 }
