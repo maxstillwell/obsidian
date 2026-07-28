@@ -1,0 +1,26 @@
+{
+  "id": "conv-1785210182937-8j7tco9rg",
+  "providerId": "codex",
+  "title": "Update markdown and compare fiscal years",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785210182938,
+  "updatedAt": 1785215255695,
+  "lastResponseAt": 1785215255695,
+  "sessionId": "019fa6d1-dc84-7fd2-bba0-04eec33e1018",
+  "providerState": {
+    "threadId": "019fa6d1-dc84-7fd2-bba0-04eec33e1018",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\28\\rollout-2026-07-28T13-43-19-019fa6d1-dc84-7fd2-bba0-04eec33e1018.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "10_Projects/Yaloak Estate/R M Gillet 种植收入汇总（202526财年）.md",
+  "usage": {
+    "inputTokens": 98939,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 97664,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 98939,
+    "percentage": 38,
+    "model": "gpt-5.4"
+  }
+}
