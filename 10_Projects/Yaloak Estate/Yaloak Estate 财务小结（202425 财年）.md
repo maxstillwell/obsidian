@@ -1,31 +1,7 @@
-# Yaloak Estate 财务小结（2024/25 财年）
 
-本版参考 [[10_Projects/Yaloak Estate/Yaloak Estate 财务汇总报告（202324 财年 ）]] 的写法整理，并结合以下资料复核：
-
-- [[10_Projects/Yaloak Estate/Beefcorp]]
-- [[10_Projects/Yaloak Estate/R M Gillet 种植收入汇总（202526财年）]]
-- [[10_Projects/Yaloak Estate/Rates/Yaloak Rates.xlsx]]
-- [[10_Projects/Yaloak Estate/Insurance/2425/Renewal Documentation/Invoices/Masterpiece Policy Invoice.pdf]]
-
-> 说明：
-> - 收入部分按你当前确认口径整理；
-> - 费用部分不看整个 Yaloak Estate，只保留 **老房子的 Rates + Insurance**。
 
 ---
 
-## 租金情况
-
-2024/25 财年内，Yaloak Estate 的收入仍由养牛、养羊、种植、马球、老房子租金，以及 Harvest 端的风车租金与种植收入构成。
-
-与 2023/24 财年相比：
-
-- **Beefcorp（养牛）** 收入回落；
-- **养羊** 回到正常年度口径；
-- **R. M. Gillet** 在 SY 与 Harvest 两端都继续增长；
-- **老房子租金** 基本维持在 **A$44,200** 左右；
-- **风车租金** 按租约继续上调。
-
----
 
 ## 租金结构与调整情况
 
@@ -65,36 +41,29 @@
 - **SY 收入合计**：A$428,718.16
 - **Harvest 收入合计**：A$633,479.42
 
-本年度的结构特点是：
-
-- Harvest 端仍然贡献了更高比例的年度收入；
-- **R. M. Gillet** 是本年度最稳定、最核心的收入来源之一；
-- **Beefcorp** 的回落拖累了 SY 端整体表现；
-- **老房子** 保持稳定出租；
-- **风车租金** 与种植收入共同支撑了 Harvest 端增长。
-
 ---
 
 ## 一、收入明细
 
 #### SY
 
-| 收入类别 | 金额（A$） | 说明 |
-|---|---:|---|
-| 养牛 | 132,237.07 | 按 [[10_Projects/Yaloak Estate/Beefcorp]] 中 2024/25 财年 Total 合计取数 |
-| 养羊 | 33,000.00 | 按你最新确认口径 |
-| 种植 | 208,281.09 | R. M. Gillet & Co Pty Ltd，按 sales.xls 财年汇总 |
-| 马球 | 11,000.00 | 沿用确认口径 |
-| 老房子租金 | 44,200.00 | 按你当前确认口径 |
-| **小计（SY）** | **428,718.16** |  |
+| 收入类别       |         金额（A$） | 说明                                                               |
+| ---------- | -------------: | ---------------------------------------------------------------- |
+| 养牛         |     132,237.07 | 按 [[10_Projects/Yaloak Estate/Beefcorp]] 中 2024/25 财年 Total 合计取数 |
+| 养羊         |      33,000.00 | 全部收到                                                             |
+| 种植         |     208,281.09 | R. M. Gillet & Co Pty Ltd                                        |
+| 马球         |      11,000.00 | 沿用确认口径                                                           |
+| 老房子租金      |      44,200.00 | 全部收到                                                             |
+| **小计（SY）** | **428,718.16** |                                                                  |
+|            |                |                                                                  |
 
 #### Harvest
 
-| 收入类别 | 金额（A$） | 说明 |
-|---|---:|---|
-| 风车租金 | 218,664.46 | 按你当前确认口径 |
-| 种植 | 414,814.96 | R. M. Gillet & Co Pty Ltd，按 sales (1).xls 财年汇总 |
-| **小计（Harvest）** | **633,479.42** |  |
+| 收入类别            |         金额（A$） | 说明                        |
+| --------------- | -------------: | ------------------------- |
+| 风车租金            |     218,664.46 | 全部收到                      |
+| 种植              |     414,814.96 | R. M. Gillet & Co Pty Ltd |
+| **小计（Harvest）** | **633,479.42** |                           |
 
 #### 收入合计：**A$1,062,197.58**
 
@@ -102,13 +71,6 @@
 
 ## 二、老房子费用明细（仅保留 Rates + Insurance）
 
-按你指定口径，2024/25 财年老房子仅看以下两项费用：
-
-| 费用类别 | 金额（A$） | 来源 |
-|---|---:|---|
-| Council Rates | 21,005.05 | [[10_Projects/Yaloak Estate/Rates/Yaloak Rates.xlsx]] 中 Geelong-Ballan Road Fiskville 2024/25 |
-| Insurance | 16,304.14 | [[10_Projects/Yaloak Estate/Insurance/2425/Renewal Documentation/Invoices/Masterpiece Policy Invoice.pdf]] |
-| **老房子费用合计** | **37,309.19** |  |
 
 ### 老房子净额参考
 
