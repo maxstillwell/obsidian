@@ -3,26 +3,34 @@
 > 依据 `[[10_Projects/Yaloak Estate/Insurance]]` 文件夹内目前可见的发票整理。  
 > 财年先按**发票开具日期**归类；保单保障期另外单列说明。
 
-## 年度对比总表
+## Invoice 对比总表
 
-> 目前文件夹里只有 `2526`，所以先做出**可持续追加**的同比表。后续补充 `2425`、`2627` 等资料后，直接往下加即可。
+> 只按 **invoice** 比较，不按保单覆盖期展开。财年按**发票日期**归类。
 
-| 财年 | 发票数 | 覆盖主体 | 主要险种 | Premium | Service Charge | GST | Stamp Duty | Total Due | 同比变化 | 备注 |
-|---|---:|---|---|---:|---:|---:|---:|---:|---|---|
-| FY2025/26 | 3 | Harvest、SY Trust | Country Package、Landlord Package | 40,225.63 | 225.00 | 4,045.07 | 4,057.59 | 48,553.27 | — | 2 个 renewal + 1 个 new policy |
-| FY2024/25 | — | — | — | — | — | — | — | — | 待补文件 | 当前文件夹未见资料 |
-| FY2023/24 | — | — | — | — | — | — | — | — | 待补文件 | 当前文件夹未见资料 |
+| 财年 | Invoice 数 | Invoice Date | Invoice Total (AUD) | 备注 |
+|---|---:|---|---:|---|
+| FY2025/26 | 3 | 2026-03-08, 2026-03-19 | 48,553.27 | 2 张 Country Package invoice + 1 张 Landlord Package invoice |
+| FY2024/25 | — | — | — | 当前文件夹未见 invoice |
+| FY2023/24 | — | — | — | 当前文件夹未见 invoice |
 
-### 目前能看出的年度变化
+### FY2025/26 发票明细对比
 
-| 比较维度 | FY2025/26 观察 |
+| Invoice | Entity | Class | Issue Date | Due Date | Total Due (AUD) | 类型 |
+|---|---|---|---|---|---:|---|
+| M02454271 | Harvest Agriculture Pty Ltd | Country Package | 2026-03-08 | 2026-03-21 | 28,986.80 | Renewal |
+| M02454272 | SY Agriculture Pty Ltd - The Trustee for SY Agriculture Trust | Country Package | 2026-03-08 | 2026-03-21 | 12,387.57 | Renewal |
+| I12842513 | SY Agriculture Pty Ltd - The Trustee for SY Agriculture Trust | Landlord Package | 2026-03-19 | 2026-04-01 | 7,178.90 | New Policy |
+
+### Invoice 变化（基于目前已有文件）
+
+| 比较项 | 结论 |
 |---|---|
-| 保险总支出 | 目前已记录 **48,553.27 AUD** |
-| 险种结构 | 以 **Country Package** 为主；另新增 **Landlord Package** |
-| 主体分布 | Harvest 1 张；SY Trust 2 张 |
-| 保单性质 | 2 张 renewal，1 张 new policy |
-| 承保人变化 | Country Package 为 Rural Affinity；Landlord Package 为 Blue Zebra |
-| 可疑点 | 两张 Country Package 共用 `FRM-237940`，需确认是否同一保单框架 |
+| 财年总 invoice 金额 | 目前只看到 FY2025/26，共 **48,553.27 AUD** |
+| invoice 数量 | FY2025/26 共 **3 张** |
+| 最大 invoice | Harvest Country Package：**28,986.80** |
+| 最小 invoice | SY Landlord Package：**7,178.90** |
+| 同日开票 | 2026-03-08 开了 2 张 Country Package invoice |
+| 新增 invoice 类型 | 2026-03-19 出现 1 张 **Landlord Package** new policy invoice |
 
 ## FY2025/26
 
