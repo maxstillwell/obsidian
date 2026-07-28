@@ -4,8 +4,8 @@
   "title": "Summarize insurance files by fiscal year",
   "titleGenerationStatus": "success",
   "createdAt": 1785210432348,
-  "updatedAt": 1785210716422,
-  "lastResponseAt": 1785210716422,
+  "updatedAt": 1785211301240,
+  "lastResponseAt": 1785211301240,
   "sessionId": "019fa6d5-6d32-7df2-bdcd-97fdf7849184",
   "providerState": {
     "threadId": "019fa6d5-6d32-7df2-bdcd-97fdf7849184",
@@ -14,13 +14,13 @@
   },
   "currentNote": "10_Projects/Yaloak Estate/Insurance.md",
   "usage": {
-    "inputTokens": 114393,
+    "inputTokens": 115814,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 112512,
+    "cacheReadInputTokens": 114048,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 114393,
-    "percentage": 44,
+    "contextTokens": 115814,
+    "percentage": 45,
     "model": "gpt-5.4"
   }
 }

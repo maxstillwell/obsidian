@@ -3,6 +3,27 @@
 > 依据 `[[10_Projects/Yaloak Estate/Insurance]]` 文件夹内目前可见的发票整理。  
 > 财年先按**发票开具日期**归类；保单保障期另外单列说明。
 
+## 年度对比总表
+
+> 目前文件夹里只有 `2526`，所以先做出**可持续追加**的同比表。后续补充 `2425`、`2627` 等资料后，直接往下加即可。
+
+| 财年 | 发票数 | 覆盖主体 | 主要险种 | Premium | Service Charge | GST | Stamp Duty | Total Due | 同比变化 | 备注 |
+|---|---:|---|---|---:|---:|---:|---:|---:|---|---|
+| FY2025/26 | 3 | Harvest、SY Trust | Country Package、Landlord Package | 40,225.63 | 225.00 | 4,045.07 | 4,057.59 | 48,553.27 | — | 2 个 renewal + 1 个 new policy |
+| FY2024/25 | — | — | — | — | — | — | — | — | 待补文件 | 当前文件夹未见资料 |
+| FY2023/24 | — | — | — | — | — | — | — | — | 待补文件 | 当前文件夹未见资料 |
+
+### 目前能看出的年度变化
+
+| 比较维度 | FY2025/26 观察 |
+|---|---|
+| 保险总支出 | 目前已记录 **48,553.27 AUD** |
+| 险种结构 | 以 **Country Package** 为主；另新增 **Landlord Package** |
+| 主体分布 | Harvest 1 张；SY Trust 2 张 |
+| 保单性质 | 2 张 renewal，1 张 new policy |
+| 承保人变化 | Country Package 为 Rural Affinity；Landlord Package 为 Blue Zebra |
+| 可疑点 | 两张 Country Package 共用 `FRM-237940`，需确认是否同一保单框架 |
+
 ## FY2025/26
 
 ### 概览
