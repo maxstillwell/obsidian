@@ -4,8 +4,8 @@
   "title": "Update markdown and compare fiscal years",
   "titleGenerationStatus": "success",
   "createdAt": 1785210182938,
-  "updatedAt": 1785211183594,
-  "lastResponseAt": 1785211183594,
+  "updatedAt": 1785215030413,
+  "lastResponseAt": 1785215030413,
   "sessionId": "019fa6d1-dc84-7fd2-bba0-04eec33e1018",
   "providerState": {
     "threadId": "019fa6d1-dc84-7fd2-bba0-04eec33e1018",
@@ -14,13 +14,13 @@
   },
   "currentNote": "10_Projects/Yaloak Estate/R M Gillet 种植收入汇总（202526财年）.md",
   "usage": {
-    "inputTokens": 94555,
+    "inputTokens": 97907,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 93568,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 94555,
-    "percentage": 37,
+    "contextTokens": 97907,
+    "percentage": 38,
     "model": "gpt-5.4"
   }
 }
