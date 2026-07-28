@@ -4,6 +4,23 @@
   "title": "Summarize insurance files by fiscal year",
   "titleGenerationStatus": "success",
   "createdAt": 1785210432348,
-  "updatedAt": 1785210465696,
-  "sessionId": null
+  "updatedAt": 1785210716422,
+  "lastResponseAt": 1785210716422,
+  "sessionId": "019fa6d5-6d32-7df2-bdcd-97fdf7849184",
+  "providerState": {
+    "threadId": "019fa6d5-6d32-7df2-bdcd-97fdf7849184",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\07\\28\\rollout-2026-07-28T13-47-12-019fa6d5-6d32-7df2-bdcd-97fdf7849184.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "currentNote": "10_Projects/Yaloak Estate/Insurance.md",
+  "usage": {
+    "inputTokens": 114393,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 112512,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 114393,
+    "percentage": 44,
+    "model": "gpt-5.4"
+  }
 }
