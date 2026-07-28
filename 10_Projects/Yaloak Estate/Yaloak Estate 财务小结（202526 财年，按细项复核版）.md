@@ -1,17 +1,3 @@
-# Yaloak Estate 财务小结（2025/26 财年）
-
-本版参考 [[10_Projects/Yaloak Estate/Yaloak Estate 财务小结（202425 财年）]] 的口径，并结合以下资料整理：
-
-- [[10_Projects/Yaloak Estate/4662 Geelong-Ballan Rd 老房子租金小结（202526财年）]]
-- [[10_Projects/Yaloak Estate/R M Gillet 种植收入汇总（202526财年）]]
-- [[10_Projects/Yaloak Estate/Beefcorp]]
-- [[10_Projects/Yaloak Estate/Rates/Yaloak Rates.xlsx]]
-- [[10_Projects/Yaloak Estate/Insurance/2526/Landlord Package Invoice.pdf]]
-
-> 说明：
-> - 收入部分按你当前确认口径整理；
-> - **R. M. Gillet** 采用 [[R M Gillet 种植收入汇总（202526财年）]] 中 **2025/26（主要种植收入口径）**；
-> - 费用部分不看整个 Yaloak Estate，只保留 **老房子的 Rates + Insurance**。
 
 ---
 
