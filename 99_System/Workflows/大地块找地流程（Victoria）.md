@@ -173,8 +173,11 @@ Domain 的作用更像“交叉校验 + 补漏”。
 - 地址
 - 来源网站
 - 链接
+- Melbourne CBD 距离
+- 当地 township 距离
 - 面积
 - 报价 / EOI / Contact Agent
+- 每公顷价格
 - agent
 - 当前用途标签
 - 所在 LGA / region

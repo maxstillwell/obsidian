@@ -21,17 +21,22 @@ region: East Gippsland
 - 地址：1578 Bindi Road, Bindi, Vic 3896
 - LGA：East Gippsland Shire
 - Region：East Gippsland / Victorian high country
+- Melbourne CBD 距离：约 `310 km`
+- 当地 township：`Omeo`
+- 距离当地 township：约 `30 km`
 - 来源平台：
-  - [Realestate - Bindi Rural](https://www.realestate.com.au/buy/property-rural-in-bindi%2C%2Bvic%2B3896/list-1)
-  - [Domain - Bindi Rural](https://www.domain.com.au/sale/bindi-vic-3896/rural/)
+  - [Realestate listing](https://www.realestate.com.au/property-livestock-vic-bindi-700380908//)
+  - [Domain listing](https://www.domain.com.au/1578-bindi-road-bindi-vic-3896-2020355721)
 - Listing 链接：
-  - Realestate 当前显示该地块为 `1578 Bindi Road, Bindi`
-  - Domain 当前显示该地块为 `1578 Bindi Road, BINDI`
+  - Realestate：<https://www.realestate.com.au/property-livestock-vic-bindi-700380908//>
+  - Domain：<https://www.domain.com.au/1578-bindi-road-bindi-vic-3896-2020355721>
 - Agent：
   - `Nick Myer`
   - `Elders Real Estate Melbourne`
 - 报价 / EOI：
   - Domain 当前显示：`by Expression of Interest`
+- 每公顷价格：
+  - 当前无明确报价，`暂时无法计算`
 - 面积：
   - `4,354ha`
 - 当前用途标签：
@@ -102,6 +107,11 @@ region: East Gippsland
 - 是否有 brochure：未确认
 - 是否有明确地址：有
 - 是否有面积：有
+- 是否有广告原链接：有
+- 是否有价格：无明确价格，仅 `EOI`
+- 是否能计算每公顷价格：当前不能
+- 是否有 Melbourne CBD 距离：有，当前为 locality 级近似值
+- 是否有 township 距离：有，当前为 locality 级近似值
 - 是否有代理联系方式：有
 - 是否有基本图片 / map：有基础 listing 信息，但研究远远不够
 
