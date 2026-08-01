@@ -17,3 +17,5 @@ tags:
 
 ## Research
 - [[99_System/Templates/Research/研究模板]]
+- [[99_System/Templates/Research/周度找地扫描模板]]
+- [[99_System/Templates/Research/地块初筛模板]]
