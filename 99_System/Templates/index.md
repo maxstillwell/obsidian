@@ -19,5 +19,6 @@ tags:
 - [[99_System/Templates/Research/研究模板]]
 - [[99_System/Templates/Research/周度找地扫描模板]]
 - [[99_System/Templates/Research/地块初筛模板]]
+- [[99_System/Templates/Research/地块资料库条目模板]]
 - [[99_System/Templates/Research/地块问询记录模板]]
 - [[99_System/Templates/Research/邮件Alert登记模板]]
