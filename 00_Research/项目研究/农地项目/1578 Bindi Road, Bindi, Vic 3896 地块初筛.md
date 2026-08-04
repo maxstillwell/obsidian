@@ -28,7 +28,8 @@ region: East Gippsland
   - Realestate
   - Domain
 - Listing 链接：
-  - 深链接可能被平台拦截，不再作为唯一入口
+  - Realestate：<https://www.realestate.com.au/property-livestock-vic-bindi-700380908>
+  - Domain：<https://www.domain.com.au/1578-bindi-road-bindi-vic-3896-2020355721>
 - 平台入口页：
   - Realestate：<https://www.realestate.com.au/buy/property-rural-in-vic/list-1>
   - Domain：<https://www.domain.com.au/rural/?listview=1&mode=sale&sort=price-desc&state=vic>
@@ -36,8 +37,8 @@ region: East Gippsland
   - `1578 Bindi Road, Bindi`
   - `1578 Bindi Road, BINDI VIC 3896`
 - 访问说明：
-  - 优先从平台入口页打开，再用地址关键词搜索
-  - 如平台拒绝深链接，改用站内搜索或区域页进入
+  - 直接点广告链接应可打开
+  - 如果平台偶发拒绝，再改用平台入口页和地址关键词作为备用方式
 - Agent：
   - `Nick Myer`
   - `Elders Real Estate Melbourne`
