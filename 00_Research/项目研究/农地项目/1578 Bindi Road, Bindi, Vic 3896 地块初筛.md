@@ -25,11 +25,19 @@ region: East Gippsland
 - 当地 township：`Omeo`
 - 距离当地 township：约 `30 km`
 - 来源平台：
-  - [Realestate listing](https://www.realestate.com.au/property-livestock-vic-bindi-700380908//)
-  - [Domain listing](https://www.domain.com.au/1578-bindi-road-bindi-vic-3896-2020355721)
+  - Realestate
+  - Domain
 - Listing 链接：
-  - Realestate：<https://www.realestate.com.au/property-livestock-vic-bindi-700380908//>
-  - Domain：<https://www.domain.com.au/1578-bindi-road-bindi-vic-3896-2020355721>
+  - 深链接可能被平台拦截，不再作为唯一入口
+- 平台入口页：
+  - Realestate：<https://www.realestate.com.au/buy/property-rural-in-vic/list-1>
+  - Domain：<https://www.domain.com.au/rural/?listview=1&mode=sale&sort=price-desc&state=vic>
+- 搜索关键词：
+  - `1578 Bindi Road, Bindi`
+  - `1578 Bindi Road, BINDI VIC 3896`
+- 访问说明：
+  - 优先从平台入口页打开，再用地址关键词搜索
+  - 如平台拒绝深链接，改用站内搜索或区域页进入
 - Agent：
   - `Nick Myer`
   - `Elders Real Estate Melbourne`
