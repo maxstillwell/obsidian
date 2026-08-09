@@ -1,0 +1,1063 @@
+{
+  "batches": [
+    {
+      "batch_id": "20260602222906-afaf5fa5",
+      "created_at": "2026-06-02T22:29:06",
+      "created_files": [
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Introduction to Bases - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Bases syntax - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Properties - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/templates - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Prompt engineering - OpenAI API.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Prompt library - Claude Code Docs.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Claude Code power user tips - Claude Help Center.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Introduction to RAG - Developer Documentation.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Web search - OpenAI API.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/SEO Starter Guide- The Basics - Google Search Central - Documentation - Google for Developers Google Google An illust.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Verifying your connection.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Verifying your connection-bbbf9636.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Gorgias- AI, Helpdesk & Chat - Instantly resolve support inquiries and grow your business. - Shopify App Store.md"
+      ],
+      "skipped": [
+        {
+          "id": "dfd7ed39-9104-5a82-8c54-5c189e7e053c",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "b74097ad-2057-5a4d-ab82-e793b51605d6",
+          "reason": "not importable or needs manual review"
+        }
+      ],
+      "rolled_back_at": "2026-06-02T22:30:30",
+      "removed_files": [
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Introduction to Bases - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Bases syntax - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Properties - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/templates - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Prompt engineering - OpenAI API.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Prompt library - Claude Code Docs.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Claude Code power user tips - Claude Help Center.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Introduction to RAG - Developer Documentation.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Web search - OpenAI API.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/SEO Starter Guide- The Basics - Google Search Central - Documentation - Google for Developers Google Google An illust.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Verifying your connection.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Verifying your connection-bbbf9636.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Gorgias- AI, Helpdesk & Chat - Instantly resolve support inquiries and grow your business. - Shopify App Store.md"
+      ]
+    },
+    {
+      "batch_id": "20260602223042-507d7d42",
+      "created_at": "2026-06-02T22:30:42",
+      "created_files": [
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Introduction to Bases - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Bases syntax - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Properties - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/templates - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Prompt engineering - OpenAI API.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Prompt library - Claude Code Docs.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Claude Code power user tips - Claude Help Center.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Introduction to RAG - Developer Documentation.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Web search - OpenAI API.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/SEO Starter Guide- The Basics - Google Search Central - Documentation - Google for Developers Google Google An illust.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Gorgias- AI, Helpdesk & Chat - Instantly resolve support inquiries and grow your business. - Shopify App Store.md"
+      ],
+      "skipped": [
+        {
+          "id": "dfd7ed39-9104-5a82-8c54-5c189e7e053c",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "b74097ad-2057-5a4d-ab82-e793b51605d6",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "2841cd07-4c4b-52c6-adf7-3ada2bee88eb",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "019108bb-d923-5edd-8cfd-628c3450a73e",
+          "reason": "not importable or needs manual review"
+        }
+      ]
+    },
+    {
+      "batch_id": "20260602234123-f5ee2eaa",
+      "created_at": "2026-06-02T23:41:24",
+      "created_files": [
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Building Effective AI Agents - Anthropic.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Effective context engineering for AI agents - Anthropic.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/codex-docs-agents_md.md at main · openai-codex · GitHub.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Customer.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Sell on Shopify and support with Gorgias' helpdesk.md"
+      ],
+      "skipped": [
+        {
+          "id": "b98f70cf-8103-599a-9af7-b572007a9ce9",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "4d94536c-36b3-5eee-8fc1-8038910bd080",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "893699bf-19ce-5d7f-8a36-fc92693518f5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f4c86901-cbe0-5486-ba48-3b779e2dc701",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "a990e7a7-1869-5df7-bd1d-e654c6128a69",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f13f7f7c-b99d-548c-bbe8-6c553e731cf1",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "6bd2f617-7279-589f-abef-35c1059bf0d3",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ae36766c-c1ca-53b1-8549-da0abd259fbe",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "231ce99a-d0d6-5639-80e1-a8685324bd93",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "64e80274-5aa4-59b0-a2e8-2f14e9830447",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "4a82ec89-e307-5eda-96c8-97681c1d65dd",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "3a3ca4ef-9ff1-5a5b-8e05-535e93ddd263",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "e0f83ed2-c3bb-5908-bbc0-9c6bc79c7f8c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "dfd7ed39-9104-5a82-8c54-5c189e7e053c",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "b74097ad-2057-5a4d-ab82-e793b51605d6",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "faada5e5-a03d-5030-b109-51fe3ad996fc",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "b3ed8c80-1fed-504a-b23f-ab52131a3867",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "2841cd07-4c4b-52c6-adf7-3ada2bee88eb",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "019108bb-d923-5edd-8cfd-628c3450a73e",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "379b786f-f738-515d-be96-fe18e03b38ab",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "c80d9b94-5181-51c0-b587-4bf4c0cd1a57",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "00b758ab-d820-5682-b4d2-854fb8e0c94f",
+          "reason": "source_url or hash already imported"
+        }
+      ]
+    },
+    {
+      "batch_id": "20260602234342-c0a0d585",
+      "created_at": "2026-06-02T23:43:42",
+      "created_files": [
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Custom instructions with AGENTS.md – Codex - OpenAI Developers.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/AI Agent explained Untitled.md"
+      ],
+      "skipped": [
+        {
+          "id": "b98f70cf-8103-599a-9af7-b572007a9ce9",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "4d94536c-36b3-5eee-8fc1-8038910bd080",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "893699bf-19ce-5d7f-8a36-fc92693518f5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f4c86901-cbe0-5486-ba48-3b779e2dc701",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "a990e7a7-1869-5df7-bd1d-e654c6128a69",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f13f7f7c-b99d-548c-bbe8-6c553e731cf1",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "6bd2f617-7279-589f-abef-35c1059bf0d3",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ae36766c-c1ca-53b1-8549-da0abd259fbe",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "d8f2959a-7821-5eb9-a209-814e0506fdf5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "c8838d82-9e49-5476-a8b5-4a6b16da2f61",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "64e80274-5aa4-59b0-a2e8-2f14e9830447",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "4a82ec89-e307-5eda-96c8-97681c1d65dd",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "75e77af3-0a79-5546-ab24-486de17dd26b",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "3a3ca4ef-9ff1-5a5b-8e05-535e93ddd263",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "e0f83ed2-c3bb-5908-bbc0-9c6bc79c7f8c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "dfd7ed39-9104-5a82-8c54-5c189e7e053c",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "b74097ad-2057-5a4d-ab82-e793b51605d6",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "faada5e5-a03d-5030-b109-51fe3ad996fc",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "b3ed8c80-1fed-504a-b23f-ab52131a3867",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "2841cd07-4c4b-52c6-adf7-3ada2bee88eb",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "019108bb-d923-5edd-8cfd-628c3450a73e",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "379b786f-f738-515d-be96-fe18e03b38ab",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "f5acaace-4761-5b03-8fb3-95f34bc1f694",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f8b80e26-ddc0-5584-ab93-06e8a9e46d9e",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "00b758ab-d820-5682-b4d2-854fb8e0c94f",
+          "reason": "source_url or hash already imported"
+        }
+      ]
+    },
+    {
+      "batch_id": "20260602235725-1aaa5117",
+      "created_at": "2026-06-02T23:57:25",
+      "created_files": [
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/[.06635] Cited but Not Verified- Parsing and Evaluating Source Attribution in LLM Deep Research Agents contact arXiv subscribe to arXiv mailings.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/[.15217] Ragas- Automated Evaluation of Retrieval Augmented Generation open search open navigation menu contact arXiv subscribe to arXiv mailings.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/[2412.18004] Correctness is not Faithfulness in RAG Attributions contact arXiv subscribe to arXiv mailings.md"
+      ],
+      "skipped": [
+        {
+          "id": "b98f70cf-8103-599a-9af7-b572007a9ce9",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "4d94536c-36b3-5eee-8fc1-8038910bd080",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "893699bf-19ce-5d7f-8a36-fc92693518f5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f4c86901-cbe0-5486-ba48-3b779e2dc701",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "a990e7a7-1869-5df7-bd1d-e654c6128a69",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f13f7f7c-b99d-548c-bbe8-6c553e731cf1",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "6bd2f617-7279-589f-abef-35c1059bf0d3",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ae36766c-c1ca-53b1-8549-da0abd259fbe",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "d8f2959a-7821-5eb9-a209-814e0506fdf5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "c8838d82-9e49-5476-a8b5-4a6b16da2f61",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "64e80274-5aa4-59b0-a2e8-2f14e9830447",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "4a82ec89-e307-5eda-96c8-97681c1d65dd",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "75e77af3-0a79-5546-ab24-486de17dd26b",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ddd9da0a-0c38-5f03-9448-8f91937b44ce",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "3a3ca4ef-9ff1-5a5b-8e05-535e93ddd263",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "e0f83ed2-c3bb-5908-bbc0-9c6bc79c7f8c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "b3ed8c80-1fed-504a-b23f-ab52131a3867",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "2841cd07-4c4b-52c6-adf7-3ada2bee88eb",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "019108bb-d923-5edd-8cfd-628c3450a73e",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "379b786f-f738-515d-be96-fe18e03b38ab",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "f5acaace-4761-5b03-8fb3-95f34bc1f694",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "73747cb0-8e2b-5f8a-8280-8a5fcc31d59c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f8b80e26-ddc0-5584-ab93-06e8a9e46d9e",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "00b758ab-d820-5682-b4d2-854fb8e0c94f",
+          "reason": "source_url or hash already imported"
+        }
+      ]
+    },
+    {
+      "batch_id": "20260603000043-16c9f318",
+      "created_at": "2026-06-03T00:00:43",
+      "created_files": [
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Best practices for Claude Code - Claude Code Docs.md"
+      ],
+      "skipped": [
+        {
+          "id": "b98f70cf-8103-599a-9af7-b572007a9ce9",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "4d94536c-36b3-5eee-8fc1-8038910bd080",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "893699bf-19ce-5d7f-8a36-fc92693518f5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f4c86901-cbe0-5486-ba48-3b779e2dc701",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "a990e7a7-1869-5df7-bd1d-e654c6128a69",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f13f7f7c-b99d-548c-bbe8-6c553e731cf1",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "6bd2f617-7279-589f-abef-35c1059bf0d3",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "d8f2959a-7821-5eb9-a209-814e0506fdf5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "c8838d82-9e49-5476-a8b5-4a6b16da2f61",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "64e80274-5aa4-59b0-a2e8-2f14e9830447",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "4a82ec89-e307-5eda-96c8-97681c1d65dd",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "75e77af3-0a79-5546-ab24-486de17dd26b",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ddd9da0a-0c38-5f03-9448-8f91937b44ce",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "3a3ca4ef-9ff1-5a5b-8e05-535e93ddd263",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "e0f83ed2-c3bb-5908-bbc0-9c6bc79c7f8c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "dfd7ed39-9104-5a82-8c54-5c189e7e053c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "b74097ad-2057-5a4d-ab82-e793b51605d6",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "faada5e5-a03d-5030-b109-51fe3ad996fc",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "b3ed8c80-1fed-504a-b23f-ab52131a3867",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "2841cd07-4c4b-52c6-adf7-3ada2bee88eb",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "019108bb-d923-5edd-8cfd-628c3450a73e",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "379b786f-f738-515d-be96-fe18e03b38ab",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "f5acaace-4761-5b03-8fb3-95f34bc1f694",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "73747cb0-8e2b-5f8a-8280-8a5fcc31d59c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f8b80e26-ddc0-5584-ab93-06e8a9e46d9e",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "00b758ab-d820-5682-b4d2-854fb8e0c94f",
+          "reason": "source_url or hash already imported"
+        }
+      ]
+    },
+    {
+      "batch_id": "20260603001229-d2d244f9",
+      "created_at": "2026-06-03T00:12:29",
+      "created_files": [
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Codex - OpenAI Developers.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Building apps for customer accounts.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/About Flow.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Support your customers.md"
+      ],
+      "skipped": [
+        {
+          "id": "b98f70cf-8103-599a-9af7-b572007a9ce9",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "4d94536c-36b3-5eee-8fc1-8038910bd080",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "893699bf-19ce-5d7f-8a36-fc92693518f5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f4c86901-cbe0-5486-ba48-3b779e2dc701",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "a990e7a7-1869-5df7-bd1d-e654c6128a69",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f13f7f7c-b99d-548c-bbe8-6c553e731cf1",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "6bd2f617-7279-589f-abef-35c1059bf0d3",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ae36766c-c1ca-53b1-8549-da0abd259fbe",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "d8f2959a-7821-5eb9-a209-814e0506fdf5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "c8838d82-9e49-5476-a8b5-4a6b16da2f61",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "64e80274-5aa4-59b0-a2e8-2f14e9830447",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "4a82ec89-e307-5eda-96c8-97681c1d65dd",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "75e77af3-0a79-5546-ab24-486de17dd26b",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ddd9da0a-0c38-5f03-9448-8f91937b44ce",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "3a3ca4ef-9ff1-5a5b-8e05-535e93ddd263",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "e0f83ed2-c3bb-5908-bbc0-9c6bc79c7f8c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "dfd7ed39-9104-5a82-8c54-5c189e7e053c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "b74097ad-2057-5a4d-ab82-e793b51605d6",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "faada5e5-a03d-5030-b109-51fe3ad996fc",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "b3ed8c80-1fed-504a-b23f-ab52131a3867",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "2841cd07-4c4b-52c6-adf7-3ada2bee88eb",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "019108bb-d923-5edd-8cfd-628c3450a73e",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "379b786f-f738-515d-be96-fe18e03b38ab",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "f5acaace-4761-5b03-8fb3-95f34bc1f694",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "73747cb0-8e2b-5f8a-8280-8a5fcc31d59c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f8b80e26-ddc0-5584-ab93-06e8a9e46d9e",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "00b758ab-d820-5682-b4d2-854fb8e0c94f",
+          "reason": "source_url or hash already imported"
+        }
+      ]
+    },
+    {
+      "batch_id": "20260603001742-1be09d94",
+      "created_at": "2026-06-03T00:17:42",
+      "created_files": [],
+      "skipped": [
+        {
+          "id": "b98f70cf-8103-599a-9af7-b572007a9ce9",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "4d94536c-36b3-5eee-8fc1-8038910bd080",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "893699bf-19ce-5d7f-8a36-fc92693518f5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f4c86901-cbe0-5486-ba48-3b779e2dc701",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "a990e7a7-1869-5df7-bd1d-e654c6128a69",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f13f7f7c-b99d-548c-bbe8-6c553e731cf1",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "6bd2f617-7279-589f-abef-35c1059bf0d3",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ae36766c-c1ca-53b1-8549-da0abd259fbe",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "d8f2959a-7821-5eb9-a209-814e0506fdf5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "c8838d82-9e49-5476-a8b5-4a6b16da2f61",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "75e77af3-0a79-5546-ab24-486de17dd26b",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ddd9da0a-0c38-5f03-9448-8f91937b44ce",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "5f62ea05-61d5-522b-93ca-4ee7cbdb0c06",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "3a3ca4ef-9ff1-5a5b-8e05-535e93ddd263",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "e0f83ed2-c3bb-5908-bbc0-9c6bc79c7f8c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "dfd7ed39-9104-5a82-8c54-5c189e7e053c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "b74097ad-2057-5a4d-ab82-e793b51605d6",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "faada5e5-a03d-5030-b109-51fe3ad996fc",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "b3ed8c80-1fed-504a-b23f-ab52131a3867",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "90e2972a-d4e0-5e46-b05a-0e807001ee8b",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "83a8b5d4-aa81-5b7e-85c7-975da423af7f",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "9aaf9b4d-edd2-57a2-9ea8-1e26af18ab1f",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f5acaace-4761-5b03-8fb3-95f34bc1f694",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "73747cb0-8e2b-5f8a-8280-8a5fcc31d59c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f8b80e26-ddc0-5584-ab93-06e8a9e46d9e",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "00b758ab-d820-5682-b4d2-854fb8e0c94f",
+          "reason": "source_url or hash already imported"
+        }
+      ]
+    },
+    {
+      "batch_id": "20260603105335-75019da6",
+      "created_at": "2026-06-03T10:53:35",
+      "created_files": [
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Bookmarks - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Daily notes - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Templates - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Command palette - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Search - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Graph view - Obsidian Help.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Working with evals - OpenAI API.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/File search - OpenAI API.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Web search - OpenAI API-3f345631.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Function calling - OpenAI API.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Reduce hallucinations - Claude API Docs.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Prompt engineering overview - Claude API Docs.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Context windows - Claude API Docs.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/GraphQL Admin API reference.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Customer - GraphQL Admin.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Order - GraphQL Admin.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Best practices for apps in the Shopify App Store.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Apps in checkout.md"
+      ],
+      "skipped": [
+        {
+          "id": "b98f70cf-8103-599a-9af7-b572007a9ce9",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "4d94536c-36b3-5eee-8fc1-8038910bd080",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "893699bf-19ce-5d7f-8a36-fc92693518f5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f4c86901-cbe0-5486-ba48-3b779e2dc701",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "a990e7a7-1869-5df7-bd1d-e654c6128a69",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "c6d0757f-b95f-5af8-978d-d64d86eb73cc",
+          "reason": "not importable or needs manual review"
+        },
+        {
+          "id": "f13f7f7c-b99d-548c-bbe8-6c553e731cf1",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "6bd2f617-7279-589f-abef-35c1059bf0d3",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ae36766c-c1ca-53b1-8549-da0abd259fbe",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "d8f2959a-7821-5eb9-a209-814e0506fdf5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "c8838d82-9e49-5476-a8b5-4a6b16da2f61",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "75e77af3-0a79-5546-ab24-486de17dd26b",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ddd9da0a-0c38-5f03-9448-8f91937b44ce",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "5f62ea05-61d5-522b-93ca-4ee7cbdb0c06",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "3a3ca4ef-9ff1-5a5b-8e05-535e93ddd263",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "e0f83ed2-c3bb-5908-bbc0-9c6bc79c7f8c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "dfd7ed39-9104-5a82-8c54-5c189e7e053c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "b74097ad-2057-5a4d-ab82-e793b51605d6",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "faada5e5-a03d-5030-b109-51fe3ad996fc",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "b3ed8c80-1fed-504a-b23f-ab52131a3867",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "90e2972a-d4e0-5e46-b05a-0e807001ee8b",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "83a8b5d4-aa81-5b7e-85c7-975da423af7f",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "9aaf9b4d-edd2-57a2-9ea8-1e26af18ab1f",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f5acaace-4761-5b03-8fb3-95f34bc1f694",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "73747cb0-8e2b-5f8a-8280-8a5fcc31d59c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f8b80e26-ddc0-5584-ab93-06e8a9e46d9e",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "00b758ab-d820-5682-b4d2-854fb8e0c94f",
+          "reason": "source_url or hash already imported"
+        }
+      ]
+    },
+    {
+      "batch_id": "20260603105609-fdd0c79b",
+      "created_at": "2026-06-03T10:56:09",
+      "created_files": [
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/templates - Obsidian Help-3950e656.md",
+        "/Users/ditang/obsidian/FounderOS/60 Resources/Websites/Migrate to the Responses API - OpenAI API.md"
+      ],
+      "skipped": [
+        {
+          "id": "b98f70cf-8103-599a-9af7-b572007a9ce9",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "4d94536c-36b3-5eee-8fc1-8038910bd080",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "893699bf-19ce-5d7f-8a36-fc92693518f5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "7eada447-e5b0-5631-bf44-b28987f4d1df",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "1e07dd9b-1aaf-5e0a-9026-ba683b7e5693",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "e7b9293f-56e1-5445-9390-f2e0f0c298a8",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "72f6a466-d967-57d7-9c9d-db3542fa9778",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "0922d49f-59f4-58e7-8eaa-a780d2040e8a",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "0dedace6-a7c0-563a-be84-28bff0cb8abc",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "a990e7a7-1869-5df7-bd1d-e654c6128a69",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "331ba97d-151e-5f76-9447-74d697119dc9",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "61f48d6f-4854-5a07-85b4-f667cc36fc8b",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "41a7fcbf-145e-5003-a9a2-bfc83f8b0f8c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "400d4b3f-ecfa-5224-9fed-867687700519",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f13f7f7c-b99d-548c-bbe8-6c553e731cf1",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "6bd2f617-7279-589f-abef-35c1059bf0d3",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ae36766c-c1ca-53b1-8549-da0abd259fbe",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "855ab7ab-b0dc-5a39-8710-683ec1792e0d",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "5eacd3fe-6e65-5c74-9817-94bdbf678ff8",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ae6c7bef-ec8e-58ba-810d-0b8c6b88ec4f",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "d8f2959a-7821-5eb9-a209-814e0506fdf5",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "c8838d82-9e49-5476-a8b5-4a6b16da2f61",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "75e77af3-0a79-5546-ab24-486de17dd26b",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "ddd9da0a-0c38-5f03-9448-8f91937b44ce",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "5f62ea05-61d5-522b-93ca-4ee7cbdb0c06",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "3a3ca4ef-9ff1-5a5b-8e05-535e93ddd263",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "e0f83ed2-c3bb-5908-bbc0-9c6bc79c7f8c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "dfd7ed39-9104-5a82-8c54-5c189e7e053c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "b74097ad-2057-5a4d-ab82-e793b51605d6",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "faada5e5-a03d-5030-b109-51fe3ad996fc",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "b3ed8c80-1fed-504a-b23f-ab52131a3867",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "90e2972a-d4e0-5e46-b05a-0e807001ee8b",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "83a8b5d4-aa81-5b7e-85c7-975da423af7f",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "9aaf9b4d-edd2-57a2-9ea8-1e26af18ab1f",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "6deab1f3-5951-534b-8973-c4daf8a1c181",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "042f1963-c87d-5c5d-a7e4-538a301ab949",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "0be830a5-bfc0-5491-a953-49d521e848fb",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "43f13b55-c687-5fa6-b726-1a8a50134619",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "a0e1acbf-cc3a-52d1-ac98-072c946097d8",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f5acaace-4761-5b03-8fb3-95f34bc1f694",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "73747cb0-8e2b-5f8a-8280-8a5fcc31d59c",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "f8b80e26-ddc0-5584-ab93-06e8a9e46d9e",
+          "reason": "source_url or hash already imported"
+        },
+        {
+          "id": "00b758ab-d820-5682-b4d2-854fb8e0c94f",
+          "reason": "source_url or hash already imported"
+        }
+      ]
+    }
+  ],
+  "last_batch_id": "20260603105609-fdd0c79b"
+}

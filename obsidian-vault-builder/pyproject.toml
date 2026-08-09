@@ -1,0 +1,13 @@
+[project]
+name = "obsidian-vault-builder"
+version = "0.1.0"
+description = "Privacy-first dry-run scaffolding for a FounderOS Obsidian vault."
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120

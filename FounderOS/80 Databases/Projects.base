@@ -1,0 +1,29 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+    - 'type == "project"'
+    - 'file.inFolder("10 Projects")'
+properties:
+  file.name:
+    displayName: File.Name
+  status:
+    displayName: Status
+  area:
+    displayName: Area
+  current_focus:
+    displayName: Current Focus
+  next_actions:
+    displayName: Next Actions
+  confidence:
+    displayName: Confidence
+views:
+  - type: table
+    name: Projects
+    order:
+    - file.name
+    - status
+    - area
+    - current_focus
+    - next_actions
+    - confidence
