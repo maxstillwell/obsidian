@@ -1,0 +1,25 @@
+{
+  "id": "conv-1785978571114-upm7ts7tt",
+  "providerId": "codex",
+  "title": "Draft July monthly report",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785978571115,
+  "updatedAt": 1786405218163,
+  "lastResponseAt": 1785980620873,
+  "sessionId": "019fd49e-6307-7cf2-b9a1-4cf9ce53d2c6",
+  "providerState": {
+    "threadId": "019fd49e-6307-7cf2-b9a1-4cf9ce53d2c6",
+    "sessionFilePath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions\\2026\\08\\06\\rollout-2026-08-06T11-09-37-019fd49e-6307-7cf2-b9a1-4cf9ce53d2c6.jsonl",
+    "transcriptRootPath": "\\\\wsl$\\Ubuntu\\home\\maxqi\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 74532,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 74112,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 74532,
+    "percentage": 29,
+    "model": "gpt-5.4"
+  }
+}
