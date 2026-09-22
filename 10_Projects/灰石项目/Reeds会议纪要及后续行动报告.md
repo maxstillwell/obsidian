@@ -354,46 +354,11 @@ Parwan 对 Greystone 同时存在两面影响：
 
 ---
 
-# 九、Rockbank South PSP
 
-会议中还讨论了：
 
-**742 Greigs Road / Rockbank South PSP**
 
-Reeds 的理解为：
 
-- 项目属于 VPA Horizon 2；
-- 其记忆中可能目标约在 2028–2029 年左右完成；
-- 如果 PSP 通常需要约 2–3 年，则未来一段时间应逐步开始相关工作。
-
-Reeds 同时表示，他们目前在 Paynes Road / Rockbank 周边已有多个项目。
-
-**注意：上述时间均为 Reeds 在会议中的非正式判断，应以后续 VPA 官方信息为准。**
-
----
-
-# 十、Reeds 可以提供的服务
-
-Reeds 认为其团队可以在后续阶段参与：
-
-- Town Planning；
-- Land Surveying；
-- Engineering；
-- Infrastructure Servicing；
-- Authority Coordination；
-- Planning / Rezoning Process Management。
-
-但在最初阶段：
-
-> Strategic Planning + Economic Assessment
-
-可能需要另外聘请专门 consultants。
-
-Reeds 表示他们认识相关专业团队，可以帮助推荐。
-
----
-
-# 十一、双方约定的后续事项
+# 十、后续事项
 
 Reeds 会考虑向我们提供：
 
