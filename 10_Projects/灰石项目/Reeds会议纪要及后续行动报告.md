@@ -533,3 +533,36 @@ Reeds 建议的逻辑则是：
 ## 内部阶段性结论
 
 > **Greystone 工业方向不是被否定，而是更适合作为 Parwan 成熟后的长期储备；住宅方向值得现在开始做战略和经济可行性研究。Yaloak 的工业化设想具有一定现场逻辑，但首先需要验证市场需求、交通连接和基础设施条件。现阶段最合理的投入不是直接 rezoning，而是完成 Strategic + Economic Assessment，先用相对有限的成本判断真正值得推进的方向。**
+
+
+Bacchus Marsh未来几十年需要新的增长方向。Merrimu解决近期增长，Parwan Station提供铁路导向社区，Parwan Employment创造大规模就业。Greystone拥有4,000ha连续、单一控制土地，可以作为2040以后Bacchus Marsh下一代完整新城，为区域提供住房、学校、商业、能源、公共空间和基础设施，而且可以由单一土地所有方主动承担规划协调与前期研究
+
+真正巨大的价值跃升可能发生在：
+
+### 当前 Farming Zone
+
+↓
+
+### Government认可为 Future Investigation Area
+
+↓
+
+### Council支持 New Town Strategic Framework
+
+↓
+
+### 正式启动 PSP
+
+↓
+
+### Draft PSP
+
+↓
+
+### Public Exhibition
+
+↓
+
+### Gazettal
+
+每跨过一步，土地的 buyer universe 和 valuation methodology 都可能改变。
