@@ -154,7 +154,7 @@ Reeds 同时提出一个值得保留的长期逻辑：
 
 > Greystone 如果利用整个大规模持有土地，探索一个完整住宅社区 / 新 suburb，可能比近期工业 rezoning 更值得研究。
 
-会议中讨论了类似 Anakie 的整体新区概念。
+会议中讨论了类似 Eynesbury Estate 的整体新区概念。
 
 其核心不是简单 subdivision，而是：
 
