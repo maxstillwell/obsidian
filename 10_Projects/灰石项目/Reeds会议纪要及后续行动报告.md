@@ -566,3 +566,19 @@ Bacchus Marsh未来几十年需要新的增长方向。Merrimu解决近期增长
 ### Gazettal
 
 每跨过一步，土地的 buyer universe 和 valuation methodology 都可能改变。
+# 现在 Bacchus Marsh 周边到底有多少住宅供应？
+
+
+
+|项目|当前状态（2026/9）|面积|长期住宅供应|与 Greystone 的关系|
+|---|---|---|---|---|
+|**Merrimu PSP**|Draft PSP 已于 2026/3–4 公展，目前审理 submissions|**约907ha**|**约8,000套**|最大直接竞争项目|
+|**Parwan Station PSP**|长期规划项目，尚未像 Merrimu 一样进入公开 Draft PSP 阶段|**约472ha**|最终约13,000人口，粗略对应约4,000–5,000户|Greystone 南/东侧未来住宅供应|
+|**Hopetoun Park North**|2026/5 已获 Minister 批准 rezoning|当前约**62ha**|当前约**400 lots**；整个原增长区研究约850 lots|小规模、近期供应|
+|**Stonehill**|已开发多年，仍在售|**141ha**|总约**1,500 lots**，近期资料显示约150 lots remaining|现货竞争|
+|**Underbank**|已开发多年、仍有新阶段出售|约**168ha**|约1,300–1,500 lots总量|现货竞争|
+
+Merrimu 是现在最重要的。VPA 最新 Draft PSP 给出的规划是 **约8,000套住房、24,000人口、1,800个本地就业岗位**。这是一个非常大的完整新社区。[VPA - Victorian Planning Authority](https://vpa.vic.gov.au/project/merrimu/?utm_source=chatgpt.com)
+
+而且 Merrimu 已经不是遥远概念：2026 年 3 月 6 日到 4 月 9 日已经完成 Draft PSP public exhibition，目前正在处理 submissions。
+
