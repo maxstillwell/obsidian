@@ -526,20 +526,7 @@ Reeds 建议的逻辑则是：
 
 ---
 
-# 十六、当前待办事项
 
-- [ ] 等待 Reeds 提供书面 follow-up；
-- [ ] 等待 Reeds fee proposal；
-- [ ] 获取 Reeds 推荐的 Strategic Planner；
-- [ ] 获取 Economic Assessment consultant 推荐；
-- [ ] Greystone Residential Needs Assessment；
-- [ ] Greystone Industrial Economic Assessment；
-- [ ] Yaloak Industrial Economic Assessment；
-- [ ] 持续跟踪 Parwan Employment PSP；
-- [ ] 持续跟踪 Merrimu PSP 与 Maddingley framework；
-- [ ] 跟踪 Rockbank South PSP；
-- [ ] 评估 Yaloak 岩石区、能源及 industrial-compatible uses；
-- [ ] 建立 Reeds 土地机会转介渠道。
 
 ---
 
