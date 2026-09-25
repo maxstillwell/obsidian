@@ -20,7 +20,7 @@
 | **未纳入增长区面积占比** | **28.63%** |
 | **本次收购价格** | **A$8.0m，另加 NSW Stamp Duty** |
 | **土地收购单价** | **A$56,144/ha，即 A$5.61/㎡** |
-
+![](assets/Dunoon项目v2/file-20260925100844618.png)
 ### 土地构成图
 
 ```text
@@ -58,7 +58,7 @@ Lismore City Council 已于 **2026年9月8日** 通过新的 Strategic Planning 
 **101.69 ÷ 362 = 28.09%**
 
 即本项目控制了整个增长区 **约28.1%的土地，接近三成**，属于区域 Master Plan 中具有较大影响力的单一土地持有者。
-
+![](assets/Dunoon项目v2/file-20260925100937140.png)
 需要区分两个阶段：
 
 1. **已完成：Lismore City Council 层面的 Strategic Planning Framework adoption；**
