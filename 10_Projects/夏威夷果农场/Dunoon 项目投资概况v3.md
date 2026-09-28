@@ -65,13 +65,13 @@ Lismore City Council 已于 **2026年9月8日** 通过新的 Strategic Planning 
 
 ## 3. 规划推进时间线
 
-| 阶段 | 当前工作假设 | 核心价值变化 |
-|---|---:|---|
-| **① Council Strategic Framework 已通过** | 已完成 | 土地已从纯农业资产进入明确的未来增长框架 |
-| **② NSW State endorsement** | 约3–6个月 | 州级战略确认，进一步降低规划方向风险 |
-| **③ Dunoon Master Plan** | 预计约12个月 | 明确道路、密度、污水、开放空间及土地布局；这是项目最关键的增值阶段 |
-| **④ Planning Proposal / Gateway / LEP Rezoning** | 预计其后约12–24个月 | 将战略规划转化为法定住宅开发权 |
-| **⑤ Subdivision / Eco-village DA** | 可提前并行准备技术工作，最终审批受 rezoning 进度制约 | 形成可直接出售给开发商的 permit-ready / DA-approved 项目 |
+| 阶段                                               |                          当前工作假设 | 核心价值变化                                     |
+| ------------------------------------------------ | ------------------------------: | ------------------------------------------ |
+| **① Council Strategic Framework 已通过**            |                             已完成 | 土地已从纯农业资产进入明确的未来增长框架                       |
+| **② NSW State endorsement**                      |                          约3–6个月 | 州级战略确认，进一步降低规划方向风险                         |
+| **③ Dunoon Master Plan**                         |                         预计约12个月 | 明确道路、密度、污水、开放空间及土地布局；这是项目最关键的增值阶段          |
+| **④ Planning Proposal / Gateway / LEP Rezoning** |                    预计其后约12–24个月 | 将战略规划转化为法定住宅开发权                            |
+| **⑤ Subdivision / Eco-village DA**               | 可提前并行准备技术工作，最终审批受 rezoning 进度制约 | 形成可直接出售给开发商的 permit-ready / DA-approved 项目 |
 
 ### 基准退出周期
 
