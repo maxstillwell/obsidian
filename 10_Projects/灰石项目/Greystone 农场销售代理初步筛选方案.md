@@ -6,7 +6,7 @@
 
 ### 第一梯队：全国性 / 国际性大型专业机构
 
-**1. CBRE — James Beer
+**1. CBRE — James Beer**
 
 James 是 Greystone 和 Yaloak 原销售代理之一，对两个农场的基本情况、历史销售过程以及我们的项目背景都有比较深入的了解。
 
