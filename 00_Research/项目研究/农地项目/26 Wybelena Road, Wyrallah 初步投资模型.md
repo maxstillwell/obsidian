@@ -4,8 +4,8 @@
 
 ## 一、项目概况
 
-项目位于 **26 Wybelena Road, Wyrallah**，土地约 **36.6公顷**，目前业主要价约 **190万–200万澳元**。
-
+项目位于 **26 Wybelena Road, Wyrallah**，土地约 **36.6公顷**，目前业主要价约 **190万–200万澳元**。![](assets/26%20Wybelena%20Road,%20Wyrallah%20初步投资模型/file-20261007125351322.jpg)
+https://alstonville.century21.com.au/property/rural/buy/nsw/2480/wyrallah/628134
 现场看下来，这块地虽然体量不大，但地形、地貌和整体可利用率都不错，而且已经进入 **Wyrallah未来发展区域**。
 
 整个 Wyrallah 未来发展区约 **156公顷**，目前总体规划口径约 **188套住宅**。按面积比例计算，这块地的理论基准约为 **44套左右**。
