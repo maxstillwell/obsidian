@@ -1,6 +1,4 @@
 
-# 700 Project｜O'Brien Vermont 中介会议纪要
-
 **会议日期：** 2026年9月22日  
 **中介公司：** O'Brien Vermont  
 **项目：** 700 Project — Morack Road, Vermont South  
