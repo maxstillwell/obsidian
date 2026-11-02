@@ -1,0 +1,32 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+    - 'type == "research"'
+    - 'file.inFolder("20 Research")'
+properties:
+  file.name:
+    displayName: File.Name
+  topic:
+    displayName: Topic
+  source:
+    displayName: Source
+  author:
+    displayName: Author
+  date:
+    displayName: Date
+  confidence:
+    displayName: Confidence
+  status:
+    displayName: Status
+views:
+  - type: table
+    name: Research
+    order:
+    - file.name
+    - topic
+    - source
+    - author
+    - date
+    - confidence
+    - status

@@ -1,0 +1,38 @@
+# DocMind GTM
+
+<!-- founderos-gtm-panel:start -->
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+    - 'file.inFolder("10 Projects/DocMind")'
+    - 'file.inFolder("30 Content")'
+    - 'file.inFolder("40 Meetings & People/Customer Calls")'
+    - 'file.inFolder("40 Meetings & People/People")'
+properties:
+  file.name:
+    displayName: File.Name
+  status:
+    displayName: Status
+  segment:
+    displayName: Segment
+  company:
+    displayName: Company
+  next_touch:
+    displayName: Next Touch
+  follow_up_date:
+    displayName: Follow Up Date
+  offer:
+    displayName: Offer
+views:
+  - type: table
+    name: DocMind GTM
+    order:
+    - file.name
+    - status
+    - segment
+    - company
+    - next_touch
+    - follow_up_date
+    - offer
+<!-- founderos-gtm-panel:end -->

@@ -1,0 +1,63 @@
+exclude_dirs:
+  - node_modules
+  - .git
+  - .svn
+  - .hg
+  - venv
+  - .venv
+  - __pycache__
+  - dist
+  - build
+  - target
+  - .next
+  - .nuxt
+  - coverage
+  - Library/Caches
+  - Application Support
+  - .Trash
+
+exclude_extensions:
+  - .exe
+  - .dll
+  - .dmg
+  - .pkg
+  - .app
+  - .zip
+  - .tar
+  - .gz
+  - .rar
+  - .7z
+  - .iso
+
+secret_patterns:
+  - ".env"
+  - "id_rsa"
+  - "id_dsa"
+  - "id_ecdsa"
+  - "id_ed25519"
+  - ".pem"
+  - ".key"
+  - "credentials.json"
+  - "token.json"
+  - "secrets"
+  - "private_key"
+  - "api_key"
+  - "apikey"
+  - "password"
+
+max_file_size_mb: 200
+
+file_actions:
+  markdown: convert_to_note
+  text: convert_to_note
+  pdf: extract_text_to_note
+  docx: extract_text_to_note
+  pptx: summary_note
+  xlsx: metadata_note
+  csv: metadata_note
+  html: convert_to_note
+  image: index_only
+  audio: index_only
+  video: index_only
+  code: repo_or_doc_summary
+  unknown: needs_review

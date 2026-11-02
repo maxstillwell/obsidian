@@ -1,0 +1,29 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+    - 'type == "decision"'
+    - 'file.hasTag("decision")'
+properties:
+  file.name:
+    displayName: File.Name
+  date:
+    displayName: Date
+  project:
+    displayName: Project
+  status:
+    displayName: Status
+  confidence:
+    displayName: Confidence
+  review_date:
+    displayName: Review Date
+views:
+  - type: table
+    name: Decisions
+    order:
+    - file.name
+    - date
+    - project
+    - status
+    - confidence
+    - review_date

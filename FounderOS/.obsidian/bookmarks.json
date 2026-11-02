@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "title": "FounderOS",
+      "items": [
+        {
+          "type": "file",
+          "title": "Home",
+          "path": "Home.md"
+        },
+        {
+          "type": "file",
+          "title": "Today",
+          "path": "01 Daily Notes/Today.md"
+        },
+        {
+          "type": "file",
+          "title": "Founder Daily Dashboard",
+          "path": "01 Daily Notes/Founder Daily Dashboard.md"
+        },
+        {
+          "type": "file",
+          "title": "DocMind GTM Dashboard",
+          "path": "10 Projects/DocMind/DocMind GTM Dashboard.md"
+        },
+        {
+          "type": "file",
+          "title": "DocMind Publish Queue",
+          "path": "30 Content/DocMind Publish Queue.md"
+        },
+        {
+          "type": "file",
+          "title": "Source Index",
+          "path": "_Indexes/Source Index.md"
+        },
+        {
+          "type": "file",
+          "title": "Completion Audit",
+          "path": "_System/COMPLETION_AUDIT.md"
+        }
+      ]
+    }
+  ]
+}

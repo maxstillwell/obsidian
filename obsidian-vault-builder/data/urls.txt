@@ -1,0 +1,65 @@
+# Public sources selected for FounderOS. Network metadata fetching is allowed, but no login, cookies, OCR, transcription, online AI, or private folders are used.
+
+# Obsidian / FounderOS structure
+https://help.obsidian.md/bases
+https://help.obsidian.md/bases/syntax
+https://help.obsidian.md/properties
+https://help.obsidian.md/templates
+https://help.obsidian.md/plugins/bookmarks
+https://help.obsidian.md/plugins/daily-notes
+https://help.obsidian.md/plugins/templates
+https://help.obsidian.md/plugins/command-palette
+https://help.obsidian.md/plugins/search
+https://help.obsidian.md/plugins/graph
+
+# AI workflows and prompting
+https://platform.openai.com/docs/guides/prompt-engineering
+https://platform.openai.com/docs/guides/evals
+https://platform.openai.com/docs/guides/tools-file-search
+https://platform.openai.com/docs/guides/tools-web-search
+https://platform.openai.com/docs/guides/function-calling
+https://platform.openai.com/docs/guides/responses-vs-chat-completions
+https://code.claude.com/docs/en/prompt-library
+https://support.claude.com/en/articles/14554000-claude-code-power-user-tips
+https://code.claude.com/docs/en/best-practices
+https://docs.anthropic.com/en/docs/test-and-evaluate/strengthen-guardrails/reduce-hallucinations
+https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
+https://docs.anthropic.com/en/docs/build-with-claude/context-windows
+https://www.anthropic.com/engineering/building-effective-agents
+https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+https://github.com/openai/codex/blob/main/docs/agents_md.md
+https://developers.openai.com/codex/guides/agents-md
+https://developers.openai.com/codex
+
+# Research, RAG, AI search, verification, citations
+https://docs.llamaindex.ai/en/stable/understanding/rag/
+https://platform.openai.com/docs/guides/tools-web-search?api-mode=responses
+https://arxiv.org/abs/2605.06635
+https://arxiv.org/abs/2309.15217
+https://arxiv.org/abs/2412.18004
+
+# Content and SEO
+https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+
+# DocMind / Shopify customer support and automation
+https://shopify.dev/docs/apps/build/customer-accounts
+https://shopify.dev/docs/apps/build/flow
+https://shopify.dev/docs/apps/launch/distribution/support-your-customers
+https://shopify.dev/docs/api/admin-graphql
+https://shopify.dev/docs/api/admin-graphql/latest/objects/Customer
+https://shopify.dev/docs/api/admin-graphql/latest/objects/Order
+https://shopify.dev/docs/apps/launch/app-requirements-checklist
+https://shopify.dev/docs/apps/build/checkout
+https://shopify.dev/docs/api/admin-rest/latest/resources/customer
+https://docs.gorgias.com/en-US/ai-agent-explained-497772
+https://www.gorgias.com/ecommerce/shopify
+https://apps.shopify.com/helpdesk
+
+# Superseded blocked public URLs retained for audit; not scanned.
+# openai.com returned 403 challenge pages. Replacements: developers.openai.com/codex and /codex/guides/agents-md.
+# https://openai.com/index/harness-engineering
+# https://openai.com/codex/
+# Shopify Help pages returned 403 challenge pages. Replacements: shopify.dev docs above.
+# https://help.shopify.com/en/manual/customers/customer-service
+# https://help.shopify.com/en/manual/shopify-flow
+# https://help.shopify.com/en/manual/customers/customer-accounts/new-customer-accounts

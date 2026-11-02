@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "9fc8e01aac3eeb0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "9fb5b73599471e3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f35255b885793b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16e3b9f806a3c3fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "f363f8b68dec702c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b042f21d5a5ad573",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "491aabba685f1696",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4365288f1f83f34d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "88c23c9702b8c4ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "af4b53faa92ee864",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f33bf950183245a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Home 的反向链接列表"
+            }
+          },
+          {
+            "id": "e0dadf878cace1f4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Home 的出链列表"
+            }
+          },
+          {
+            "id": "762a50fb5535222d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "dec30de79e3730f1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "a373d4158e85e1f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Home 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "b042f21d5a5ad573",
+  "lastOpenFiles": [
+    "60 Resources/Websites/Migrate to the Responses API - OpenAI API.md",
+    "60 Resources/Websites/templates - Obsidian Help-3950e656.md",
+    "60 Resources/Websites/Apps in checkout.md",
+    "60 Resources/Websites/Best practices for apps in the Shopify App Store.md",
+    "60 Resources/Websites/Order - GraphQL Admin.md",
+    "60 Resources/Websites/Customer - GraphQL Admin.md",
+    "60 Resources/Websites/GraphQL Admin API reference.md",
+    "60 Resources/Websites/Context windows - Claude API Docs.md",
+    "60 Resources/Websites/Prompt engineering overview - Claude API Docs.md",
+    "60 Resources/Websites/Reduce hallucinations - Claude API Docs.md",
+    "60 Resources/Websites/Function calling - OpenAI API.md",
+    "60 Resources/Websites/Web search - OpenAI API-3f345631.md",
+    "60 Resources/Websites/File search - OpenAI API.md",
+    "60 Resources/Websites/Working with evals - OpenAI API.md",
+    "60 Resources/Websites/Graph view - Obsidian Help.md",
+    "60 Resources/Websites/Search - Obsidian Help.md",
+    "60 Resources/Websites/Command palette - Obsidian Help.md",
+    "60 Resources/Websites/Daily notes - Obsidian Help.md",
+    "60 Resources/Websites/Bookmarks - Obsidian Help.md",
+    "10 Projects/DocMind/Customer Discovery Questionnaire.md",
+    "10 Projects/DocMind/Competitors.md",
+    "02 Fleeting Notes/Fleeting Notes Home.md",
+    "01 Daily Notes/Weekly Operating Review.md",
+    "01 Daily Notes/Today.md",
+    "01 Daily Notes/Founder Daily Dashboard.md",
+    "01 Daily Notes/Daily Notes Home.md"
+  ]
+}

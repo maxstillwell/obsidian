@@ -1,0 +1,30 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+    - 'type == "meeting"'
+    - 'type == "customer_call"'
+    - 'file.inFolder("40 Meetings & People")'
+properties:
+  file.name:
+    displayName: File.Name
+  date:
+    displayName: Date
+  project:
+    displayName: Project
+  people:
+    displayName: People
+  company:
+    displayName: Company
+  status:
+    displayName: Status
+views:
+  - type: table
+    name: Meetings
+    order:
+    - file.name
+    - date
+    - project
+    - people
+    - company
+    - status

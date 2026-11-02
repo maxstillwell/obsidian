@@ -1,0 +1,99 @@
+vault:
+  path: "/Users/ditang/obsidian/FounderOS"
+
+settings:
+  dry_run: true
+  max_file_size_mb: 200
+  copy_attachments: false
+  preserve_originals: true
+  read_file_contents: false
+  allow_ocr: false
+  allow_transcription: false
+  allow_online_ai: false
+  allow_network: true
+
+sources:
+  - name: "Desktop"
+    type: "folder"
+    path_or_url: "~/Desktop"
+    enabled: false
+    destination: "00 Inbox"
+    privacy_level: "medium"
+    notes: "Enable only after review."
+  - name: "Documents"
+    type: "folder"
+    path_or_url: "~/Documents"
+    enabled: false
+    destination: "60 Resources"
+    privacy_level: "medium"
+    notes: "May contain sensitive files."
+  - name: "Downloads"
+    type: "folder"
+    path_or_url: "~/Downloads"
+    enabled: false
+    destination: "00 Inbox"
+    privacy_level: "medium"
+    notes: "Likely messy, dry-run first."
+  - name: "iCloud Drive"
+    type: "folder"
+    path_or_url: "~/Library/Mobile Documents/com~apple~CloudDocs"
+    enabled: false
+    destination: "60 Resources"
+    privacy_level: "high"
+    notes: "macOS only. Enable manually."
+  - name: "Google Drive"
+    type: "folder"
+    path_or_url: "~/Google Drive"
+    enabled: false
+    destination: "60 Resources"
+    privacy_level: "high"
+    notes: "Enable manually."
+  - name: "Dropbox"
+    type: "folder"
+    path_or_url: "~/Dropbox"
+    enabled: false
+    destination: "60 Resources"
+    privacy_level: "high"
+    notes: "Enable manually."
+  - name: "OneDrive"
+    type: "folder"
+    path_or_url: "~/OneDrive"
+    enabled: false
+    destination: "60 Resources"
+    privacy_level: "high"
+    notes: "Enable manually."
+  - name: "Notion Export"
+    type: "folder"
+    path_or_url: "~/Downloads/Notion Export"
+    enabled: false
+    destination: "60 Resources"
+    privacy_level: "medium"
+    notes: "Only exported files."
+  - name: "Readwise Export"
+    type: "folder"
+    path_or_url: "~/Downloads/Readwise"
+    enabled: false
+    destination: "60 Resources/Articles"
+    privacy_level: "medium"
+    notes: "Only exported files."
+  - name: "Browser Bookmarks Export"
+    type: "file"
+    path_or_url: "~/Downloads/bookmarks.html"
+    enabled: false
+    destination: "60 Resources/Bookmarks"
+    privacy_level: "low"
+    notes: "Only exported bookmarks HTML."
+  - name: "URL List"
+    type: "url_list"
+    path_or_url: "./data/urls.txt"
+    enabled: true
+    destination: "60 Resources/Websites"
+    privacy_level: "low"
+    notes: "Manual URL list only."
+  - name: "GitHub Local Repos"
+    type: "folder"
+    path_or_url: "~/Code"
+    enabled: false
+    destination: "60 Resources/GitHub Repos"
+    privacy_level: "medium"
+    notes: "Do not import full repos. Only summarize README/docs."

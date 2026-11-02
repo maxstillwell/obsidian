@@ -1,0 +1,68 @@
+default:
+  preserve_originals: true
+  read_file_contents: false
+  max_file_size_mb: 200
+  allow_ocr: false
+  allow_transcription: false
+  allow_online_ai: false
+  allow_network: false
+
+critical:
+  action: skip
+  read_content: false
+  needs_manual_review: true
+  patterns:
+    - secret
+    - key
+    - token
+    - password
+    - private key
+    - credential
+    - credentials.json
+    - token.json
+    - .env
+    - .pem
+    - .key
+    - id_rsa
+    - id_dsa
+    - id_ecdsa
+    - id_ed25519
+    - medical
+    - bank
+    - tax
+    - legal
+    - passport
+    - identity document
+
+high:
+  action: index_only
+  read_content: false
+  needs_manual_review: true
+  patterns:
+    - email export
+    - chat export
+    - customer data
+    - contract
+    - invoice
+    - payroll
+    - personal document
+
+medium:
+  action: metadata_note
+  read_content: false
+  needs_manual_review: false
+  patterns:
+    - work document
+    - meeting notes
+    - strategy
+    - cloud drive
+
+low:
+  action: metadata_note
+  read_content: false
+  needs_manual_review: false
+  patterns:
+    - public article
+    - public bookmark
+    - exported web page
+    - public github

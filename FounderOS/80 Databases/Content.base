@@ -1,0 +1,29 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+    - 'type == "content"'
+    - 'file.inFolder("30 Content")'
+properties:
+  file.name:
+    displayName: File.Name
+  status:
+    displayName: Status
+  target_keyword:
+    displayName: Target Keyword
+  product:
+    displayName: Product
+  funnel_stage:
+    displayName: Funnel Stage
+  persona:
+    displayName: Persona
+views:
+  - type: table
+    name: Content
+    order:
+    - file.name
+    - status
+    - target_keyword
+    - product
+    - funnel_stage
+    - persona

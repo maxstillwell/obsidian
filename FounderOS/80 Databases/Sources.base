@@ -1,0 +1,32 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+    - 'type == "source"'
+    - 'file.inFolder("60 Resources")'
+properties:
+  file.name:
+    displayName: File.Name
+  source_type:
+    displayName: Source Type
+  source_url:
+    displayName: Source Url
+  imported_at:
+    displayName: Imported At
+  project:
+    displayName: Project
+  area:
+    displayName: Area
+  pii_level:
+    displayName: Pii Level
+views:
+  - type: table
+    name: Sources
+    order:
+    - file.name
+    - source_type
+    - source_url
+    - imported_at
+    - project
+    - area
+    - pii_level
